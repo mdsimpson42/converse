@@ -1,5 +1,5 @@
 - name: Home
-  link: /{{site.baseurl}}
+  link: /
 - name: About
   link: /about.html
 - name: Blog
