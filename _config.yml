@@ -1,3 +1,7 @@
+domain: mental-health-rsesource.github.io       
+url: https://mental-health-rsesource.github.io  
+baseurl: /mental-health-rsesource/      
+
 collections:
   authors:
     output: true
