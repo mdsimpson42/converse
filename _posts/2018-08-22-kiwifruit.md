@@ -1,6 +1,7 @@
 ---
 author: mike_simpson
 date: 2018-08-22
+tags: [insomnia, impostor_syndrome]
 ---
 
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the

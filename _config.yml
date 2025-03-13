@@ -9,6 +9,8 @@ title: Mental Health RSEsource
 collections:
   authors:
     output: true
+  tags:
+    output: true
   pages:
     output: true
     permalink: /:path
@@ -24,6 +26,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag"
   - scope:
       path: ""
     values:

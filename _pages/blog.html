@@ -6,6 +6,11 @@ title: Blog
 <p>View the latest posts below. You can also view our 
   <a href="{{ "/authors.html" | prepend:site.baseurl }}">list of contributing authors</a>.
 </p>
+<p>Tags: |
+{% for tag in site.tags %}
+      <a href="{{ tag.url | prepend:site.baseurl }}">{{ tag.title }}</a> | 
+{% endfor %}
+</p>
 <h2>Latest Posts</h1>
 <ul>
   {% assign ordered_posts = site.posts | sort:"date" %}

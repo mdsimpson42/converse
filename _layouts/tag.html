@@ -5,9 +5,9 @@ layout: default
 {{ content }}
 
 <h2>Posts</h2>
-<p>The following blogs were authored by {{ page.title }}:</p>
+<p>The following posts include the tag "{{page.title}}":</p>
 <ul>
-  {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+  {% assign filtered_posts = site.posts | where: 'tags', page.short_name %}
   {% for post in filtered_posts %}
     <li><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></li>
   {% endfor %}
