@@ -3,14 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>{{page.title}}</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
     <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/assets/favicon.png">
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
-    {% include navigation.html %}
-    <h1>{{page.title}}</h1>
-    {{ content }}
+    <header class="page-header" role="banner">
+      <a href="{{site.baseurl}}/">
+        <img src="{{site.baseurl}}/assets/img/logo.png" class="main-logo" title="{{site.title}}">
+      </a>
+    </header>
+    <main id="content" class="main-content" role="main">
+      {% include navigation.html %}
+      <h1>{{page.title}}</h1>
+      {{ content }}
+    </main>
   </body>
 </html>
