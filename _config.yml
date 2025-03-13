@@ -1,8 +1,13 @@
 baseurl: /mental-health-rsesource    
 
+include: ['_pages']
+
 collections:
   authors:
     output: true
+  pages:
+    output: true
+    permalink: /:path
 
 defaults:
   - scope:
@@ -19,3 +24,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

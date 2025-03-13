@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blog
+---
+<p>Welcome to the blog. This is where you can find the latest posts from the Mental Health RSEsource.</p>
+<p>View the latest posts below. You can also view our 
+  <a href="{{ "/authors.html" | prepend:site.baseurl }}">list of contributing authors</a>.
+</p>
+<h2>Latest Posts</h1>
+<ul>
+  {% assign ordered_posts = site.posts | sort:"date" %}
+  {% for post in ordered_posts %}
+    <li>
+      <h3><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h3>
+      <p><i>{{ post.date | date_to_string }}</i></p>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,29 @@
+---
+layout: default
+title: About this Site
+---
+
+<p>This website was originally developed by <a href="https://linktr.ee/mdsimpson">Dr Mike Simpson</a>, as part of his 
+    <a href="https://www.software.ac.uk/fellowship-programme/mike-simpson">Fellowship with the Software Sustainability Institute.</a>
+</p>
+<p>It was developed the support of the folllowing:</p>
+<ul>
+    <li>Fellow Dr Dave Horsfall</li>
+</ul>
+<h2>Blog Authors</h2>
+<p>Thanks to the following authors, who have contributed to the blog:</p>
+<ul>
+{% assign ordered_authors = site.authors | sort:"order_number" %}
+  {% for author in ordered_authors %}
+    <li>
+      <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<p>This project was made possible thanks to the support of the Software Sustainability Institute.</p>
+<h2>Special Thanks</h2>
+<p>Thanks also to the Newcastle University RSE Team.</p>
+<h2>Development</h2>
+<p>This site was developed using Jekyll and is hosted on GitHub Pages.</p>
+<li>For more information or to contributed, please visit
+     <a href="https://github.com/mdsimpson42/mental-health-rsesource">our page on GitHub</a>.</li>

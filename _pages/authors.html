@@ -1,0 +1,15 @@
+---
+layout: default
+title: Authors
+---
+
+<ul>
+  {% assign ordered_authors = site.authors | sort:"order_number" %}
+  {% for author in ordered_authors %}
+    <li>
+      <h2><a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a></h2>
+      <h3>{{ author.position }}</h3>
+      <p>{{ author.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

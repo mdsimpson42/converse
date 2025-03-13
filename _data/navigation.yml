@@ -1,8 +1,10 @@
 - name: Home
   link: /
+- name: Get Help
+  link: /support.html
+- name: Survey
+  link: /survey.html
 - name: About
   link: /about.html
 - name: Blog
   link: /blog.html
-- name: Authors
-  link: /authors.html
