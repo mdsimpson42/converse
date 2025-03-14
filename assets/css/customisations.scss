@@ -21,3 +21,30 @@ nav {
 .main-logo {
     width: 30%;
 }
+
+.footer-logo {
+    height: 50px;
+}
+
+.footer-logo-container {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.footer-text-container {
+    text-align: left;
+    display: inline-block;
+    padding-left: 20px;
+    vertical-align: top;
+    border-left: 1px solid grey;
+}
+
+.footer-text-container p {
+    margin: 0;
+    vertical-align: top;
+}
+
+.footer-text-container p a {
+    color: white;
+    font-weight: bold;
+}
