@@ -9,6 +9,8 @@ title: Mental Health RSEsource
 collections:
   authors:
     output: true
+  contributors:
+    output: true
   tags:
     output: true
   pages:
@@ -21,6 +23,11 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+  - scope:
+      path: ""
+      type: "contributors"
+    values:
+      layout: "contributor"
   - scope:
       path: ""
       type: "posts"
