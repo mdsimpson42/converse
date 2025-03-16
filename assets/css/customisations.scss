@@ -77,3 +77,47 @@ ul, ol {
 li {
     padding-bottom: 10px;
 }
+
+.post-preview {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(216, 238, 245);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.post-preview:hover{
+    background-color: rgb(191, 219, 229);
+}
+
+.post-preview-link {
+    text-decoration: none !important;
+}
+
+.blog-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-preview-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
+    white-space: nowrap;
+}
+
+.column-left {
+    width: 25%;
+}
+
+.blog-posts tr td {
+    padding: 0px;
+    border: none;
+}
+
+.blog-excerpt {
+    padding-left: 20px;
+    padding-right: 20px;
+}

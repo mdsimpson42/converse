@@ -12,13 +12,26 @@ title: Blog
 {% endfor %}
 </p>
 <h2>Latest Posts</h1>
-<ul>
-  {% assign ordered_posts = site.posts | sort:"date" | reverse %}
-  {% for post in ordered_posts %}
-    <li>
-      <h3><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h3>
-      <p><i>{{ post.date | date_to_string }}</i></p>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+{% assign ordered_posts = site.posts | sort:"date" | reverse %}
+{% for post in ordered_posts %}
+<a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">
+  <div class="post-preview">
+    <h3>{{ post.title }}</h3>
+    <p><i>{{ post.date | date_to_string }}</i></p>
+    <table class="blog-posts">
+      <tr>
+        {% if post.image %} 
+        <td class="column-left">
+          <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" class="blog-preview-image">
+        </td>
+        {% endif %}
+        <td>
+          <div class="blog-excerpt">
+            <p>{{ post.excerpt }}</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>  
+</a>
+{% endfor %}
