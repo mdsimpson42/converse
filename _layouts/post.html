@@ -3,13 +3,12 @@ layout: default
 ---
 
 <p>
-    {{ page.date | date_to_string }}
-    {% assign author = site.authors | where: 'short_name', page.author | first %}
-    {% if author %}
-      - <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
-    {% endif %}
-  </p>
-  
-  <img src="{{site.baseurl}}/assets/img/blog/{{ page.image }}" class="blog-image">
-
+  {{ page.date | date_to_string }}
+  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% if author %}
+    - <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
+  {% endif %}
+</p>
+<div class="blog-content">
   {{ content }}
+</div>
