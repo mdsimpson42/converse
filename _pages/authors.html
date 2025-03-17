@@ -2,13 +2,27 @@
 layout: default
 title: Authors
 ---
-
-<ul>
-  {% assign ordered_authors = site.authors | sort:"order_number" %}
-  {% for author in ordered_authors %}
-    <li>
-      <h2><a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a></h2>
-      <p>{{ author.content | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<p>The following authors have contributed blog posts to this site.</p>
+<p>Click an author's card below to learn more about them and see their posts.</p>
+{% assign ordered_authors = site.authors | sort:"order_number" %}
+{% for author in ordered_authors %}
+  <a href="{{ author.url | prepend:site.baseurl }}" class="post-preview-link">
+    <div class="post-preview">
+      <h3>{{ author.title }}</h3>
+      <table class="blog-posts">
+        <tr>
+          {% if author.image %} 
+          <td class="author-column-left">
+            <img src="{{site.baseurl}}/assets/img/authors/{{ author.image }}" class="blog-preview-image">
+          </td>
+          {% endif %}
+          <td>
+            <div class="blog-excerpt">
+              <p>{{ author.content }}</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>  
+  </a>
+{% endfor %}
