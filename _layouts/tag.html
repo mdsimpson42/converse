@@ -6,28 +6,26 @@ layout: default
 
 <h2>Posts</h2>
 <p>The following posts include the tag "{{page.title}}":</p>
-<ul>
-  {% assign filtered_posts = site.posts | where: 'tags', page.short_name %}
-  {% for post in filtered_posts %}
-    <a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">
-      <div class="post-preview">
-        <h3>{{ post.title }}</h3>
-        <p><i>{{ post.date | date_to_string }}</i></p>
-        <table class="blog-posts">
-          <tr>
-            {% if post.image %} 
-            <td class="column-left">
-              <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" class="blog-preview-image">
-            </td>
-            {% endif %}
-            <td>
-              <div class="blog-excerpt">
-                <p>{{ post.excerpt }}</p>
-              </div>
-            </td>
-          </tr>
-        </table>
-      </div>  
-    </a>
-  {% endfor %}
-</ul>
+{% assign filtered_posts = site.posts | where: 'tags', page.short_name %}
+{% for post in filtered_posts %}
+  <a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">
+    <div class="post-preview">
+      <h3>{{ post.title }}</h3>
+      <p><i>{{ post.date | date_to_string }}</i></p>
+      <table class="blog-posts">
+        <tr>
+          {% if post.image %} 
+          <td class="column-left">
+            <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" class="blog-preview-image">
+          </td>
+          {% endif %}
+          <td>
+            <div class="blog-excerpt">
+              <p>{{ post.excerpt }}</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>  
+  </a>
+{% endfor %}
