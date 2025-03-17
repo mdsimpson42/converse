@@ -2,9 +2,18 @@
 layout: default
 ---
 
-<img src="{{site.baseurl}}/assets/img/authors/{{page.image}}">
-
-<p>{{page.job_title}}</p>
-<p>{{page.institution}}</p>
+<table class="blog-posts">
+    <tr>
+        <td class="column-left">
+        <img src="{{site.baseurl}}/assets/img/authors/{{page.image}}">
+        </td>
+        <td>
+        <div class="blog-excerpt">
+            <p>{{page.job_title}}</p>
+            <p>{{page.institution}}</p>
+        </div>
+        </td>
+    </tr>
+</table>
 
 {{ content }}
