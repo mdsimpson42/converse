@@ -10,6 +10,8 @@ Step 1 - The app requires Ruby (and the Dev Kit). Download the [Windows Installe
 
 Step 2 - Install Jekyll using `gem install jekyll bundler`.
 
+Step 3 - You may have to run `bundle install` to install any remaining dependencies.
+
 More info can be found in the [Jekyll Documentation](https://jekyllrb.com/docs/).
 
 ## Running Locally
