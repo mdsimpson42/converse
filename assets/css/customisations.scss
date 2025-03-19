@@ -5,26 +5,25 @@
 }
 
 .page-header {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 nav {
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
     background-color: lightblue;
 }
 
 .nav-item {
     margin-left: 20px;
     margin-right: 20px;
+    font-size: larger;
 }
 
 .main-logo {
-    width: 30%;
-    max-width: 450px;
-    min-width: 300px;
+    width: 650px;
 }
 
 .footer-logo {
