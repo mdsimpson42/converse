@@ -1,5 +1,14 @@
 ---
 ---
+
+$font-colour: #222;
+
+* {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: $font-colour;
+    font-size: large;
+}
+
 .current {
     color: green;
 }
@@ -19,7 +28,7 @@ nav {
 .nav-item {
     margin-left: 25px;
     margin-right: 25px;
-    font-size: larger;
+    font-size: large;
 }
 
 .main-logo {
@@ -44,13 +53,16 @@ nav {
 }
 
 .footer-text-container p {
+    color: whitesmoke;
+    font-size: medium;
     margin: 0;
     vertical-align: top;
 }
 
 .footer-text-container p a {
-    color: white;
+    color: whitesmoke;
     font-weight: bold;
+    font-size: medium;
 }
 
 .quote {
