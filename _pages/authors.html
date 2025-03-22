@@ -8,7 +8,6 @@ title: Authors
 {% for author in ordered_authors %}
   <a href="{{ author.url | prepend:site.baseurl }}" class="post-preview-link">
     <div class="post-preview">
-      <h3>{{ author.title }}</h3>
       <table class="blog-posts">
         <tr>
           {% if author.image %} 
@@ -18,7 +17,8 @@ title: Authors
           {% endif %}
           <td>
             <div class="blog-excerpt">
-              <p>{{ author.content }}</p>
+              <h3>{{ author.title }}</h3>
+              <p>{{ author.excerpt }}</p>
             </div>
           </td>
         </tr>

@@ -6,8 +6,9 @@ title: About this Site
 <p>This website was originally developed by <a href="https://linktr.ee/mdsimpson">Dr Mike Simpson</a>, as part of his 
     <a href="https://www.software.ac.uk/fellowship-programme/mike-simpson">Fellowship with the Software Sustainability Institute.</a>
 </p>
+<hr>
 <h2>Contributors</h2>
-<p>It was developed the support of the following:</p>
+<p>The site was developed with the support of the following people:</p>
 <ul>
   {% assign ordered_contributors = site.contributors | sort:"order_number" %}
   {% for author in ordered_contributors %}
@@ -16,6 +17,7 @@ title: About this Site
     </li>
   {% endfor %}
 </ul>
+<hr>
 <h2>Blog Authors</h2>
 <p>Thanks to the following authors, who have contributed to the blog:</p>
 <ul>
@@ -26,17 +28,18 @@ title: About this Site
     </li>
   {% endfor %}
 </ul>
+<hr>
 <h2>Special Thanks</h2>
 <p>
   This project was made possible thanks to the support of the 
   <a href="https://www.software.ac.uk/">Software Sustainability Institute</a>.
 </p>
 <p>Thanks also to the <a href="https://rse.ncldata.dev/">Newcastle University RSE Team</a>.</p>
+<hr>
 <h2>Development</h2>
-<p>This site was developed using Jekyll and is hosted on GitHub Pages.</p>
-<ul>
-    <li>For more information or to contribute, please visit
-      <a href="https://github.com/mdsimpson42/mental-health-rsesource">our GitHub page</a>.
-    </li>
-</ul>
+<p>
+  This site was developed using <a href="https://jekyllrb.com/">Jekyll</a> and is hosted on 
+  <a href="https://pages.github.com/">GitHub Pages</a>. For more information or to contribute, please visit
+  <a href="{{site.data.var.github_url}}">our GitHub page</a>.
+</p>
 <p>Based on the <a href="https://pages-themes.github.io/cayman/">Cayman</a> theme.</p>

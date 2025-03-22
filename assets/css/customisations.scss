@@ -14,9 +14,19 @@ h1 {
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-top: 1.5rem !important;
     margin-bottom: 0rem !important;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 1.4rem !important;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-top: 1.3rem !important;
 }
 
 .current {
@@ -36,8 +46,8 @@ nav {
 }
 
 .nav-item {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: large;
 }
 
@@ -64,15 +74,15 @@ nav {
 
 .footer-text-container p {
     color: whitesmoke;
-    font-size: medium;
+    font-size: small;
     margin: 0;
-    vertical-align: top;
+    //vertical-align: top;
 }
 
 .footer-text-container p a {
     color: whitesmoke;
     font-weight: bold;
-    font-size: medium;
+    font-size: small;
 }
 
 .quote {
@@ -153,4 +163,38 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.post-title {
+    float: left;
+    font-size: larger;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.post-date {
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+}
+
+.author-name {
+    margin-top: 35px;
+}
+
+.float-right {
+    float: right;
+}
+
+nav i {
+    margin-left: 20px;
+}
+
+hr {
+    margin-top: 30px !important;
+    background-color: lightblue !important;
+}
+
+.tags {
+    margin-top: 30px;
 }
