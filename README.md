@@ -16,5 +16,5 @@ More info can be found in the [Jekyll Documentation](https://jekyllrb.com/docs/)
 
 ## Running Locally
 
-To run locally, use `bundle exec jekyll serve --livereload`, which will run a local webserver at `http://localhost:4000`.
+To run locally, use `bundle exec jekyll serve --livereload`, which will run a local webserver at `http://localhost:4000/mental-health-rsesource`.
 The page will automatically reload when changes are made.
