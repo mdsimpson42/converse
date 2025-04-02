@@ -1,10 +1,10 @@
-baseurl: /mental-health-rsesource    
+baseurl: /discourse   
 
 include: ['_pages']
 
 remote_theme: pages-themes/cayman@v0.2.0
 
-title: Mental Health RSEsource
+title: DiscouRSE
 
 collections:
   authors:
