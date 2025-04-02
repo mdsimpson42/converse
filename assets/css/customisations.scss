@@ -38,19 +38,6 @@ h4 {
     padding-bottom: 1rem;
 }
 
-nav {
-    text-align: center;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-    background-color: lightblue;
-}
-
-.nav-item {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: large;
-}
-
 .main-logo {
     width: 400px;
 }
@@ -76,7 +63,6 @@ nav {
     color: whitesmoke;
     font-size: small;
     margin: 0;
-    //vertical-align: top;
 }
 
 .footer-text-container p a {
@@ -105,6 +91,15 @@ nav {
 ul, ol {
     padding-top: 10px;
     margin-bottom: 0px;
+    list-style-position: outside;
+}
+
+ul li {
+    padding-left: 10px;
+}
+
+ol li {
+    padding-left: 10px;
 }
 
 li {
@@ -201,4 +196,105 @@ hr {
 
 .tags {
     margin-top: 30px;
+}
+
+.tips-tabs-container {
+    text-align: center;
+    width: 100%;
+}
+
+.tips-tabs {
+    display: inline-block;
+    background-color: rgb(201, 229, 238);
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    width: 33%;
+}
+
+.tips-tabs.current {
+    background-color: lightblue;
+}
+
+.menu .menu-list, .menu .sub-menu {
+    list-style: none;
+}
+  
+.menu {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.menu-list {
+    margin-top: 0px;
+    padding-top: 0px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-list li {
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.menu .menu-list, .menu .sub-menu {
+    list-style: none;
+}
+  
+.menu a {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+  
+.menu > .menu-list > li {
+    float: left;
+    position: relative;
+}
+  
+.menu > .menu-list > li > a {
+    padding: 20px 35px;
+    margin: 0px;
+}
+
+.icon-link {
+    padding: 20px 20px !important;
+}
+  
+.menu > .menu-list > li:hover > .sub-menu {
+    display: block;
+}
+
+.menu > .menu-list > li:hover {
+    background: rgb(142, 201, 221);
+}
+
+.sub-menu > li:hover {
+    background: rgb(142, 201, 221);
+}
+  
+.menu > .menu-list > li > .sub-menu {
+    position: absolute;
+    background: lightblue;
+    z-index: 1000;
+    display: none;
+}
+  
+.menu > .menu-list > li > .sub-menu > li > a {
+   padding: 10px 20px;
+}
+
+.sub-menu {
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+  
+.menu:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }

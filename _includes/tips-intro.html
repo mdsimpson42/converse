@@ -1,33 +1,53 @@
 <p>
     This section provides tips and advice on how to manage mental health and wellbeing.
+    We have divided the tips into three categories: looking after yourself, looking after your colleagues, and looking after your team.
+    Click on the tabs to switch between the categories.
 </p>
 <hr>
-<nav>
-    <a href="{{site.baseurl}}/tips/self.html" class="nav-item 
+<div class="tips-tabs-container">
+    <div class="tips-tabs
         {% if page.url == '/tips/self' %} 
             current"
         {% else %}
             "
-        {% endif %}
-    >
-        Looking after yourself
-    </a>
-    <a href="{{site.baseurl}}/tips/colleagues.html" class="nav-item 
+        {% endif %}>
+        <a href="{{site.baseurl}}/tips/self.html" class="
+            {% if page.url == '/tips/self' %} 
+                current"
+            {% else %}
+                "
+            {% endif %}>
+            Looking after yourself
+        </a>
+    </div>
+    <div class="tips-tabs 
         {% if page.url == '/tips/colleagues' %} 
             current"
         {% else %}
             "
-        {% endif %}
-    >
-        Looking after your colleagues
-    </a>
-    <a href="{{site.baseurl}}/tips/team.html" class="nav-item
-        {% if page.url == '/tips/team' %}
+        {% endif %}>
+        <a href="{{site.baseurl}}/tips/colleagues.html"  class="
+            {% if page.url == '/tips/colleagues' %} 
+                current"
+            {% else %}
+                "
+            {% endif %}>
+            Looking after your colleagues
+        </a>
+    </div>
+    <div class="tips-tabs  
+        {% if page.url == '/tips/team' %} 
             current"
         {% else %}
             "
-        {% endif %}
-    >
-        Looking after your team
-    </a>
-</nav>
+        {% endif %}>
+        <a href="{{site.baseurl}}/tips/team.html"  class="
+            {% if page.url == '/tips/team' %} 
+                current"
+            {% else %}
+                "
+            {% endif %}>
+            Looking after your team
+        </a>
+    </div>
+</div>

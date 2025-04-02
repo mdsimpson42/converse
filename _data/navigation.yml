@@ -1,21 +1,32 @@
 - name: Home
   link: /
   tooltip: Home
-- name: Get Help
-  link: /support
-  tooltip: Emergency support and other resources
-- name: Tips
-  link: /tips/self
-  tooltip: Tips for Self-Care and More
+- name: Resources
+  tooltip: Mental Health Survey Results
+  sub_items:
+    - name: Get Help
+      link: /support
+      tooltip: Emergency support and other resources
+    - name: Tips
+      link: /tips/self
+      tooltip: Tips for Self-Care and More
 - name: Survey
   link: /survey
   tooltip: Mental Health Survey Results
 - name: Blog
   link: /blog
   tooltip: Blog Posts
+  sub_items:
+    - name: Authors
+      link: /authors
+      tooltip: Blog Contributors
 - name: About
   link: /about
   tooltip: About the Site
+  sub_items:
+    - name: Contributors
+      link: /contributors
+      tooltip: Site Contributors
 - name: Contribute
   link: /contribute
   tooltip: Contribute to the Site

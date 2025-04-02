@@ -1,6 +1,6 @@
-# Mental Health RSEsource
+# DiscouRSE
 
-Prototype Jekyll site for the Mental Health RSEsource website, part of my SSI Fellowship.
+Prototype Jekyll site for the DiscouRSE website, part of my SSI Fellowship.
 
 ## Installation
 
