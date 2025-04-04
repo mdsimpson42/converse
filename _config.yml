@@ -1,10 +1,10 @@
-baseurl: /discourse   
+baseurl: /converse   
 
 include: ['_pages']
 
 remote_theme: pages-themes/cayman@v0.2.0
 
-title: DiscouRSE
+title: ConveRSE
 
 collections:
   authors:
