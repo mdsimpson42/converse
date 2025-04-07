@@ -2,6 +2,8 @@
 
 Prototype Jekyll site for the ConveRSE website, part of my SSI Fellowship.
 
+Some basic information about the app is included below. More can be found on [the Wiki](https://github.com/mdsimpson42/converse/wiki).
+
 ## Installation
 
 Step 1 - The app requires Ruby (and the Dev Kit). Download the [Windows Installer](https://rubyinstaller.org/).
