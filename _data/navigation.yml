@@ -10,6 +10,9 @@
     - name: Tips
       link: /tips/self
       tooltip: Tips for Self-Care and More
+    - name: Projects
+      link: /projects
+      tooltip: Other community projects
 - name: Survey
   link: /survey
   tooltip: Mental Health Survey Results
