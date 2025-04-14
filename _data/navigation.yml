@@ -2,7 +2,8 @@
   link: /
   tooltip: Home
 - name: Resources
-  tooltip: Mental Health Survey Results
+  link: /support
+  tooltip: Emergency support and other resources
   sub_items:
     - name: Get Help
       link: /support
