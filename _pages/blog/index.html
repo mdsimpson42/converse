@@ -40,17 +40,22 @@ title: Blog
       <table class="blog-posts">
         <tr>
           {% if post.image %} 
-          <td class="column-left">
-            <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" class="blog-preview-image">
-          </td>
+            <td class="column-left">
+              <a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">
+                <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" class="blog-preview-image">
+              </a>
+            </td>
           {% endif %}
           <td>
             <div class="blog-excerpt">
-              <p>{{ post.excerpt }}</p>
+              <a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">
+                <p>{{ post.excerpt }}</p>
+              </a>
             </div>
           </td>
         </tr>
       </table>
+      <p class="read-more"><a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">Read more</a></p>
     </div>  
   </a>
 {% endfor %}

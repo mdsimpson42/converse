@@ -216,7 +216,7 @@ hr {
     background-color: rgb(201, 229, 238);
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
-    width: 33%;
+    width: 32%;
 }
 
 .tips-tabs.current {
@@ -329,4 +329,18 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px !important;
+}
+
+.read-more {
+    color: #1e6bb8;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
