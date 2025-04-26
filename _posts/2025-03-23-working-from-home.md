@@ -16,8 +16,8 @@ them like children, that is! However, it is still important to look after yourse
 As someone who used to regularly work from home during my PhD, and usually worked remotely at least once per week even
 before the pandemic, I've compiled a list of tips for self-care in the home office.
 
-This is based on [this blog post](https://mdsimpson.co.uk/2020/03/working-from-home-tips/) that I wrote at the start of lockdown, 
-aiming to help my friends and colleagues adapt to 'the new normal'. I've updated it and added a few additional notes based on my 
+This is based on [this blog post](https://mdsimpson.co.uk/2020/03/working-from-home-tips/) that I wrote at the start of lockdown,
+aiming to help my friends and colleagues adapt to 'the new normal'. I've updated it and added a few additional notes based on my
 experiences during and after the pandemic.
 
 ## Tips
