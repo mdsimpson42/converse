@@ -34,12 +34,13 @@ h4 {
 }
 
 .page-header {
+    background-image: linear-gradient(135deg, #155799, #159957);
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
 .main-logo {
-    height: 180px;
+    height: 140px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -343,4 +344,12 @@ hr {
 .read-more:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.content-image {
+    border-radius: 20px;
+    display: block;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
 }
