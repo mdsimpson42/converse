@@ -4,7 +4,7 @@ title: Authors
 ---
 <p>The following authors have contributed blog posts to this site.</p>
 <p>Click an author's card below to learn more about them and see their posts.</p>
-{% assign ordered_authors = site.authors | sort:"order_number" %}
+{% assign ordered_authors = site.contributors | where: 'tags', 'author' | sort:"order_number" %}
 {% for author in ordered_authors %}
   <a href="{{ author.url | prepend:site.baseurl }}" class="post-preview-link">
     <div class="post-preview">
@@ -12,7 +12,7 @@ title: Authors
         <tr>
           {% if author.image %} 
           <td class="author-column-left">
-            <img src="{{site.baseurl}}/assets/img/authors/{{ author.image }}" class="blog-preview-image">
+            <img src="{{site.baseurl}}/assets/img/contributors/{{ author.image }}" class="blog-preview-image">
           </td>
           {% endif %}
           <td>

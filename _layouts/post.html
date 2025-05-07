@@ -4,7 +4,7 @@ layout: default
 
 <p>
   {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% assign author = site.contributors | where: 'short_name', page.author | first %}
   {% if author %}
     - <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
   {% endif %}

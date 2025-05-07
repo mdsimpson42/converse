@@ -3,6 +3,7 @@ short_name: anonymous
 title: Anonymous
 order_number: 0
 image: anon.jpg
+tags: [author]
 ---
 
 Some people have chosen to submit blog posts and other content to this site anonymously.

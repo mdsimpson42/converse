@@ -29,11 +29,11 @@ title: Blog
         <h3 class="post-title">{{ post.title }}</h3>
         <p class="post-date"><i>{{ post.date | date_to_string }}</i></p>
       </div>
-      {% assign author = site.authors
+      {% assign author = site.contributors
         | where_exp:"author", "author.short_name == post.author" 
         | first %}
       <p class="author-name">
-        <i>by <a href="{{site.baseurl}}/authors/{{author.short_name}}">{{ author.title }}</a></i>
+        <i>by <a href="{{site.baseurl}}/contributors/{{author.short_name}}">{{ author.title }}</a></i>
         {% assign wordCount = post.content | number_of_words %}
         <span class="float-right"><i>{{wordCount}} words</i></span>
       </p>
