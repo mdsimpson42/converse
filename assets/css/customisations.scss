@@ -42,8 +42,8 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding-top: 4rem;
-    padding-bottom: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .header-content {
@@ -56,6 +56,8 @@ h4 {
     color: whitesmoke;
     font-size: 2rem;
     text-shadow: 2px 2px 4px #000;
+    margin-top: 18px;
+    margin-left: 10px;
 }
 
 .header-link {
@@ -274,6 +276,8 @@ hr {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 0px;
+    padding-left: 0px
 }
 
 .menu-list li {
