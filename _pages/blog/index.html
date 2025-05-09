@@ -7,7 +7,12 @@ title: Blog
   We have invited a range of people with different background and experiences to contribute to this blog,
   so you can find a wide range of stories, tips and advice on self-care and mental health.
 </p>
-<p>View the latest posts below. You can also view our 
+<p>
+  View the latest posts below. If you want to be notified of new posts, as well as other news 
+  from the ConveRSE Community, please join our <a href="http://eepurl.com/jelPOg">mailing list</a>.
+</p>
+<p>
+  You can also filter by tags using the link below or view our 
   <a href="{{ "/authors.html" | prepend:site.baseurl }}">list of contributing authors</a>.
 </p>
 <hr>
@@ -29,11 +34,11 @@ title: Blog
         <h3 class="post-title">{{ post.title }}</h3>
         <p class="post-date"><i>{{ post.date | date_to_string }}</i></p>
       </div>
-      {% assign author = site.authors
+      {% assign author = site.contributors
         | where_exp:"author", "author.short_name == post.author" 
         | first %}
       <p class="author-name">
-        <i>by <a href="{{site.baseurl}}/authors/{{author.short_name}}">{{ author.title }}</a></i>
+        <i>by <a href="{{site.baseurl}}/contributors/{{author.short_name}}">{{ author.title }}</a></i>
         {% assign wordCount = post.content | number_of_words %}
         <span class="float-right"><i>{{wordCount}} words</i></span>
       </p>

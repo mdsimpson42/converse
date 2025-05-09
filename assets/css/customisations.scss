@@ -34,19 +34,57 @@ h4 {
 }
 
 .page-header {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    background-image: url('{{ site.baseurl }}/assets/img/rachel-mcdermott.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.header-content {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title {
+    color: whitesmoke;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px #000;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.header-link {
+    text-decoration: none !important;
 }
 
 .main-logo {
-    height: 180px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 200px;
 }
 
 .page-footer {
+    background-image: linear-gradient(135deg, #155799, #159957);
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer-content {
+    padding: 2rem 8rem;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .footer-logo {
@@ -238,6 +276,8 @@ hr {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 0px;
+    padding-left: 0px
 }
 
 .menu-list li {
@@ -343,4 +383,12 @@ hr {
 .read-more:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.content-image {
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }

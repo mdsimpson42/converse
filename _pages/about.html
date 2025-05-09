@@ -10,7 +10,7 @@ title: About this Site
 <h2>Contributors</h2>
 <p>The site was developed with the support of the following people:</p>
 <ul>
-  {% assign ordered_contributors = site.contributors | sort:"order_number" %}
+  {% assign ordered_contributors = site.contributors | where: 'tags', 'contributor' | sort:"order_number" %}
   {% for author in ordered_contributors %}
     <li>
       <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
@@ -21,7 +21,7 @@ title: About this Site
 <h2>Blog Authors</h2>
 <p>Thanks to the following authors, who have contributed to the blog:</p>
 <ul>
-  {% assign ordered_authors = site.authors | sort:"order_number" %}
+  {% assign ordered_authors = site.contributors | where: 'tags', 'author' | sort:"order_number" %}
   {% for author in ordered_authors %}
     <li>
       <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
@@ -42,4 +42,13 @@ title: About this Site
   <a href="https://pages.github.com/">GitHub Pages</a>. For more information or to contribute, please visit
   <a href="{{site.data.var.github_url}}">our GitHub page</a>.
 </p>
-<p>Based on the <a href="https://pages-themes.github.io/cayman/">Cayman</a> theme.</p>
+<ul>
+  <li>
+    Based on the <a href="https://pages-themes.github.io/cayman/">Cayman</a> theme.
+  </li>
+  <li>
+      Header background: 
+      <a href="https://unsplash.com/photos/selective-focus-photography-of-man-and-woman-sitting-in-front-of-each-other-k8t8ilYPyOc">Photo</a>
+      by Rachel McDermott on <a href="https://unsplash.com/">Unsplash</a>.
+  </li>
+</ul>

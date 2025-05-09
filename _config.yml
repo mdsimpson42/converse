@@ -7,8 +7,6 @@ remote_theme: pages-themes/cayman@v0.2.0
 title: ConveRSE
 
 collections:
-  authors:
-    output: true
   contributors:
     output: true
   tags:
@@ -18,11 +16,6 @@ collections:
     permalink: /:path
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "contributors"
