@@ -259,6 +259,10 @@ hr {
     width: 32%;
 }
 
+.tips-tabs:hover {
+    background-color: #e0f7fa !important;
+}
+
 .tips-tabs.current {
     background-color: lightblue;
 }

@@ -5,34 +5,37 @@
 </p>
 <hr>
 <div class="tips-tabs-container">
-    <div class="tips-tabs
-        {% if page.url == '/tips/self' %} 
-            current"
-        {% else %}
-            "
-        {% endif %}>
-        <a href="{{site.baseurl}}/tips/self.html">
+    <a class="card-link" href="{{site.baseurl}}/tips/self.html">
+        <div class="tips-tabs
+            {% if page.url == '/tips/self' %} 
+                current"
+            {% else %}
+                "
+            {% endif %}>
+            <!-- <i class="card-icon fa-solid fa-user"></i> -->
             Looking after yourself
-        </a>
-    </div>
-    <div class="tips-tabs 
-        {% if page.url == '/tips/colleagues' %} 
-            current"
-        {% else %}
-            "
-        {% endif %}>
-        <a href="{{site.baseurl}}/tips/colleagues.html">
+        </div>
+    </a>
+    <a class="card-link" href="{{site.baseurl}}/tips/colleagues.html">
+        <div class="tips-tabs 
+            {% if page.url == '/tips/colleagues' %} 
+                current"
+            {% else %}
+                "
+            {% endif %}>
+            <!-- <i class="card-icon fa-solid fa-user-group"></i> -->
             Looking after your colleagues
-        </a>
-    </div>
-    <div class="tips-tabs  
-        {% if page.url == '/tips/team' %} 
-            current"
-        {% else %}
-            "
-        {% endif %}>
-        <a href="{{site.baseurl}}/tips/team.html">
+        </div>
+    </a>
+    <a class="card-link" href="{{site.baseurl}}/tips/team.html">
+        <div class="tips-tabs  
+            {% if page.url == '/tips/team' %} 
+                current"
+            {% else %}
+                "
+            {% endif %}>
+            <!-- <i class="card-icon fa-solid fa-users"></i> -->
             Looking after your team
-        </a>
-    </div>
+        </div>
+    </a>
 </div>
