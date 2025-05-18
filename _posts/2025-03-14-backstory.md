@@ -1,6 +1,7 @@
 ---
 author: mike_simpson
 date: 2025-03-14
+categories: [stories]
 tags: [anxiety, depression, burnout]
 title: My Backstory
 image: I-Am-Your-Father.jpg

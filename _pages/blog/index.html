@@ -8,16 +8,24 @@ title: Blog
   so you can find a wide range of stories, tips and advice on self-care and mental health.
 </p>
 <p>
-  View the latest posts below. If you want to be notified of new posts, as well as other news 
+  If you want to be notified of new posts, as well as other news 
   from the ConveRSE Community, please join our <a href="http://eepurl.com/jelPOg">mailing list</a>.
 </p>
-<p>
-  You can also filter by tags using the link below or view our 
-  <a href="{{ "/authors.html" | prepend:site.baseurl }}">list of contributing authors</a>.
-</p>
 <hr>
+<h2>Filters</h2>
+<p>
+  You can also filter by category or by tags using the links below or view our 
+  <a href="{{ "/authors.html" | prepend:site.baseurl }}">list of authors</a>.
+</p>
+<div class="cards small">
+{% for category in site.categories %} 
+    <a class="card-link" href="{{ category.url | prepend:site.baseurl }}"><div class="category-card">
+        <h3>{{ category.title }}</h3>
+    </div></a>
+{% endfor %}
+</div>
 <div class="tags">
-  <p>Tags: |
+  <p class="align-center">Tags: |
   {% for tag in site.tags %}
         <a href="{{ tag.url | prepend:site.baseurl }}">{{ tag.title }}</a> | 
   {% endfor %}
@@ -25,7 +33,7 @@ title: Blog
 </div>
 <hr>
 <h2>Latest Posts</h1>
-  <p></p>
+<p>View the latest posts below.</p>
 {% assign ordered_posts = site.posts | sort:"date" | reverse %}
 {% for post in ordered_posts %}
   <a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">

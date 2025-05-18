@@ -1,6 +1,7 @@
 ---
 author: mike_simpson
 date: 2025-04-25
+categories: [projects]
 tags: [burnout]
 title: Task Management for Humans as Self-Care
 image: task-management.jpg

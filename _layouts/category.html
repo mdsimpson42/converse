@@ -5,19 +5,19 @@ layout: default
 {{ content }}
 
 <hr>
-<h2>Other Tags</h2>
-<p>View other tags below.</p>
-<div class="tags">
-  <p class="align-center">Tags: |
-  {% for tag in site.tags %}
-        <a href="{{ tag.url | prepend:site.baseurl }}">{{ tag.title }}</a> | 
-  {% endfor %}
-  </p>
+<h2>Other Categories</h2>
+<p>View other categories below.</p>
+<div class="cards small">
+{% for category in site.categories %} 
+    <a class="card-link" href="{{ category.url | prepend:site.baseurl }}"><div class="category-card">
+        <h3>{{ category.title }}</h3>
+    </div></a>
+{% endfor %}
 </div>
 <hr>
 <h2>Posts</h2>
-<p>The following posts include the tag "{{page.title}}":</p>
-{% assign filtered_posts = site.posts | where: 'tags', page.short_name %}
+<p>The following posts are in the "{{page.title}}" category:</p>
+{% assign filtered_posts = site.posts | where: 'categories', page.short_name %}
 {% for post in filtered_posts %}
   <a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">
     <div class="post-preview">
