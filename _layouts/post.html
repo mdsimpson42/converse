@@ -8,6 +8,9 @@ layout: default
   {% if author %}
     - <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
   {% endif %}
+  | Category | Tag, Tag, Tag
+  {% assign wordCount = page.content | number_of_words %}
+  <span class="float-right"><i>{{ wordCount }} words</i></span>
 </p>
 <div class="blog-content">
   {{ content }}

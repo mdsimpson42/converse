@@ -1,6 +1,7 @@
 ---
 author: mike_simpson
 date: 2025-03-23
+categories: [self-care]
 tags: [self_care]
 title: Working from Home
 image: wfh.jpg

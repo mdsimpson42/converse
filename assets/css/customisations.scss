@@ -29,8 +29,14 @@ h4 {
     margin-top: 1.3rem !important;
 }
 
+.align-center {
+    text-align: center;
+}
+
 .current {
     color: green;
+    padding-bottom: 15px !important;
+    border-bottom: 5px solid #159957;
 }
 
 .page-header {
@@ -233,6 +239,7 @@ nav i {
 
 hr {
     margin-top: 30px !important;
+    margin-bottom: 30px !important;
     background-color: lightblue !important;
 }
 
@@ -255,6 +262,10 @@ hr {
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     width: 32%;
+}
+
+.tips-tabs:hover {
+    background-color: #e0f7fa !important;
 }
 
 .tips-tabs.current {
@@ -391,4 +402,69 @@ hr {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-link {
+    text-decoration: none !important;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: flex-start;
+    overflow-x: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.small {
+    justify-content: center;
+    align-items: center;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.card {
+    display: inline-block;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    height: 400px;
+    background-color: lightblue;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.category-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    //width: 300px;
+    height: 65px;
+    background-color: lightblue;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.category-card h3 {
+    margin-top: 0px !important;
+    font-size: 1.0rem;
+}
+
+.card:hover {
+    background-color: #e0f7fa;
+}
+
+.card-icon {
+    font-size: 50px;
+    margin-top: 50px !important;
+    margin-bottom: 10px;
 }

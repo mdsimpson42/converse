@@ -11,6 +11,8 @@ collections:
     output: true
   tags:
     output: true
+  categories:
+    output: true
   pages:
     output: true
     permalink: /:path
@@ -31,6 +33,11 @@ defaults:
       type: "tags"
     values:
       layout: "tag"
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
   - scope:
       path: ""
     values:
