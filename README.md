@@ -12,7 +12,7 @@ You can submit a blog post following [these instructions](https://github.com/mds
 
 ## Installation
 
-The site has been developed on Windows. To run a local version for testing, you will need to follow thes instructions:
+The site has been developed on Windows. To run a local version for testing, you will need to follow these instructions:
 
 **1 - The app requires Ruby. Download the [Windows Installer](https://rubyinstaller.org/).**
 
