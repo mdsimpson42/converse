@@ -296,10 +296,6 @@ hr {
     padding-left: 0px;
 }
 
-.menu .menu-list, .menu .sub-menu {
-    list-style: none;
-}
-  
 .menu a {
     text-decoration: none;
     display: block;
@@ -316,8 +312,48 @@ hr {
     margin: 0px;
 }
 
-.icon-link {
+.external-links {
+    text-align: center;
+    list-style: none;
+}
+
+.external-links > li {
+    float: right;
+    position: relative;
+}
+
+.external-links a {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.icon-link i {
     padding: 20px 20px !important;
+    color: whitesmoke !important;
+}
+
+.footer-links {
+    text-align: center;
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.footer-links > li {
+    position: relative;
+    display: inline-block;
+}
+
+.footer-links a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-links > .icon-link i {
+    padding: 20px 0px !important;
+    color: whitesmoke !important;
 }
   
 .menu > .menu-list > li:hover > .sub-menu {
