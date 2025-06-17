@@ -329,8 +329,13 @@ hr {
 }
 
 .icon-link i {
-    padding: 20px 20px !important;
-    color: whitesmoke !important;
+    font-size: larger;
+    padding: 20px 20px;
+    color: whitesmoke;
+}
+
+.icon-link i:hover {
+    color: lightsteelblue;
 }
 
 .footer-links {
@@ -347,13 +352,14 @@ hr {
 }
 
 .footer-links a {
+    color: whitesmoke;
+    font-size: small;
     text-decoration: none;
     cursor: pointer;
 }
 
-.footer-links > .icon-link i {
-    padding: 20px 0px !important;
-    color: whitesmoke !important;
+.footer-links a:hover {
+    color: lightsteelblue;
 }
   
 .menu > .menu-list > li:hover > .sub-menu {
