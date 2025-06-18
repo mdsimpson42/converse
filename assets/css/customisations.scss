@@ -254,11 +254,12 @@ hr {
 .tips-tabs-container {
     text-align: center;
     width: 100%;
+    border-bottom: 1px solid rgb(201, 229, 238);
 }
 
 .tips-tabs {
     display: inline-block;
-    background-color: rgb(201, 229, 238);
+    background-color: rgb(226, 239, 244);
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     width: 32%;
@@ -269,7 +270,13 @@ hr {
 }
 
 .tips-tabs.current {
-    background-color: lightblue;
+    background-color: rgb(201, 229, 238);
+    padding-bottom: 17px !important;
+}
+
+.tips-tab-content {
+    background-color: rgb(216, 238, 245);
+    padding: 1rem 50px 50px 50px;
 }
 
 .menu .menu-list, .menu .sub-menu {
