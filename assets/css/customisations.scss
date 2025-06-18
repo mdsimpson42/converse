@@ -254,11 +254,12 @@ hr {
 .tips-tabs-container {
     text-align: center;
     width: 100%;
+    border-bottom: 1px solid rgb(201, 229, 238);
 }
 
 .tips-tabs {
     display: inline-block;
-    background-color: rgb(201, 229, 238);
+    background-color: rgb(226, 239, 244);
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     width: 32%;
@@ -269,7 +270,13 @@ hr {
 }
 
 .tips-tabs.current {
-    background-color: lightblue;
+    background-color: rgb(201, 229, 238);
+    padding-bottom: 17px !important;
+}
+
+.tips-tab-content {
+    background-color: rgb(216, 238, 245);
+    padding: 1rem 50px 50px 50px;
 }
 
 .menu .menu-list, .menu .sub-menu {
@@ -296,10 +303,6 @@ hr {
     padding-left: 0px;
 }
 
-.menu .menu-list, .menu .sub-menu {
-    list-style: none;
-}
-  
 .menu a {
     text-decoration: none;
     display: block;
@@ -316,8 +319,54 @@ hr {
     margin: 0px;
 }
 
-.icon-link {
-    padding: 20px 20px !important;
+.external-links {
+    text-align: center;
+    list-style: none;
+}
+
+.external-links > li {
+    float: right;
+    position: relative;
+}
+
+.external-links a {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.icon-link i {
+    font-size: larger;
+    padding: 20px 20px;
+    color: whitesmoke;
+}
+
+.icon-link i:hover {
+    color: lightsteelblue;
+}
+
+.footer-links {
+    text-align: center;
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.footer-links > li {
+    position: relative;
+    display: inline-block;
+}
+
+.footer-links a {
+    color: whitesmoke;
+    font-size: small;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-links a:hover {
+    color: lightsteelblue;
 }
   
 .menu > .menu-list > li:hover > .sub-menu {
