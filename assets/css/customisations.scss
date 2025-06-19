@@ -88,7 +88,9 @@ h4 {
 }
 
 .footer-content {
-    padding: 2rem 8rem;
+    // padding: 2rem auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     width: 100%;
     display: block;
     margin-left: auto;
@@ -102,13 +104,15 @@ h4 {
 
 .footer-logo-container {
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .footer-text-container {
     text-align: left;
     display: inline-block;
     padding-left: 20px;
+    padding-right: 20px;
     vertical-align: top;
     border-left: 1px solid grey;
     padding-bottom: 5px;
@@ -118,6 +122,20 @@ h4 {
     color: whitesmoke;
     font-size: small;
     margin: 0;
+    text-align: left;
+}
+
+@media (max-device-width: 752px) {
+  .footer-text-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-text-container p {
+    text-align: center !important;
+  }
+
+
 }
 
 .footer-text-container p a {
@@ -370,6 +388,8 @@ hr {
 .footer-links > li {
     position: relative;
     display: inline-block;
+    margin-right: 0px;
+    padding-left: 0px;
 }
 
 .footer-links a {
@@ -381,6 +401,10 @@ hr {
 
 .footer-links a:hover {
     color: lightsteelblue;
+}
+
+.footer-links i {
+    padding: 10px;
 }
   
 .menu > .menu-list > li:hover > .sub-menu {
