@@ -1,31 +1,41 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 $font-colour: #222;
 
 * {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     color: $font-colour;
     font-size: large;
+    font-weight: 400;
 }
 
 h1 {
     font-size: 1.8rem !important;
+    font-weight: 600 !important;
 }
 
 h2 {
     font-size: 1.6rem !important;
     margin-top: 1.5rem !important;
+    font-weight: 500 !important;
 }
 
 h3 {
     font-size: 1.4rem !important;
     margin-top: 1.4rem !important;
+    font-weight: 500 !important;
 }
 
 h4 {
     font-size: 1.2rem !important;
     margin-top: 1.3rem !important;
+    font-weight: 500 !important;
+}
+
+a {
+    font-weight: 500 !important;
 }
 
 .align-center {
