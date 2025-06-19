@@ -48,14 +48,16 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 .header-content {
+    position: relative;
     max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
 }
 
 .header-title {
@@ -64,6 +66,7 @@ h4 {
     text-shadow: 2px 2px 4px #000;
     margin-top: 18px;
     margin-left: 10px;
+    margin-bottom: 18px;
 }
 
 .header-link {
@@ -71,7 +74,7 @@ h4 {
 }
 
 .main-logo {
-    height: 200px;
+    height: 180px;
 }
 
 .page-footer {
@@ -124,6 +127,8 @@ h4 {
 }
 
 .quote {
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     font-size: larger;
     padding: 20px;
@@ -133,6 +138,7 @@ h4 {
 
 .quote p {
     margin: 0;
+    font-weight: bolder;
 }
 
 .center {
@@ -320,8 +326,16 @@ hr {
 }
 
 .external-links {
+    margin-top: auto;
     text-align: center;
     list-style: none;
+    padding-top: 0px;
+    padding-left: 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: fit-content;
+    margin-left: auto;
 }
 
 .external-links > li {
