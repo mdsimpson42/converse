@@ -1,32 +1,41 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 $font-colour: #222;
 
 * {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     color: $font-colour;
     font-size: large;
+    font-weight: 400;
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
     margin-top: 1.5rem !important;
-    margin-bottom: 0rem !important;
+    font-weight: 500 !important;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
     margin-top: 1.4rem !important;
+    font-weight: 500 !important;
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     margin-top: 1.3rem !important;
+    font-weight: 500 !important;
+}
+
+a {
+    font-weight: 500 !important;
 }
 
 .align-center {
@@ -134,8 +143,6 @@ h4 {
   .footer-text-container p {
     text-align: center !important;
   }
-
-
 }
 
 .footer-text-container p a {
@@ -145,17 +152,18 @@ h4 {
 }
 
 .quote {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     text-align: center;
     font-size: larger;
-    padding: 20px;
+    padding: 40px;
     background-color: lightblue;
     border-radius: 10px;
 }
 
 .quote p {
     margin: 0;
+    font-size: 1.2rem;
     font-weight: bolder;
 }
 
