@@ -201,10 +201,7 @@ li {
 
 .post-preview:hover{
     background-color: rgb(191, 219, 229);
-}
-
-.post-preview-link {
-    text-decoration: none !important;
+    cursor: pointer;
 }
 
 .blog-image {
@@ -258,7 +255,7 @@ li {
 }
 
 .author-name {
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .float-right {
@@ -558,7 +555,7 @@ hr {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
-    padding: 20px;
+    padding: 20px 40px;
     text-align: center;
     //width: 300px;
     height: 65px;
@@ -568,7 +565,7 @@ hr {
 
 .category-card h3 {
     margin-top: 0px !important;
-    font-size: 1.0rem;
+    font-size: 1.0rem !important;
 }
 
 .card:hover {
@@ -579,4 +576,22 @@ hr {
     font-size: 50px;
     margin-top: 50px !important;
     margin-bottom: 10px;
+}
+
+.separator {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.post-tags {
+    margin-top: 0px;
+}
+
+.post-details {
+    margin-bottom: 0px !important;
+}
+
+.category-title {
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
 }

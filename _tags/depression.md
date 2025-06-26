@@ -1,6 +1,7 @@
 ---
 short_name: depression
 title: Depression
+menu: blog
 ---
 
 Depression can manifest in various ways, including persistent sadness, loss of interest in activities, and difficulty concentrating. Depression can also lead to physical symptoms such as fatigue, changes in appetite, and sleep disturbances. It is not to be confused with

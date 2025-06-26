@@ -1,6 +1,7 @@
 ---
 short_name: projects
 title: Projects
+menu: blog
 ---
 
 There are a number of ways to support mental health. A number of people in the community

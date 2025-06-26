@@ -6,6 +6,7 @@ image: mike-simpson.jpg
 job_title: Research Software Engineer
 institution: Newcastle University
 tags: [author, contributor]
+menu: about
 ---
 
 Hi there! My name is Mike. I'm a 2025 SSI Fellow, and have been part of the RSE Community since

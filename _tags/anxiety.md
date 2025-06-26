@@ -1,6 +1,7 @@
 ---
 short_name: anxiety
 title: Anxiety
+menu: blog
 ---
 
 Anxiety is the feeling of being nervous, tense or worried. Most of us feel anxious at some point, often in anticipation of something,

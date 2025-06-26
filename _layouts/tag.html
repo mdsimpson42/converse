@@ -1,16 +1,17 @@
 ---
-layout: default
+layout: no_title
 ---
 
+<h1><i class="fa-solid fa-tags category-title" title="Tag"></i>&nbsp; {{page.title}}</h1>
 {{ content }}
 
 <hr>
 <h2>Other Tags</h2>
 <p>View other tags below.</p>
 <div class="tags">
-  <p class="align-center">Tags: |
+  <p class="align-center">Tags:
   {% for tag in site.tags %}
-        <a href="{{ tag.url | prepend:site.baseurl }}">{{ tag.title }}</a> | 
+        <a href="{{ tag.url | prepend:site.baseurl }}">{{ tag.title }}</a> {% if forloop.last != true %}|{% endif %} 
   {% endfor %}
   </p>
 </div>
@@ -19,34 +20,5 @@ layout: default
 <p>The following posts include the tag "{{page.title}}":</p>
 {% assign filtered_posts = site.posts | where: 'tags', page.short_name %}
 {% for post in filtered_posts %}
-  <a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">
-    <div class="post-preview">
-      <div>
-        <h3 class="post-title">{{ post.title }}</h3>
-        <p class="post-date"><i>{{ post.date | date_to_string }}</i></p>
-      </div>
-      {% assign author = site.contributors
-        | where_exp:"author", "author.short_name == post.author" 
-        | first %}
-      <p class="author-name">
-        <i>by <a href="{{site.baseurl}}/contributors/{{author.short_name}}">{{ author.title }}</a></i>
-        {% assign wordCount = post.content | number_of_words %}
-        <span class="float-right"><i>{{wordCount}} words</i></span>
-      </p>
-      <table class="blog-posts">
-        <tr>
-          {% if post.image %} 
-          <td class="column-left">
-            <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" class="blog-preview-image">
-          </td>
-          {% endif %}
-          <td>
-            <div class="blog-excerpt">
-              <p>{{ post.excerpt }}</p>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>  
-  </a>
+  {% include post-preview.html %}
 {% endfor %}

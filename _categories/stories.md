@@ -1,6 +1,7 @@
 ---
 short_name: stories
 title: Mental Health Stories
+menu: blog
 ---
 
 The tagline of ConveRSE is "Let's talk about Mental Health". That is no accident!

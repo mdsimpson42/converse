@@ -1,6 +1,7 @@
 ---
 short_name: resources
 title: Resources
+menu: blog
 ---
 
 There are a whole range of resources out there to help us manage our mental health.
