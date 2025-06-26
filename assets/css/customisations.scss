@@ -297,12 +297,29 @@ hr {
     width: 32%;
 }
 
+.about-tabs {
+    display: inline-block;
+    background-color: rgb(226, 239, 244);
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    width: 48%;
+}
+
+.about-tabs:hover {
+    background-color: #e0f7fa !important;
+}
+
+.about-tabs.current {
+    background-color: rgb(216, 238, 245);
+    padding-bottom: 17px !important;
+}
+
 .tips-tabs:hover {
     background-color: #e0f7fa !important;
 }
 
 .tips-tabs.current {
-    background-color: rgb(201, 229, 238);
+    background-color: rgb(216, 238, 245);
     padding-bottom: 17px !important;
 }
 

@@ -7,7 +7,7 @@
             href="{{ item.link | prepend:site.baseurl }}"
           {% endif %}
           class="nav-item
-          {% if page.url == item.link %} 
+          {% if page.menu == item.menu %} 
             current"
           {% else %}
             "
