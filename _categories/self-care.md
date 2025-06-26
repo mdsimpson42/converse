@@ -1,6 +1,7 @@
 ---
 short_name: self-care
 title: Self-Care
+menu: blog
 ---
 
 We all face a range of challenges in our lives, and working in research software presents

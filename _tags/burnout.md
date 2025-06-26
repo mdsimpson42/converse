@@ -1,6 +1,7 @@
 ---
 short_name: burnout
 title: Burnout
+menu: blog
 ---
 
 We've all experienced the feeling of crunch time, when deadlines are approaching we have to work extra hard, often
