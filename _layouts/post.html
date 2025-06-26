@@ -2,15 +2,30 @@
 layout: default
 ---
 
-<p>
-  {{ page.date | date_to_string }}
-  {% assign author = site.contributors | where: 'short_name', page.author | first %}
+<p class="post-details">
+  <i class="fa-solid fa-user-large" title="Author"></i>&nbsp; {% assign author = site.contributors | where: 'short_name', page.author | first %}
   {% if author %}
-    - <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
+    <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
   {% endif %}
-  | Category | Tag, Tag, Tag
+  <span class="separator"> | </span><i class="fa-solid fa-calendar-days" title="Date"></i>&nbsp; {{ page.date | date_to_string }}
+  <span class="separator"> | </span><i class="fa-solid fa-folder-open" title="Categories"></i>&nbsp; 
+    {% for page_category in page.categories %}
+      {% assign category = site.categories
+      | where_exp:"category", "category.short_name == page_category" 
+      | first %}
+      <a href="{{site.baseurl}}/categories/{{ category.short_name }}">{{category.title}}</a>
+    {% endfor %} 
   {% assign wordCount = page.content | number_of_words %}
   <span class="float-right"><i>{{ wordCount }} words</i></span>
+</p>
+<p class="post-tags">
+  <i class="fa-solid fa-tags" title="Tags"></i>&nbsp;
+  {% for page_tag in page.tags %}
+      {% assign tag = site.tags
+      | where_exp:"tag", "tag.short_name == page_tag" 
+      | first %}
+    <a href="{{site.baseurl}}/tags/{{ page_tag }}">{{ tag.title }}</a>{% if forloop.last != true %},{% endif %}
+  {% endfor %}
 </p>
 <div class="blog-content">
   {{ content }}

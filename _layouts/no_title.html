@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{page.title}} - ConveRSE: Let's Talk About Mental Health</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/customisations.css">
+    <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/assets/favicon.png">
+    <script src="https://kit.fontawesome.com/251a5d6fc8.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% feed_meta %}
+    {% seo %}
+  </head>
+  <body>
+    {% include header.html %}
+    {% include navigation.html %}
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

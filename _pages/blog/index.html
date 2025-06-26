@@ -13,9 +13,9 @@ menu: blog
   from the ConveRSE Community, please join our <a href="http://eepurl.com/jelPOg">mailing list</a>.
 </p>
 <hr>
-<h2>Filters</h2>
+<h2>Categories</h2>
 <p>
-  You can also filter by category or by tags using the links below or view our 
+  You can also filter by category using the links below or view our 
   <a href="{{ "/authors.html" | prepend:site.baseurl }}">list of authors</a>.
 </p>
 <div class="cards small">
@@ -25,51 +25,54 @@ menu: blog
     </div></a>
 {% endfor %}
 </div>
-<div class="tags">
+<!-- <div class="tags">
   <p class="align-center">Tags: |
   {% for tag in site.tags %}
         <a href="{{ tag.url | prepend:site.baseurl }}">{{ tag.title }}</a> | 
   {% endfor %}
   </p>
-</div>
+</div> -->
 <hr>
-<h2>Latest Posts</h1>
+<h2>Latest Posts</h2>
 <p>View the latest posts below.</p>
 {% assign ordered_posts = site.posts | sort:"date" | reverse %}
 {% for post in ordered_posts %}
-  <a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">
-    <div class="post-preview">
-      <div>
-        <h3 class="post-title">{{ post.title }}</h3>
-        <p class="post-date"><i>{{ post.date | date_to_string }}</i></p>
-      </div>
-      {% assign author = site.contributors
-        | where_exp:"author", "author.short_name == post.author" 
-        | first %}
-      <p class="author-name">
-        <i>by <a href="{{site.baseurl}}/contributors/{{author.short_name}}">{{ author.title }}</a></i>
-        {% assign wordCount = post.content | number_of_words %}
-        <span class="float-right"><i>{{wordCount}} words</i></span>
+  <div class="post-preview" onclick="location.href='{{ post.url | prepend:site.baseurl }}';">
+    <div>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <p class="post-date">
+        <i>{{ post.date | date_to_string }}</i>
       </p>
-      <table class="blog-posts">
-        <tr>
-          {% if post.image %} 
-            <td class="column-left">
-              <a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">
-                <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" class="blog-preview-image">
-              </a>
-            </td>
-          {% endif %}
-          <td>
-            <div class="blog-excerpt">
-              <a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">
-                <p>{{ post.excerpt }}</p>
-              </a>
-            </div>
+    </div>
+    {% assign author = site.contributors
+      | where_exp:"author", "author.short_name == post.author" 
+      | first %}
+    {% assign category = site.categories
+      | where_exp:"category", "category.short_name == post.categories[0]" 
+      | first %}
+    <p class="author-name">
+      <i class="fa-solid fa-user-large" title="Author"></i>&nbsp; 
+      <a href="{{site.baseurl}}/contributors/{{author.short_name}}">{{ author.title }}</a>
+      <span class="separator"></span>
+      <i class="fa-solid fa-folder-open" title="Categories"></i>&nbsp;  
+      <a href="{{site.baseurl}}/categories/{{category.short_name}}">{{ category.title }}</a>
+      {% assign wordCount = post.content | number_of_words %}
+      <span class="float-right"><i>{{wordCount}} words</i></span>
+    </p>
+    <table class="blog-posts">
+      <tr>
+        {% if post.image %} 
+          <td class="column-left">
+            <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" class="blog-preview-image">
           </td>
-        </tr>
-      </table>
-      <p class="read-more"><a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">Read more</a></p>
-    </div>  
-  </a>
+        {% endif %}
+        <td>
+          <div class="blog-excerpt">
+            <p>{{ post.excerpt }}</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <p class="read-more"><a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">Read more</a></p>
+  </div>
 {% endfor %}
