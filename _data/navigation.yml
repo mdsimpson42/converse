@@ -1,9 +1,11 @@
 - name: Home
   link: /
   tooltip: Home
+  menu: home
 - name: Resources
   link: /support
   tooltip: Emergency support and other resources
+  menu: resources
   sub_items:
     - name: Get Help
       link: /support
@@ -17,20 +19,30 @@
 - name: Survey
   link: /survey
   tooltip: Mental Health Survey Results
+  menu: survey
 - name: Blog
   link: /blog/index
   tooltip: Blog Posts
+  menu: blog
   sub_items:
     - name: Authors
       link: /authors
       tooltip: Blog Contributors
 - name: About
-  link: /about
+  link: /about/converse
   tooltip: About the Site
+  menu: about
   sub_items:
+    - name: About ConveRSE
+      link: /about/converse
+      tooltip: Learn more about the ConveRSE project
+    - name: About the Site
+      link: /about/site
+      tooltip: Learn more about the ConveRSE website
     - name: Contributors
       link: /contributors
       tooltip: Site Contributors
 - name: Contribute
   link: /contribute
+  menu: contribute
   tooltip: Contribute to the Site
