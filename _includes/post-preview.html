@@ -1,6 +1,6 @@
 <div class="post-preview" onclick="location.href='{{ post.url | prepend:site.baseurl }}';">
     <div>
-      <h3 class="post-title">{{ include.title }}</h3>
+      <h3 class="post-title">{{ post.title }}</h3>
       <p class="post-date">
         <i>{{ post.date | date_to_string }}</i>
       </p>
