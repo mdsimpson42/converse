@@ -5,6 +5,7 @@ categories: [self-care]
 tags: [self_care]
 title: Working from Home
 image: wfh.jpg
+image_alt: A photo of a desk overlayed with the text "Working from Home"
 ---
 
 Working remotely has become part of most of our lives since the events of 2020. Working from home has its own challenges for

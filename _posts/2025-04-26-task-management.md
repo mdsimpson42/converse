@@ -5,6 +5,7 @@ categories: [projects]
 tags: [burnout]
 title: Task Management for Humans as Self-Care
 image: task-management.jpg
+image_alt: A photo of five people receiving a prize below the 2024 Collaborations Workshop logo.
 ---
 
 I'd been looking for ways to support mental health in the research software community,
@@ -17,7 +18,7 @@ a lot of your time splitting into groups to discuss a range of different topics.
 this includes things like Generative AI, Sustainability in High-performance Computing and
 maintenance of open-source software projects.
 
-![Alt Text]({{site.baseurl}}/assets/img/blog/task-management.jpg)
+![A photo of five people receiving a prize below the 2024 Collaborations Workshop logo.]({{site.baseurl}}/assets/img/blog/task-management.jpg)
 
 However, I had already decided to apply for the SSI Fellowship to continue the conversation around
 mental health in the community. And so, when we split into groups on day two to discuss ideas for
