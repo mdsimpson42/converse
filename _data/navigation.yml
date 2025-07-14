@@ -3,18 +3,18 @@
   tooltip: Home
   menu: home
 - name: Resources
-  link: /support
+  link: /resources
   tooltip: Emergency support and other resources
   menu: resources
   sub_items:
     - name: Get Help
-      link: /support
+      link: /resources/
       tooltip: Emergency support and other resources
     - name: Tips
-      link: /tips/
+      link: /resources/tips
       tooltip: Tips for Self-Care and More
     - name: Projects
-      link: /projects
+      link: /resources/projects
       tooltip: Other community projects
 - name: Survey
   link: /survey
