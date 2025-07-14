@@ -2,6 +2,7 @@
 ---
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 $font-colour: #222;
 
 * {
@@ -134,14 +135,21 @@ a {
     text-align: left;
 }
 
-@media (max-device-width: 752px) {
+@media (max-width: 736px) {
   .footer-text-container {
     margin-top: 20px;
     margin-bottom: 20px;
+    border-left: none;;
   }
   
   .footer-text-container p {
     text-align: center !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .quote-break { 
+    display: none; 
   }
 }
 
