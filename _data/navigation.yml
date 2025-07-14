@@ -11,7 +11,7 @@
       link: /support
       tooltip: Emergency support and other resources
     - name: Tips
-      link: /tips/self
+      link: /tips/
       tooltip: Tips for Self-Care and More
     - name: Projects
       link: /projects
