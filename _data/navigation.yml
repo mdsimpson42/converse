@@ -29,16 +29,10 @@
       link: /authors
       tooltip: Blog Contributors
 - name: About
-  link: /about/converse
+  link: /about/
   tooltip: About the Site
   menu: about
   sub_items:
-    - name: About ConveRSE
-      link: /about/converse
-      tooltip: Learn more about the ConveRSE project
-    - name: About the Site
-      link: /about/site
-      tooltip: Learn more about the ConveRSE website
     - name: Contributors
       link: /contributors
       tooltip: Site Contributors
