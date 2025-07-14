@@ -21,7 +21,7 @@
   tooltip: Mental Health Survey Results
   menu: survey
 - name: Blog
-  link: /blog/index
+  link: /blog/
   tooltip: Blog Posts
   menu: blog
   sub_items:
