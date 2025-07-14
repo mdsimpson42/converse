@@ -3,25 +3,25 @@
   tooltip: Home
   menu: home
 - name: Resources
-  link: /support
+  link: /resources
   tooltip: Emergency support and other resources
   menu: resources
   sub_items:
     - name: Get Help
-      link: /support
+      link: /resources/
       tooltip: Emergency support and other resources
     - name: Tips
-      link: /tips/self
+      link: /resources/tips
       tooltip: Tips for Self-Care and More
     - name: Projects
-      link: /projects
+      link: /resources/projects
       tooltip: Other community projects
 - name: Survey
   link: /survey
   tooltip: Mental Health Survey Results
   menu: survey
 - name: Blog
-  link: /blog/index
+  link: /blog
   tooltip: Blog Posts
   menu: blog
   sub_items:
@@ -29,16 +29,10 @@
       link: /authors
       tooltip: Blog Contributors
 - name: About
-  link: /about/converse
+  link: /about
   tooltip: About the Site
   menu: about
   sub_items:
-    - name: About ConveRSE
-      link: /about/converse
-      tooltip: Learn more about the ConveRSE project
-    - name: About the Site
-      link: /about/site
-      tooltip: Learn more about the ConveRSE website
     - name: Contributors
       link: /contributors
       tooltip: Site Contributors

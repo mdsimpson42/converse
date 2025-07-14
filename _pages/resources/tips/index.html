@@ -1,0 +1,49 @@
+---
+layout: default
+title: Tips and Advice
+menu: resources
+permalink: /resources/tips/
+---
+
+<p>
+    This section provides tips and advice on how to manage mental health and wellbeing.
+    We have divided the tips into three categories: looking after yourself, looking after your colleagues, 
+    and looking after your team.
+</p>
+<p>
+    Click on the tabs to switch between the categories.
+</p>
+<p>
+    Some of the tips have been submitted by members of the community, during various workshops and Mike's fellowship talks.
+</p>
+<div class="tips-tabs-container">
+    <div class="tips-tabs nav-item current" 
+        id ="tips-tab-self"
+        onclick="self()"
+        >
+        <!-- <i class="card-icon fa-solid fa-user"></i> -->
+        Looking after yourself
+    </div>
+    <div class="tips-tabs nav-item"
+        id="tips-tab-colleagues"
+        onclick="colleagues()"
+        >
+        <!-- <i class="card-icon fa-solid fa-user-group"></i> -->
+        Looking after your colleagues
+    </div>
+    <div class="tips-tabs nav-item"
+        id="tips-tab-team"
+        onclick="team()">
+        <!-- <i class="card-icon fa-solid fa-users"></i> -->
+        Looking after your team
+    </div>
+</div>
+<div id="tips-self">
+    {% include_relative self.html %}
+</div>
+<div id="tips-colleagues" hidden>
+    {% include_relative colleagues.html %}
+</div>
+<div id="tips-team" hidden>
+    {% include_relative team.html %}
+</div>

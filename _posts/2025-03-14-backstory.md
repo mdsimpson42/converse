@@ -5,6 +5,7 @@ categories: [stories]
 tags: [anxiety, depression, burnout]
 title: My Backstory
 image: I-Am-Your-Father.jpg
+image_alt: The Text "I am your Father" on a blue background. There is a picture of a man holding his newborn son and smiling at the camera.
 ---
 
 I became a father in April 2020, a few weeks into the UK's first COVID-19 lockdown.
@@ -26,7 +27,7 @@ It wasn’t long before I was burnt out and everything became too much to bear. 
 I had to take two months off work and give up my other responsibilities. It took me a long time –
 and a lot of hard work and therapy - to recover physically, mentally and professionally.
 
-![The Text "I am your Father" on a blue background. There is a picture of a man holding his newborn son and smiling at the camera. He looks tired! Surrounding it are multiple pictures of the bump, the baby and a man in a shop wearing a mask.]({{site.baseurl}}/assets/img/blog/I-Am-Your-Father.jpg "The Text "I am your Father" on a blue background. There is a picture of a man holding his newborn son and smiling at the camera. He looks tired! Surrounding it are multiple pictures of the bump, the baby and a man in a shop wearing a mask.")
+![The text "I am your Father" on a blue background next to a picture of a man holding his newborn son.]({{site.baseurl}}/assets/img/blog/I-Am-Your-Father.jpg)
 
 It was the most difficult time in my life, and its difficult to talk about it, even now.
 

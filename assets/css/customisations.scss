@@ -33,6 +33,7 @@ h4 {
     font-size: 1.2rem !important;
     margin-top: 1.3rem !important;
     font-weight: 500 !important;
+    color: #159957 !important;
 }
 
 a {
@@ -43,8 +44,12 @@ a {
     text-align: center;
 }
 
+.nav-item {
+    //color:pink
+}
+
 .current {
-    color: green;
+    color: #159957 !important;
     padding-bottom: 15px !important;
     border-bottom: 5px solid #159957;
 }
@@ -72,7 +77,8 @@ a {
 
 .header-title {
     color: whitesmoke;
-    font-size: 2rem;
+    font-size: 2rem !important;
+    font-weight: 500 !important;
     text-shadow: 2px 2px 4px #000;
     margin-top: 18px;
     margin-left: 10px;
@@ -165,7 +171,7 @@ a {
     text-align: center;
     font-size: larger;
     padding: 40px;
-    background-color: lightblue;
+    background-color: #d8eef5;
     border-radius: 10px;
 }
 
@@ -244,9 +250,7 @@ li {
 }
 
 .blog-content img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
 
 .post-title {
@@ -264,6 +268,15 @@ li {
 
 .author-name {
     margin-top: 40px;
+}
+
+.author-description {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.author-description h2 {
+    margin-top: 0px !important;
 }
 
 .float-right {
@@ -300,6 +313,7 @@ hr {
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     width: 32%;
+    cursor: pointer;
 }
 
 .about-tabs {
@@ -308,6 +322,7 @@ hr {
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     width: 48%;
+    cursor: pointer;
 }
 
 .about-tabs:hover {
@@ -339,7 +354,7 @@ hr {
   
 .menu {
     text-align: center;
-    background-color: lightblue;
+    background-color: #d8eef5;
 }
 
 .menu-list {
@@ -492,7 +507,7 @@ hr {
 .caption {
     text-align: center;
     font-size: 0.8rem;
-    color: grey;
+    color: rgb(112, 112, 112);
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -546,20 +561,18 @@ hr {
 
 .card {
     display: inline-block;
-    background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
     text-align: center;
-    width: 280px;
-    height: 400px;
-    background-color: lightblue;
+    width: 250px;
+    height: 320px;
+    background-color: #d8eef5;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .category-card {
-    background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -567,7 +580,7 @@ hr {
     text-align: center;
     //width: 300px;
     height: 65px;
-    background-color: lightblue;
+    background-color: #d8eef5;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -577,12 +590,12 @@ hr {
 }
 
 .card:hover {
-    background-color: #e0f7fa;
+    background-color: lightblue;
 }
 
 .card-icon {
     font-size: 50px;
-    margin-top: 50px !important;
+    margin-top: 40px !important;
     margin-bottom: 10px;
 }
 

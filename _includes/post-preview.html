@@ -24,7 +24,10 @@
       <tr>
         {% if post.image %} 
           <td class="column-left">
-            <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" class="blog-preview-image">
+            <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" 
+              class="blog-preview-image"
+              alt="{{ post.image_alt }}"
+            >
           </td>
         {% endif %}
         <td>
