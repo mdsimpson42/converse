@@ -94,7 +94,7 @@ a {
 }
 
 .page-footer {
-    background-image: linear-gradient(135deg, #155799, #159957);
+    background: #1e6bb8;
     margin-top: 10px;
     margin-bottom: 0px;
     margin-left: auto;
@@ -173,7 +173,7 @@ a {
     padding: 40px;
     background-color: #d8eef5;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .quote p {
@@ -346,7 +346,7 @@ hr {
 
 .tips-tab-content {
     background-color: rgb(216, 238, 245);
-    padding: 1rem 50px 50px 50px;
+    padding: 40px 50px 50px 50px;
 }
 
 .menu .menu-list, .menu .sub-menu {
@@ -563,7 +563,6 @@ hr {
 .card {
     display: inline-block;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
     text-align: center;
@@ -575,7 +574,6 @@ hr {
 
 .category-card {
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px 40px;
     text-align: center;
