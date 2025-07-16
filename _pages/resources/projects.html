@@ -9,13 +9,19 @@ menu: resources
     in the research software community.
 </p>
 <hr/>
+<p>
+    If you know of any more projects relating to mental health in our community that you think we should include, 
+    please let us know using the form below and we will add it to the list.
+</p>
+<div class="button-container">
+    <button onclick="window.open('https://forms.gle/MUFC3mSPAYcgPzhz8','_blank')">
+        Submit a project or community
+    </button>
+</div>
+<hr/>
 {% assign ordered_projects = site.projects %}
 {% for project in ordered_projects %}
   <h2>{{ project.title }}</h2>
   {{ project.content }}
   <hr/>
 {% endfor %}
-<p>
-    If you know of any more projects relating to mental health in our community that you think we should include on this list, 
-    please contact us via <a href="https://github.com/mdsimpson42/converse">our GitHub page</a>.
-</p>
