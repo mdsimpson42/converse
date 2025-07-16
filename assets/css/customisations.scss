@@ -615,3 +615,26 @@ hr {
     font-size: 1.8rem !important;
     font-weight: 600 !important;
 }
+
+.button-container {
+    text-align: center;
+    width: 100%
+}
+
+button {
+    background-color: #1e6bb8;
+    color: whitesmoke !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    margin-top: 10px !important;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: rgb(142, 201, 221)
+}
