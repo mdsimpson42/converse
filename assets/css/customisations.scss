@@ -232,26 +232,61 @@ li {
     white-space: nowrap;
 }
 
-.column-left {
-    width: 35%;
-}
-
 .author-column-left {
     width: 200px;
 }
 
-.blog-posts tr td {
-    padding: 0px;
-    border: none;
+.blog-posts {
+    display: flex;
+}
+
+.blog-image {
+    width: 35%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-image img {
+    width: 100%;
+    margin-top: auto !important;
+    margin-bottom: auto;
 }
 
 .blog-excerpt {
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 65%;
+    height: 200px;
+    padding-left: 40px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.blog-content img {
+.blog-excerpt-content {
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.read-more {
     width: 100%;
+    color: #1e6bb8;
+    text-align: right;
+    font-weight: normal;
+    margin-top: auto !important;
+    margin-bottom: 0px !important;
+    position: absolute;
+    bottom: 10px;
+    right: 10px
+}
+
+.read-more i {
+    padding-left: 5px;
+    color: #1e6bb8;
 }
 
 .post-title {
@@ -267,13 +302,31 @@ li {
     margin-bottom: 0px !important;
 }
 
+.author-profile-picture{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .author-name {
     margin-top: 40px;
 }
 
 .author-description {
-    padding-left: 40px;
-    padding-right: 20px;
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.author-description-content {
+    height: fit-content;
+    margin-top: auto !important;
+    margin-bottom: auto;
 }
 
 .author-description h2 {
@@ -513,20 +566,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px !important;
-}
-
-.read-more {
-    color: #1e6bb8;
-    text-align: right;
-    padding-right: 10px;
-    font-weight: normal;
-    margin-top: 0px;
-    margin-bottom: 0px !important;
-}
-
-.read-more:hover {
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 .content-image {

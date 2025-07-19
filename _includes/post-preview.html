@@ -20,22 +20,18 @@
       {% assign wordCount = post.content | number_of_words %}
       <span class="float-right"><i>{{wordCount}} words</i></span>
     </p>
-    <table class="blog-posts">
-      <tr>
-        {% if post.image %} 
-          <td class="column-left">
-            <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" 
-              class="blog-preview-image"
-              alt="{{ post.image_alt }}"
-            >
-          </td>
-        {% endif %}
-        <td>
-          <div class="blog-excerpt">
-            <p>{{ post.excerpt }}</p>
-          </div>
-        </td>
-      </tr>
-    </table>
-    <p class="read-more"><a href="{{ post.url | prepend:site.baseurl }}" class="post-preview-link">Read more</a></p>
+    <div class="blog-posts">
+      <div class="blog-image">
+        <img src="{{site.baseurl}}/assets/img/blog/{{ post.image }}" 
+          class="blog-preview-image"
+          alt="{{ post.image_alt }}"
+        >
+      </div>
+      <div class="blog-excerpt">
+        <div class="blog-excerpt-content">
+          <p>{{ post.excerpt }}</p>
+          <p class="read-more">Read more <i class="fa-solid fa-circle-right"></i></p>
+        </div>
+      </div>
+    </div>
   </div>
