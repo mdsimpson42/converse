@@ -40,6 +40,11 @@ a {
     font-weight: 500 !important;
 }
 
+.main-content {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
 .align-center {
     text-align: center;
 }
@@ -95,7 +100,7 @@ a {
 
 .page-footer {
     background: #1e6bb8;
-    margin-top: 10px;
+    //margin-top: 10px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -206,8 +211,8 @@ li {
 }
 
 .post-preview {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px !important;
+    margin-bottom: 0px;
     padding: 20px;
     background-color: rgb(216, 238, 245);
     border-top: 1px solid grey;
@@ -302,8 +307,13 @@ li {
     margin-bottom: 0px !important;
 }
 
-.author-profile-picture{
+.author-card {
+    display: flex;
+}
+
+.author-profile-picture {
     height: 200px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,13 +324,31 @@ li {
 }
 
 .author-description {
-    height: 200px;
     padding-left: 30px;
     padding-right: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 673px) {
+    .author-card {
+        display: block;
+    }
+
+    .author-profile-picture {
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+
+    .author-description {
+        height: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 .author-description-content {
