@@ -1,0 +1,18 @@
+<a href="{{ author.url | prepend:site.baseurl }}" class="post-preview-link">
+    <div class="post-preview">
+        <div class="author-card">
+            {% if author.image %} 
+            <img src="{{site.baseurl}}/assets/img/contributors/{{ author.image }}" 
+                class="author-profile-picture"
+                alt="{{ author.title}}'s profile picture"
+            >
+            {% endif %}
+            <div class="author-description">
+                <div class="author-description-content">
+                    <h2>{{ author.title }}</h2>
+                    <p>{{ author.excerpt }}</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+</a>

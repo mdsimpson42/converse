@@ -9,4 +9,6 @@ tags: [author, contributor]
 menu: about
 ---
 
-Dave Horsfall...
+Dave Horsfall is a 2022 SSI fellow, who conducted a survey into mental health in the research software community.
+
+Dave is the Head of Biomedical Research Software at Newcastle University, where he leads a team of software engineers...

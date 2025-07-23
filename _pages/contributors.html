@@ -7,27 +7,6 @@ permalink: /contributors
 <p>The following people have contributed to the development of this site.</p>
 <p>Click an contributors's card below to learn more about them and see their posts.</p>
 {% assign ordered_contributors = site.contributors | where: 'tags', 'contributor' | sort:"order_number" %}
-{% for contributor in ordered_contributors %}
-  <a href="{{ contributor.url | prepend:site.baseurl }}" class="post-preview-link">
-    <div class="post-preview">
-      <table class="blog-posts">
-        <tr>
-          {% if contributor.image %} 
-          <td class="author-column-left">
-            <img src="{{site.baseurl}}/assets/img/contributors/{{ contributor.image }}" 
-              class="blog-preview-image"
-              alt="{{ contributor.title}}'s profile picture"
-            >
-          </td>
-          {% endif %}
-          <td>
-            <div class="author-description">
-              <h2>{{ contributor.title }}</h2>
-              <p>{{ contributor.excerpt }}</p>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>  
-  </a>
+{% for author in ordered_contributors %}
+  {% include contributor.html %}
 {% endfor %}

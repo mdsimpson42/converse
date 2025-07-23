@@ -8,26 +8,5 @@ permalink: /authors
 <p>Click an author's card below to learn more about them and see their posts.</p>
 {% assign ordered_authors = site.contributors | where: 'tags', 'author' | sort:"order_number" %}
 {% for author in ordered_authors %}
-  <a href="{{ author.url | prepend:site.baseurl }}" class="post-preview-link">
-    <div class="post-preview">
-      <table class="blog-posts">
-        <tr>
-          {% if author.image %} 
-          <td class="author-column-left">
-            <img src="{{site.baseurl}}/assets/img/contributors/{{ author.image }}" 
-              class="blog-preview-image"
-              alt="{{ author.title}}'s profile picture"
-            >
-          </td>
-          {% endif %}
-          <td>
-            <div class="author-description">
-              <h2>{{ author.title }}</h2>
-              <p>{{ author.excerpt }}</p>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>  
-  </a>
+    {% include contributor.html %}
 {% endfor %}
