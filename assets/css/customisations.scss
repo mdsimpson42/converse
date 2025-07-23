@@ -225,9 +225,11 @@ li {
 }
 
 .blog-image {
+    background-color: rgba(169, 204, 215, 0.5);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid lightblue;
 }
 
 .blog-preview-image {
@@ -277,6 +279,32 @@ li {
     margin-bottom: auto;
 }
 
+@media (max-width: 673px) {
+    .blog-excerpt {
+        height: fit-content;
+    }
+
+    .blog-posts {
+        display: block;
+    }
+
+    .blog-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-excerpt {
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .blog-excerpt-content {
+        padding-bottom: 40px;
+    }
+}
+
 .read-more {
     width: 100%;
     color: #1e6bb8;
@@ -301,10 +329,27 @@ li {
     margin-bottom: 0px !important;
 }
 
-.post-date {
+.post-date-wide {
     float: right;
-    margin-top: 0px;
+    margin-top: 0px !important;
     margin-bottom: 0px !important;
+    padding-top: 7px;
+    height: 38px;
+}
+
+.post-date-mobile {
+    float: right;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 12px;
+    height: 38px;
+    display: none;
+}
+
+.post-preview-header {
+    //min-height: 38px;
+    overflow: hidden;
+    padding-bottom: 5px;
 }
 
 .author-card {
@@ -320,7 +365,9 @@ li {
 }
 
 .author-name {
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
 }
 
 .author-description {
@@ -330,6 +377,14 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.word-count {
+    margin-left: auto;
+}
+
+.post-preview-image {
+    padding-top: 0px;
 }
 
 @media (max-width: 673px) {
@@ -342,12 +397,39 @@ li {
         width: 100%;
         margin-bottom: 20px;
     }
-    
 
     .author-description {
         height: fit-content;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .author-name {
+        display: block;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .post-date-mobile {
+        display: block;
+    }
+
+    .post-date-wide {
+        display: none;
+    }
+
+    .word-count {
+        display: none;
+    }
+
+    .post-preview-header {
+        padding-bottom: 10px;
+    }
+
+    .post-preview-image {
+        padding-top: 10px !important;
     }
 }
 
