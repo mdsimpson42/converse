@@ -42,7 +42,7 @@ a {
 
 .main-content {
     padding-top: 22px;
-    padding-bottom: 22px;
+    padding-bottom: 27px;
 }
 
 .align-center {
@@ -179,6 +179,10 @@ a {
     background-color: #d8eef5;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.light-quote {
+    background-color: whitesmoke;
 }
 
 .quote p {
@@ -461,6 +465,10 @@ hr {
     margin-bottom: 30px !important;
 }
 
+.blog-content img {
+    width: 100%;
+}
+
 .tags {
     margin-top: 30px;
 }
@@ -509,7 +517,7 @@ hr {
 
 .tips-tab-content {
     background-color: rgb(216, 238, 245);
-    padding: 40px 50px 50px 50px;
+    padding: 40px 50px 30px 50px;
 }
 
 .menu .menu-list, .menu .sub-menu {
@@ -787,4 +795,8 @@ button {
 
 button:hover {
     background: rgb(142, 201, 221)
+}
+
+.top-padding {
+    padding-top: 10px;
 }
