@@ -20,7 +20,7 @@ and deal with a range of health problems without any outside support. They say "
 but we were on our own.
 
 The first few weeks were chaotic, as I had to look after my wife - who had developed mastitis and anaemia -
-and we both had to look after my son - who had acquired a broken collarbone during his 'dramatic arrival'.  
+and we both had to look after my son - who had acquired a broken collarbone during his 'dramatic arrival'.
 Meanwhile, I had to return to work (from home), and pressures continued to mount.
 
 It wasn’t long before I was burnt out and everything became too much to bear. The resulting anxiety attack meant
