@@ -40,10 +40,10 @@ a {
     font-weight: 500 !important;
 }
 
-.main-content {
-    padding-top: 22px;
-    padding-bottom: 22px;
-}
+// .main-content {
+//     //padding-top: 22px;
+//     //padding-bottom: 27px;
+// }
 
 .align-center {
     text-align: center;
@@ -181,6 +181,10 @@ a {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.light-quote {
+    background-color: whitesmoke;
+}
+
 .quote p {
     margin: 0;
     font-size: 1.2rem;
@@ -202,8 +206,13 @@ ul li {
     padding-left: 10px;
 }
 
+ol {
+    padding-left: 30px;
+}
+
 ol li {
     padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 li {
@@ -277,6 +286,10 @@ li {
     height: fit-content;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.contributor-card {
+    margin-bottom: 30px;
 }
 
 @media (max-width: 673px) {
@@ -402,6 +415,7 @@ li {
         height: fit-content;
         padding-left: 10px;
         padding-right: 10px;
+        display: block;
     }
 
     .author-name {
@@ -430,6 +444,19 @@ li {
 
     .post-preview-image {
         padding-top: 10px !important;
+    }
+
+    .tips-tab-content {
+        padding: 25px 30px 30px 30px !important;
+    }
+
+    ol {
+        padding-left: 20px;
+    }
+
+    .main-content {
+        padding-top: 22px;
+        //padding-bottom: 27px;
     }
 }
 
@@ -461,6 +488,10 @@ hr {
     margin-bottom: 30px !important;
 }
 
+.blog-content img {
+    width: 100%;
+}
+
 .tags {
     margin-top: 30px;
 }
@@ -469,6 +500,7 @@ hr {
     text-align: center;
     width: 100%;
     border-bottom: 1px solid rgb(201, 229, 238);
+    height: max-content;
 }
 
 .tips-tabs {
@@ -478,6 +510,7 @@ hr {
     padding-bottom: 1.2rem;
     width: 32%;
     cursor: pointer;
+    height: 100%;
 }
 
 .about-tabs {
@@ -509,7 +542,7 @@ hr {
 
 .tips-tab-content {
     background-color: rgb(216, 238, 245);
-    padding: 40px 50px 50px 50px;
+    padding: 40px 50px 30px 50px;
 }
 
 .menu .menu-list, .menu .sub-menu {
@@ -787,4 +820,8 @@ button {
 
 button:hover {
     background: rgb(142, 201, 221)
+}
+
+.top-padding {
+    padding-top: 10px;
 }

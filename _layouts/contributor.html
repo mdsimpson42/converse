@@ -2,19 +2,20 @@
 layout: default
 ---
 
-<table class="blog-posts">
-    <tr>
-        <td class="column-left">
-        <img src="{{site.baseurl}}/assets/img/contributors/{{page.image}}">
-        </td>
-        <td>
-        <div class="blog-excerpt">
-            <p>{{page.job_title}}</p>
-            <p>{{page.institution}}</p>
+<div class="author-card contributor-card">
+    <img src="{{site.baseurl}}/assets/img/contributors/{{ page.image }}" 
+        class="author-profile-picture"
+        alt="{{ page.title}}'s profile picture"
+    >
+    <div class="author-description">
+        <div class="author-description-content">
+            <ul>
+            <li>{{ page.job_title }}</li>
+            <li>{{ page.institution }}</li>
+            </ul>
         </div>
-        </td>
-    </tr>
-</table>
+    </div>
+</div>
 
 {{ content }}
 
