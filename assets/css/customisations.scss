@@ -40,10 +40,10 @@ a {
     font-weight: 500 !important;
 }
 
-.main-content {
-    padding-top: 22px;
-    padding-bottom: 27px;
-}
+// .main-content {
+//     //padding-top: 22px;
+//     //padding-bottom: 27px;
+// }
 
 .align-center {
     text-align: center;
@@ -206,8 +206,13 @@ ul li {
     padding-left: 10px;
 }
 
+ol {
+    padding-left: 30px;
+}
+
 ol li {
     padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 li {
@@ -281,6 +286,10 @@ li {
     height: fit-content;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.contributor-card {
+    margin-bottom: 30px;
 }
 
 @media (max-width: 673px) {
@@ -406,6 +415,7 @@ li {
         height: fit-content;
         padding-left: 10px;
         padding-right: 10px;
+        display: block;
     }
 
     .author-name {
@@ -434,6 +444,19 @@ li {
 
     .post-preview-image {
         padding-top: 10px !important;
+    }
+
+    .tips-tab-content {
+        padding: 25px 30px 30px 30px !important;
+    }
+
+    ol {
+        padding-left: 20px;
+    }
+
+    .main-content {
+        padding-top: 22px;
+        //padding-bottom: 27px;
     }
 }
 
@@ -477,6 +500,7 @@ hr {
     text-align: center;
     width: 100%;
     border-bottom: 1px solid rgb(201, 229, 238);
+    height: max-content;
 }
 
 .tips-tabs {
@@ -486,6 +510,7 @@ hr {
     padding-bottom: 1.2rem;
     width: 32%;
     cursor: pointer;
+    height: 100%;
 }
 
 .about-tabs {
