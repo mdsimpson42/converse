@@ -396,6 +396,11 @@ li {
     margin-left: auto;
 }
 
+.post-word-count {
+    float: right;
+    margin-left: auto;
+}
+
 .post-preview-image {
     padding-top: 0px;
 }
@@ -438,6 +443,10 @@ li {
         display: none;
     }
 
+    .post-word-count {
+        display: none;
+    }
+
     .post-preview-header {
         padding-bottom: 10px;
     }
@@ -457,6 +466,14 @@ li {
     .main-content {
         padding-top: 22px;
         //padding-bottom: 27px;
+    }
+
+    .post-details {
+        display: block !important;
+    }
+
+    .date-icon {
+        margin-left: 20px;
     }
 }
 
@@ -790,7 +807,9 @@ hr {
 }
 
 .post-details {
+    width: 100%;
     margin-bottom: 0px !important;
+    display: inline-flex;
 }
 
 .category-title {
