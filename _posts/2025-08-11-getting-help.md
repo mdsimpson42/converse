@@ -3,9 +3,9 @@ author: mike_simpson
 date: 2025-08-11
 categories: [self-care]
 tags: [impostor_syndrome]
-title: Let's talk about Getting Support
-image: impostor-syndrome.jpg
-image_alt: A photo of something
+title: Let's talk about Getting Help
+image: getting-help.jpg
+image_alt: Let's talk about Getting Help
 ---
 
 One of the questions I've been asked while giving my mental health talk is "where can I get support?"
