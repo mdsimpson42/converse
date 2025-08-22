@@ -3,7 +3,7 @@ author: mike_simpson
 date: 2025-06-22
 categories: [self-care]
 tags: [impostor_syndrome]
-title: Supporting your team
+title: Let's talk about Supporting your team
 image: impostor-syndrome.jpg
 image_alt: A photo of something
 ---

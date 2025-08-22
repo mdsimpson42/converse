@@ -3,7 +3,7 @@ author: mike_simpson
 date: 2025-05-09
 categories: [self-care]
 tags: [impostor_syndrome]
-title: Managing Impostor Syndrome
+title: Let's talk about Impostor Syndrome
 image: impostor-syndrome.jpg
 image_alt: A photo of something
 ---

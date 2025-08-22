@@ -3,7 +3,7 @@ author: mike_simpson
 date: 2025-08-11
 categories: [self-care]
 tags: [impostor_syndrome]
-title: Where to get Support
+title: Let's talk about Getting Support
 image: impostor-syndrome.jpg
 image_alt: A photo of something
 ---
