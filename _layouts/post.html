@@ -2,22 +2,28 @@
 layout: default
 ---
 
-<p class="post-details">
-  <i class="fa-solid fa-user-large" title="Author"></i>&nbsp; {% assign author = site.contributors | where: 'short_name', page.author | first %}
-  {% if author %}
-    <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
-  {% endif %}
-  <span class="separator"> | </span><i class="fa-solid fa-calendar-days" title="Date"></i>&nbsp; {{ page.date | date_to_string }}
-  <span class="separator"> | </span><i class="fa-solid fa-folder-open" title="Categories"></i>&nbsp; 
+<div class="post-details">
+  <div>
+    <i class="fa-solid fa-user-large" title="Author"></i>&nbsp; {% assign author = site.contributors | where: 'short_name', page.author | first %}
+    {% if author %}
+      <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
+    {% endif %}
+    <span class="separator"> | </span>
+    <i class="fa-solid fa-calendar-days date-icon" title="Date"></i>&nbsp; {{ page.date | date_to_string }}
+  </div>
+  <span class="separator"> | </span>
+  <div>
+    <i class="fa-solid fa-folder-open" title="Categories"></i>&nbsp; 
     {% for page_category in page.categories %}
       {% assign category = site.categories
       | where_exp:"category", "category.short_name == page_category" 
       | first %}
       <a href="{{site.baseurl}}/categories/{{ category.short_name }}">{{category.title}}</a>
-    {% endfor %} 
+    {% endfor %}
+  </div>
   {% assign wordCount = page.content | number_of_words %}
-  <span class="float-right"><i>{{ wordCount }} words</i></span>
-</p>
+  <span class="post-word-count"><i>{{ wordCount }} words</i></span>
+</div>
 <p class="post-tags">
   <i class="fa-solid fa-tags" title="Tags"></i>&nbsp;
   {% for page_tag in page.tags %}

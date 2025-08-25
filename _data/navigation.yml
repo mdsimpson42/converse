@@ -16,6 +16,10 @@
     - name: Projects
       link: /resources/projects
       tooltip: Other community projects
+- name: Talks
+  link: /talks
+  tooltip: Mental Health Talks
+  menu: talks
 - name: Survey
   link: /survey
   tooltip: Mental Health Survey Results
