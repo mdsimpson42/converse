@@ -30,6 +30,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      permalink: /:year/:month/:day/:title.html
   - scope:
       path: ""
       type: "tags"
