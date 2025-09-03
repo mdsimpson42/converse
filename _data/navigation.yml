@@ -16,6 +16,9 @@
     - name: Projects
       link: /resources/projects
       tooltip: Other community projects
+    - name: Downloads
+      link: /resources/downloads
+      tooltip: Other resources and downloads
 - name: Talks
   link: /talks
   tooltip: Mental Health Talks
