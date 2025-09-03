@@ -2,20 +2,11 @@
 layout: default
 ---
 
-<div class="author-card contributor-card">
-    <img src="{{site.baseurl}}/assets/img/contributors/{{ page.image }}" 
-        class="author-profile-picture"
-        alt="{{ page.title}}'s profile picture"
-    >
-    <div class="author-description">
-        <div class="author-description-content">
-            <ul>
-            <li>{{ page.job_title }}</li>
-            <li>{{ page.institution }}</li>
-            </ul>
-        </div>
-    </div>
-</div>
+{% assign name = page.title %}
+{% assign image = page.image %}
+{% assign job_title = page.job_title %}
+{% assign institution = page.institution %}
+{% include contributor-profile.html %}
 
 {{ content }}
 
