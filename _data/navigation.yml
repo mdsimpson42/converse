@@ -43,7 +43,16 @@
     - name: Contributors
       link: /contributors
       tooltip: Site Contributors
-- name: Contribute
-  link: /contribute
-  menu: contribute
-  tooltip: Contribute to the Site
+- name: Get Involved
+  link: /join-the-conversation
+  tooltip: Get Involved
+  menu: get-involved
+  sub_items:
+    - name: Join the Conversation
+      link: /join-the-conversation
+      tooltip: Join the Conversation
+    - name: Contribute
+      link: /contribute
+      menu: get-involved
+      tooltip: Contribute to the Site
+
