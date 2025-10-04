@@ -41,7 +41,7 @@ If there are [Mental Health First Aiders](https://mhfaengland.org/mhfa-centre/bl
 in your team or institution, they can be a great first point of contact. You can talk to them anonymously, and they can signpost
 other resources and services.
 
-I [qualified as a Mental Health First Aider](https://www.software.ac.uk/blog/becoming-mental-health-first-aider) in 2025, 
+I [qualified as a Mental Health First Aider](https://www.software.ac.uk/blog/becoming-mental-health-first-aider) in 2025,
 as part of my preparation for the SSI fellowship. I found the training to be really useful, and I would definitely say that any
 group would benefit from having at least one MHFAider on their team.
 
