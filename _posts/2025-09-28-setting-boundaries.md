@@ -70,8 +70,8 @@ or if you are struggling with your mental health.
 
 ## A Note for Managers
 
-Finally, to any managers reading this who may be disgusted by some of these suggestions: stop micromanaging and show some
-trust in your team!
+Finally, to any managers reading this who may not approve of some of these suggestions: trust in your team and
+respect their diversity!
 
 I've said it so many times, but if the people on your team have good mental health and life-work balance, then
 they will be more productive. You can't force them to be productive by imposing rules on them! Also, everyone is different.
