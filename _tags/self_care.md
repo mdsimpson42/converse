@@ -5,5 +5,5 @@ menu: blog
 ---
 
 The blog posts below contain tips and advice for looking after yourself at work or at home.
-It's important to look after both your physically and mental health to ensure you are happy
+It's important to look after both your physical and mental health to ensure you are happy
 and productive.
