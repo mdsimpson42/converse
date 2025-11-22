@@ -1,11 +1,13 @@
 ---
+title: Issues and Solutions from the Research Software Community
 author: mike_simpson
 date: 2025-11-19
 categories: [miscellaneous]
 tags: [Conversations]
-title: Issues and Solutions from the Research Software Community
 image: mentimeter.jpg
-image_alt: Alt Text
+image_alt: Word cloud showing common words mentioned in responses to two questions about mental health in the workplace.
+image_alt_one: A graph showing the number of times that each challenge or barrier was mentioned in response to question one of the survey.
+image_alt_two: A graph showing the number of times that each suggestion was made in response to question two of the survey.
 ---
 
 As part of the ConveRSE project, I've been using Mentimeter to collect data from attendees of my
@@ -57,7 +59,7 @@ There is more work to be done, but this initial processing has allowed us to tak
 
 Question 1 was “What are the biggest challenges/barriers to mental health in the workplace?” The graph below shows the number of times each of the most common issues was mentioned.
 
-![A graph showing the number of times that each challenge or barrier was mentioned in response to question one of the survey.]({{site.baseurl}}/assets/img/blog/question-one.jpg)
+![{{ page.image_alt_one }}]({{site.baseurl}}/assets/img/blog/question-one.jpg)
 
 The three most reported issues were: Workload (22 responses), Context Switching (13) and Impostor Syndrome (11). These are common issues that have cropped up in various conversations over the last few months. You could argue that these are just part of everyday life for RSEs, but there must also be more that we can do to mitigate these issues, or to support people who are struggling with them.
 
@@ -72,12 +74,11 @@ This data seems to support my current conclusions from my Fellowship so far:
 
 Question 2 was “Do you have any tips or advice for managing mental health or any good examples of things people have done to support the morale of their teams?”. The graph below shows the number of times each suggestion was made.
 
-![A graph showing the number of times that each suggestion was made in response to question two of the survey.]({{site.baseurl}}/assets/img/blog/question-two.jpg)
+![{{ page.image_alt_two }}]({{site.baseurl}}/assets/img/blog/question-two.jpg)
 
 The top three suggestions were Exercise (25), Socialising - both with colleagues and outside of work - (24) and Setting Boundaries (21). Touching Grass (i.e. getting out into nature) was another popular one, along with hobbies, mindfulness and making sure to take breaks and holidays.
 
-Setting Boundaries is anything that involves establishing a clear separation between work and home, such as breaking up the day when working from home and protecting personal time. Similarly, there is “No Notifications” (8), which could mean not having work Slack or work emails on your phone, or having designated quiet times where you focus on work without interruptions (Incidentally, I have recently written [a blog post about both of these things]({{site.baseurl}}/2025/09/28/setting-boundaries)).
-
+Setting Boundaries is anything that involves establishing a clear separation between work and home, such as breaking up the day when working from home and protecting personal time. Similarly, there is “No Notifications” (8), which could mean not having work Slack or work emails on your phone, or having designated quiet times where you focus on work without interruptions (Incidentally, I have recently written [a blog post about both of these things]({{site.baseurl}}/2025/09/28/setting-boundaries))).
 There were also a few interesting insights that came out of the data, even though they weren’t the top-scoring categories. For example, a few of the suggestions were specifically to find hobbies “that do not look like work”. I’m guilty of this; a lot of my hobbies involve sitting in the same room, at the same desk, using the same computer and staring at the same screen that I’ve just been using all day for work!
 
 ## Final Thoughts

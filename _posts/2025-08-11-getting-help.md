@@ -1,9 +1,9 @@
 ---
+title: Let's talk about Getting Help
 author: mike_simpson
 date: 2025-08-11
 categories: [self-care]
 tags: [self_care]
-title: Let's talk about Getting Help
 image: getting-help.jpg
 image_alt: Let's talk about Getting Help
 ---

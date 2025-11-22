@@ -1,9 +1,9 @@
 ---
+title: Task Management for Humans as Self-Care
 author: mike_simpson
 date: 2025-04-25
 categories: [projects]
 tags: [burnout]
-title: Task Management for Humans as Self-Care
 image: task-management.jpg
 image_alt: A photo of five people receiving a prize below the 2024 Collaborations Workshop logo.
 ---
@@ -19,7 +19,7 @@ The event takes place over three days, and you spend most of it splitting into g
 Usually, this includes things like generative AI, sustainability in high-performance computing and
 maintenance of open-source software projects.
 
-![A photo of five people receiving a prize below the 2024 Collaborations Workshop logo.]({{site.baseurl}}/assets/img/blog/task-management.jpg)
+![{{ page.image_alt }}]({{site.baseurl}}/assets/img/blog/task-management.jpg)
 
 However, I had already decided to apply for the [SSI Fellowship](https://www.software.ac.uk/ssi-fellowship)
 to continue the conversation around mental health in the community. And so, when we split into groups on day two

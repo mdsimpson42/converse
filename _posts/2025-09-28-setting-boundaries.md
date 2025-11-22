@@ -1,9 +1,9 @@
 ---
+title: Let's talk about Setting Boundaries
 author: mike_simpson
 date: 2025-09-28
 categories: [self-care]
 tags: [self_care]
-title: Let's talk about Setting Boundaries
 image: setting-boundaries.jpg
 image_alt: Let's talk about Setting Boundaries
 ---

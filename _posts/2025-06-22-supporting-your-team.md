@@ -1,9 +1,9 @@
 ---
+title: Let's talk about Supporting your Team
 author: mike_simpson
 date: 2025-06-22
 categories: [conversations]
 tags: [leadership]
-title: Let's talk about Supporting your Team
 image: supporting-your-team.jpg
 image_alt: Let's talk about Supporting your Team
 ---

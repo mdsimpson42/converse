@@ -1,9 +1,9 @@
 ---
+title: My Backstory
 author: mike_simpson
 date: 2025-03-14
 categories: [stories]
 tags: [anxiety, depression, burnout]
-title: My Backstory
 image: I-Am-Your-Father.jpg
 image_alt: The Text "I am your Father" on a blue background. There is a picture of a man holding his newborn son and smiling at the camera.
 ---
@@ -27,7 +27,7 @@ It wasn’t long before I was burnt out and everything became too much to bear. 
 I had to take two months off work and give up my other responsibilities. It took me a long time –
 and a lot of hard work and therapy - to recover physically, mentally and professionally.
 
-![The text "I am your Father" on a blue background next to a picture of a man holding his newborn son.]({{site.baseurl}}/assets/img/blog/I-Am-Your-Father.jpg)
+![{{ page.image_alt }}]({{site.baseurl}}/assets/img/blog/I-Am-Your-Father.jpg)
 
 It was the most difficult time in my life, and its difficult to talk about it, even now.
 

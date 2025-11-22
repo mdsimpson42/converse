@@ -1,9 +1,9 @@
 ---
+title: Let's talk about Impostor Syndrome
 author: mike_simpson
 date: 2025-05-09
 categories: [self-care]
 tags: [impostor_syndrome]
-title: Let's talk about Impostor Syndrome
 image: impostor-syndrome.jpg
 image_alt: Let's talk about Impostor Syndrome
 ---
