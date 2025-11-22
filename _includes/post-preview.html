@@ -36,7 +36,13 @@
       </div>
       <div class="blog-excerpt">
         <div class="blog-excerpt-content">
-          <p>{{ post.excerpt }}</p>
+          <p>
+            {% if post.excerpt | number_of_words > 51 %}
+              {{ post.excerpt | truncatewords: 51 }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}
+          </p>
           <p class="read-more">Read more <i class="fa-solid fa-circle-right"></i></p>
         </div>
       </div>
