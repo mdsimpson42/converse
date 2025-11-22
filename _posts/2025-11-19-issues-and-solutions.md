@@ -57,7 +57,7 @@ There is more work to be done, but this initial processing has allowed us to tak
 
 Question 1 was “What are the biggest challenges/barriers to mental health in the workplace?” The graph below shows the number of times each of the most common issues was mentioned.
 
-[IMAGE]
+![A graph showing the number of times that each challenge or barrier was mentioned in response to question one of the survey.]({{site.baseurl}}/assets/img/blog/question-one.jpg)
 
 The three most reported issues were: Workload (22 responses), Context Switching (13) and Impostor Syndrome (11). These are common issues that have cropped up in various conversations over the last few months. You could argue that these are just part of everyday life for RSEs, but there must also be more that we can do to mitigate these issues, or to support people who are struggling with them.
 
@@ -72,7 +72,7 @@ This data seems to support my current conclusions from my Fellowship so far:
 
 Question 2 was “Do you have any tips or advice for managing mental health or any good examples of things people have done to support the morale of their teams?”. The graph below shows the number of times each suggestion was made.
 
-[IMAGE]
+![A graph showing the number of times that each suggestion was made in response to question two of the survey.]({{site.baseurl}}/assets/img/blog/question-two.jpg)
 
 The top three suggestions were Exercise (25), Socialising - both with colleagues and outside of work - (24) and Setting Boundaries (21). Touching Grass (i.e. getting out into nature) was another popular one, along with hobbies, mindfulness and making sure to take breaks and holidays.
 
