@@ -17,7 +17,7 @@ my recent blog post on the SSI website).
 
 ## The Questions
 
-At the end of the talk, I switched over to Mentimeter -  an interactive tool that allows the audience to use their phones or laptops to respond to questions from the presenter.
+At the end of the talk, I switched over to Mentimeter - an interactive tool that allows the audience to use their phones or laptops to respond to questions from the presenter.
 
 I ask two questions during the talk:
 
