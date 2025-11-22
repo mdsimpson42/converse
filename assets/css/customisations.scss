@@ -771,7 +771,7 @@ hr {
 .cards {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: left;
+    justify-content: center; //left
     align-items: flex-start;
     overflow-x: auto;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -793,7 +793,8 @@ hr {
     margin: 10px;
     padding: 20px;
     text-align: center;
-    width: 250px;
+    width: 90%;
+    min-width: 230px;
     height: 320px;
     background-color: #d8eef5;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
