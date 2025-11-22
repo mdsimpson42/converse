@@ -26,7 +26,7 @@ and provide different services, but hopefully this will give you a few possible 
 Your first port of call should be your line manager. They may be able to provide support or make accommodations
 for you if you are struggling.
 
-As I said in my [how to support your team blog post]({{site.baseurl}}/blog/supporting-your-team),
+As I said in my [how to support your team blog post]({{site.baseurl}}/2025/06/22/supporting-your-team),
 there may be limits to what your line manager can do to support you. And, sadly, this question often seems to come from people
 submitting anonymously, who are asking where to get help if their line manager is unwilling or unable to provide
 the support they need. It can be frustrating, as I know all too well. It can also feel like they

@@ -34,7 +34,7 @@ So, was that the case? Well, let’s take a look at the data, but first, some co
 
 First, some stats:
 
-- 108 participants logged on to Mentimeter during various talks, including at RSECon and the Turing. 
+- 108 participants logged on to Mentimeter during various talks, including at RSECon and the Turing.
 - Each question received responses from around 87% of the participants.
 - Participants can submit multiple responses to each question. We got 128 responses to Question 1 and 197 responses to Question 2.
 
@@ -76,7 +76,7 @@ Question 2 was “Do you have any tips or advice for managing mental health or a
 
 The top three suggestions were Exercise (25), Socialising - both with colleagues and outside of work - (24) and Setting Boundaries (21). Touching Grass (i.e. getting out into nature) was another popular one, along with hobbies, mindfulness and making sure to take breaks and holidays.
 
-Setting Boundaries is anything that involves establishing a clear separation between work and home, such as breaking up the day when working from home and protecting personal time. Similarly, there is “No Notifications” (8), which could mean not having work Slack or work emails on your phone, or having designated quiet times where you focus on work without interruptions (Incidentally, I have recently written [a blog post about both of these things]()).
+Setting Boundaries is anything that involves establishing a clear separation between work and home, such as breaking up the day when working from home and protecting personal time. Similarly, there is “No Notifications” (8), which could mean not having work Slack or work emails on your phone, or having designated quiet times where you focus on work without interruptions (Incidentally, I have recently written [a blog post about both of these things]({{site.baseurl}}/2025/09/28/setting-boundaries)).
 
 There were also a few interesting insights that came out of the data, even though they weren’t the top-scoring categories. For example, a few of the suggestions were specifically to find hobbies “that do not look like work”. I’m guilty of this; a lot of my hobbies involve sitting in the same room, at the same desk, using the same computer and staring at the same screen that I’ve just been using all day for work!
 
