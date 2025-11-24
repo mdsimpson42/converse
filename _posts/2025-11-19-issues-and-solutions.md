@@ -3,7 +3,7 @@ title: Issues and Solutions from the Research Software Community
 author: mike_simpson
 date: 2025-11-19
 categories: [miscellaneous]
-tags: [Conversations]
+tags: [self_care]
 image: mentimeter.jpg
 image_alt: Word cloud showing common words mentioned in responses to two questions about mental health in the workplace.
 image_alt_one: A graph showing the number of times that each challenge or barrier was mentioned in response to question one of the survey.

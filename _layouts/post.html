@@ -24,15 +24,19 @@ layout: default
   {% assign wordCount = page.content | number_of_words %}
   <span class="post-word-count"><i>{{ wordCount }} words</i></span>
 </div>
+
 <p class="post-tags">
-  <i class="fa-solid fa-tags" title="Tags"></i>&nbsp;
-  {% for page_tag in page.tags %}
-      {% assign tag = site.tags
-      | where_exp:"tag", "tag.short_name == page_tag" 
-      | first %}
-    <a href="{{site.baseurl}}/tags/{{ page_tag }}">{{ tag.title }}</a>{% if forloop.last != true %},{% endif %}
-  {% endfor %}
+  {% if page.tags.size > 0 %}
+    <i class="fa-solid fa-tags" title="Tags"></i>&nbsp;
+    {% for page_tag in page.tags %}
+        {% assign tag = site.tags
+        | where_exp:"tag", "tag.short_name == page_tag" 
+        | first %}
+      <a href="{{site.baseurl}}/tags/{{ page_tag }}">{{ tag.title }}</a>{% if forloop.last != true %},{% endif %}
+    {% endfor %}
+  {% endif %}
 </p>
+
 <div class="blog-content">
   {{ content }}
 </div>

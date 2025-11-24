@@ -1,9 +1,9 @@
 ---
-title: A few clarifications
+title: A Few Clarifications
 author: mike_simpson
 date: 2025-10-28
 categories: [miscellaneous]
-tags: [Conversations]
+tags: []
 image: chandler.jpg
 ---
 
