@@ -2,6 +2,7 @@ baseurl: /converse
 
 include: ['_pages']
 
+repository: mdsimpson42/converse
 remote_theme: pages-themes/cayman@v0.2.0
 
 title: ConveRSE
