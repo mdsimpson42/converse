@@ -2,7 +2,8 @@
 layout: default
 title: Blog
 menu: blog
-permalink: /blog
+pagination:
+  enabled: true
 ---
 <p>
   Welcome to the blog. This is where you can find the latest posts from the ConveRSE Community.
@@ -20,29 +21,22 @@ permalink: /blog
   </li>
 </ul>
 <hr>
-<!-- <h2>Categories</h2>
-<p>
-  You can also filter by category using the links below or view our 
-  <a href="{{ "/authors.html" | prepend:site.baseurl }}">list of authors</a>.
-</p>
-<div class="cards small">
-{% for category in site.categories %} 
-    <a class="card-link" href="{{ category.url | prepend:site.baseurl }}"><div class="category-card">
-        <h3>{{ category.title }}</h3>
-    </div></a>
-{% endfor %}
-</div> -->
-<!-- <div class="tags">
-  <p class="align-center">Tags: |
-  {% for tag in site.tags %}
-        <a href="{{ tag.url | prepend:site.baseurl }}">{{ tag.title }}</a> | 
-  {% endfor %}
-  </p>
-</div>
-<hr> -->
 <h2>Latest Posts</h2>
 <p>View the latest posts below. Click on an author, category or tag to filter the results.</p>
-{% assign ordered_posts = site.posts | sort:"date" | reverse %}
-{% for post in ordered_posts %}
-  {% include post-preview.html %}
+{% for post in paginator.posts %}
+  <h1>{{ post.title }}</h1>
 {% endfor %}
+{% if paginator.total_pages > 1 %}
+<ul>
+  {% if paginator.previous_page %}
+  <li>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}

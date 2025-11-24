@@ -7,6 +7,15 @@ remote_theme: pages-themes/cayman@v0.2.0
 
 title: ConveRSE
 
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 collections:
   contributors:
     output: true
@@ -57,3 +66,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-remote-theme
+
+gems:
+  - jekyll-paginate-v2
