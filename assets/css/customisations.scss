@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 $font-colour: #222;
+$link-colour: #1e6bb8;
+$selected-colour: #159957;
 
 * {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
@@ -53,10 +55,6 @@ a {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.nav-item {
-    //color:pink
 }
 
 .current {
@@ -556,6 +554,14 @@ hr {
     width: 32%;
     cursor: pointer;
     height: 100%;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    color: #1e6bb8 !important;
+    box-shadow: none !important;
+}
+
+.tips-tabs.current {
+    color: #159957 !important;
 }
 
 .about-tabs {
@@ -565,6 +571,14 @@ hr {
     padding-bottom: 1.2rem;
     width: 48%;
     cursor: pointer;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    color: #1e6bb8 !important;
+    box-shadow: none !important;
+}
+
+.about-tabs.current {
+    color: #159957 !important;
 }
 
 .about-tabs:hover {

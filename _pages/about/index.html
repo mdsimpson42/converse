@@ -11,16 +11,18 @@ permalink: /about
     Click on the tabs to switch between the categories.
 </p>
 <div class="tips-tabs-container">
-    <div class="about-tabs nav-item current"
+    <button class="about-tabs current"
         id="about-tab-converse"
-        onclick="aboutConverse()">
+        onclick="aboutConverse()"
+        onkeypress="aboutConverse()">
         About ConveRSE
-    </div>
-    <div class="about-tabs nav-item"
+    </button>
+    <button class="about-tabs"
         id="about-tab-site"
-        onclick="aboutWebsite()">
+        onclick="aboutWebsite()"
+        onkeypress="aboutWebsite()">
         About the Website
-    </div>
+    </button>
 </div>
 <div id="about-converse">
     {% include_relative converse.html %}
