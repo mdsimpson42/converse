@@ -21,7 +21,5 @@ menu: resources
 <hr/>
 {% assign ordered_projects = site.projects %}
 {% for project in ordered_projects %}
-  <h2>{{ project.title }}</h2>
-  {{ project.content }}
-  <hr/>
+  {% include project.html %}
 {% endfor %}
