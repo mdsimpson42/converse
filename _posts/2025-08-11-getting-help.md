@@ -101,3 +101,6 @@ Seeking help for mental health issues can be daunting, and may require patience 
 but there are many resources available to support you. Don't be afraid to ask for help, and remember that
 it might take time to find what works best for you. But, if you can find the right help, it can make
 a huge difference.
+
+Thanks for reading.  
+Take care of yourselves.

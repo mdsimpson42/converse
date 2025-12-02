@@ -83,3 +83,6 @@ I would hate for my  attempts at humour to undermine the message of ConveRSE and
 they were intended.
 
 Please get in touch if you think there's anything I can do better.
+
+Thanks for reading.  
+Take care of yourselves.

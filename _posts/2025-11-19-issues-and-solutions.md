@@ -91,4 +91,5 @@ However, this experience has reaffirmed my belief that we make a difference by p
 
 Thanks for reading. If you’d like me to give my “Let’s Talk About Mental Health” talk at your institution, please get in touch (the SSI Fellowship will cover travel, accommodation, etc. until the end of March 2026).
 
-Take care of yourselves!
+Thanks for reading.  
+Take care of yourselves.

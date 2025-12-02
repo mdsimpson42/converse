@@ -96,3 +96,6 @@ Be patient with yourself, and remember that it's okay to ask for help if you nee
 By taking steps to protect your time and energy, you can create a healthier balance
 and improve your overall well-being. Combine this with various tools and techniques for staying on top of your
 workload, and you'll be happier and more productive, which is a win for everyone!
+
+Thanks for reading.  
+Take care of yourselves.

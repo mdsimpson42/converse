@@ -9,7 +9,7 @@ image_alt: Let's talk about Supporting your Team
 ---
 
 Another question I've been asked a few times while giving my mental health talk is "what can I do to support my team?"
-I was pleasantly surprised by this, and I think its encouraging that some managers are asking about it.
+I was pleasantly surprised by this, and I think its encouraging that some managers are thinking about it.
 But what can you do to look after the mental health of your team?
 
 ## Supporting your team
@@ -60,3 +60,6 @@ and make sure that everyone feels supported and valued.
 how to support your team. We will be adding more to these pages over time.
 - Also check out our blog, where we hope to have [a range of tips and conversations]({{site.baseurl}}/converse/tags/management)
 about what managers can do to support better mental health in the workplace.
+
+Thanks for reading.  
+Take care of yourselves.
