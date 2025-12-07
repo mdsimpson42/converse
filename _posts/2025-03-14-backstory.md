@@ -5,7 +5,7 @@ date: 2025-03-14
 categories: [stories]
 tags: [anxiety, depression, burnout]
 image: I-Am-Your-Father.jpg
-image_alt: The Text "I am your Father" on a blue background. There is a picture of a man holding his newborn son and smiling at the camera.
+image_alt: The text "I am your Father" on a blue background. There is a picture of a man holding his newborn son and smiling at the camera.
 ---
 
 I became a father in April 2020, a couple of weeks into the UK's first lockdown of the COVID-19 pandemic.

@@ -15,9 +15,11 @@ I am someone who uses humour as a coping mechanism; as way of dealing with diffi
 "Hi, I'm Chandler, I Make Jokes When Im Uncomfortable" meme here]. Even when talking about a subject as serious
 as mental health! So, I wanted to take a moment to clarify a couple of the things I said.
 
+---
+
 ## "Subjected" to Agile Training
 
-In the talk, mention a discussion at Collaborations Workshop 2024 that led to the creation of the
+In the talk, I mention a discussion at Collaborations Workshop 2024 that led to the creation of the
 [Task Management for Humans as Self-care]({{site.baseurl}}/2025/04/26/task-management.html) project.
 Someone mentioned how they had used task management tools to keep track of their workload, and how
 they believe that it helped to manage their anxiety and improve their mental health. During the talk,
@@ -28,15 +30,15 @@ These comments are based on my experience of working in the games industry,
 where they completely misunderstood and abused SCRUM to waste an hour of our time everyday with pointless meetings
 and task management overheads, which had a detrimental effect on our productivity, as well as our mental health.
 I've spoken to quite a few other people who have had similar experiences. I've also been involved in lots of conversations
-about how Agile is not always compatible with Research Software Engineering (but I know that's a debate I will never win
-with its strongest proponents).
+about how Agile is not really compatible with Research Software Engineering (but I know that's a debate I will never win
+with its strongest proponents!).
 
-Despite these comments, I want to make it clear that I'm not anti-Agile. I was involved with Task Management for Humans,
+Despite all this, I want to make it clear that I'm not anti-Agile. I was involved with Task Management for Humans,
 I've given [a talk](https://youtu.be/uQYQ_F8auEQ?si=CPE1GWALWq09G9Lp) about my experience of using GitHub Issues and Projects
 to manage RSE projects. I've also been involved in [a workshop](https://youtu.be/vP9k8mAXod4?si=vQpiCUVvB2BtTwBi)
 on project management. I just think they need to be used in the right way and for the right reasons. I also think
-we need to accept that it doesn't work for everyone, and that we make sure we are not forcing it on people who will
-not find it helpful or effective.
+we need to accept that there is no solution that works perfectly for everyone, and that we make sure we are not forcing
+it on people who will not find it helpful or effective.
 
 I'm also made a joke about being someone who suffers from "Post-traumatic SCRUM Disorder". I am very aware of the risk
 of making such a joke in the context of a talk destigmatising mental health. But, I also want to make the talk as engaging
@@ -62,7 +64,7 @@ is what led to crunch time being necessary in the first place!
 
 I acknowledge that yoga and other kinds of physical exercise and mindfulness are actually great for your mental
 health. It is also perfectly true that arranging social events for your team can be a good way to raise morale.
-"Pub" is the number one response to I've had to the question "What are some examples of good ways to people
+"Pub!" is the number one response to I've had to the question "What are some examples of good ways to people
 support mental health in your team?", after all. (Read more about that in
 [this blog post]({{site.baseurl}}/2025/11/20/issues-and-solutions.html) about the data collected during my talk.)
 
@@ -75,7 +77,7 @@ Talking about mental health is challenging. Not only is it daunting to admit you
 of your peers, but it can be difficult to get the tone right. We want to destigmatise the discussion of mental
 health, and its obviously a very serious issue. But I also want to deliver as engaging a talk as I can, in order
 to help kickstart the conversation. I deal with some heavy and difficult subjects, but I chose to try and keep
-it as light as possible, and there were times where it felt necessary to lift the tone.
+it as light as possible, and there were times where it felt necessary to lift the mood.
 
 It was not my intention to be flippant or dismissive, or to offend or make fun of anyone. Most of the feedback about the
 talk has been good and I'm very grateful for that. But I'm aware that there are voices that I may not have heard.
