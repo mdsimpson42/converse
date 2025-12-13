@@ -892,3 +892,14 @@ button:hover {
 .top-padding {
     padding-top: 10px;
 }
+
+.post-navigation {
+    display: flex;
+    width: 100%;
+
+}
+
+.next-post {
+    margin-left: auto;
+    text-align: right;
+}

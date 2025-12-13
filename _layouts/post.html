@@ -40,3 +40,30 @@ layout: default
 <div class="blog-content">
   {{ content }}
 </div>
+
+{% for post in site.posts %}
+  {% if post.url == page.url %}
+  	{% assign pOffset = forloop.index0 | minus: 1 %}
+  	{% assign nOffset = pOffset | plus: 2 %}
+  	{% if forloop.first == false %}
+  	  {% assign next_post = site.posts[pOffset] %}
+  	{% endif %}
+  	{% if forloop.last == false %}
+  	  {% assign previous_post = site.posts[nOffset] %}
+  	{% endif %}
+  	{% break %}
+  {% endif %}
+{% endfor %}
+<hr/>
+<p class="post-navigation">
+{% if previous_post %}
+  <a href="{{ site.baseurl }}{{ previous_post.url }}" class="previous-post">
+    &lt;&lt; Previous: "{{ previous_post.title }}"
+  </a>
+{% endif %}
+{% if next_post %}
+  <a href="{{ site.baseurl }}{{ next_post.url }}" class="next-post">
+    Next: "{{ next_post.title }}" &gt;&gt;
+  </a>
+{% endif %}
+</p>
