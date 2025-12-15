@@ -16,10 +16,10 @@ conversation at the SSI's Collaborations Workshop in 2024.
 
 ## CW24
 
-Collaborations Workshop is an amazing event, hosted each year by the [Software Sustainability Institute](https://www.software.ac.uk)(SSI),
-and I'm not just saying that because I'm now an SSI Fellow! The event takes place over three days, and you spend most of it splitting into groups
-to discuss a range of topics. Usually, this includes things like generative AI, sustainability in high-performance computing and
-maintenance of open-source software projects.
+Collaborations Workshop is an amazing event, hosted each year by the [Software Sustainability Institute](https://www.software.ac.uk)
+(SSI), and I'm not just saying that because I'm now an SSI Fellow! The event takes place over three days, and you spend most of it
+splitting into groups to discuss a range of topics. Usually, this includes things like generative AI, sustainability in
+high-performance computing and maintenance of open-source software projects.
 
 ![{{ page.image_alt }}]({{site.baseurl}}/assets/img/blog/task-management.jpg)
 
@@ -41,7 +41,8 @@ a range of task management systems, with the focus being on value for the indivi
 
 There were some key principles: The course would focus on self-care and life-work balance, rather than productivity.
 It would introduce a range of task management systems, allowing participants to choose the elements that work best for them.
-It wasn't a case of "do it this way or your doing it wrong", but rather "here are some options, try them out and see what works for you".
+It wasn't a case of "do it this way or your doing it wrong", but rather "here are some options, try them out and see what works
+for you".
 
 The idea won the top prize for the Ideas Session, and so it was selected as a project for the Hack Day. On day three,
 we worked together to create a course outline with some example content and deployed it to the Carpentries Incubator.
@@ -55,8 +56,8 @@ from unexpected places, and that great ideas can emerge when we share our experi
 
 CW is always a great event, but CW24 was special. The engagement from everyone at the workshop was amazing.
 The experience of working on this project inspired me to apply for the Fellowship, in the hope of creating similar projects and
-engaging with the community to help support mental health. I am excited to see what other ideas will emerge from this wonderful community.
-I also hope to bring together ideas like this on this website, so that the whole community can benefit from them.
+engaging with the community to help support mental health. I am excited to see what other ideas will emerge from this wonderful
+community. I also hope to bring together ideas like this on this website, so that the whole community can benefit from them.
 
 ## More
 

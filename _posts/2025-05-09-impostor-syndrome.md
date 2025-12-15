@@ -9,8 +9,8 @@ image_alt: Let's talk about Impostor Syndrome
 ---
 
 Have you ever been working on a project and felt like you didn't deserve to be there? Chances are, you have experienced
-impostor syndrome; a feeling of self-doubt and inadequacy that is common in the research software community.
-But is there anything we can do about it?
+Impostor Syndrome; a feeling of self-doubt and inadequacy that is common in the research software community.
+For a lot of us, it's just part of the job. But is there anything we can do to alleviate it?
 
 ---
 
@@ -18,14 +18,13 @@ But is there anything we can do about it?
 
 One of the most common questions I've been asked when I give my mental health talk is "how do I deal with impostor syndrome?"
 Common responses to Dave Horsfall's mental health survey included "not feeling like I belong", "not fitting in" and
-"activities outside my comfort zone".
+"activities outside my comfort zone". This seems to be a common issue among Research Software Engineers.
 
-And is it any surprise? Research Software Engineers (RSEs) and other Research Technical Professionals (RTPs)  
-are often expected to be unicorns. We have to be experts in a range of different technologies.
-We have to work with world leaders in subjects that we know nothing about, and we are expected to quickly
-learn enough about these new domains to be able to effectively contribute to a project. And we usually have to do this
-to tight deadlines, with constantly moving goalposts. This can lead to feelings of inadequacy and a lot of self-doubt,
-especially when comparing yourself to other people with lots of specialized knowledge or experience.
+And is it any surprise? RSEs and other Research Technical Professionals (RTPs) are often expected to be unicorns.
+We have to be experts in a range of different technologies. We have to work with world leaders in subjects that we know
+nothing about, and we are expected to quickly learn enough about these new domains to be able to effectively contribute
+to a project. And we usually have to do this to tight deadlines, with constantly moving goalposts. This can lead to feelings
+of inadequacy and a lot of self-doubt.
 
 But the reality is, we are there for a reason. We know how to engineer software, optimise code, test and deploy
 applications... We have our own unique set of skills to bring to the table. That is why we are there!
@@ -73,8 +72,14 @@ Knowing what it is called can be helpful. There's lots of advice out there on ho
 We will also be compiling tips and suggestions from the community to include on this site.
 Not all the advice will work for you, but hopefully you will find something that helps.
 
-Do you have any tips or advice for dealing with impostor syndrome? Do you know any useful resources that you'd like to share?
-Please consider writing your own blog post or submitting those resources via our [Contribute page]({{site.baseurl}}/contribute).
+## More
+
+You will hopefully soon be able to find more blog posts on this topic on this blog, by searching for the
+[Impostor Syndrome]({{site.baseurl}}/tags/impostor_syndrome) tag.
+
+*Do you have any tips or advice for dealing with impostor syndrome? Do you know any useful resources that you'd like
+to share? Please consider writing your own blog post or submitting those resources via our
+[Contribute page]({{site.baseurl}}/contribute).*
 
 And in the meantime, try to recognise your own expertise and the value that you bring to the team.
 And, if all else fails, it will get easier over time.
