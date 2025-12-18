@@ -5,22 +5,21 @@ menu: about
 permalink: /about
 ---
 <p>
-    Here you can learn about the ConveRSE project and this website.
-</p>
-<p>
-    Click on the tabs to switch between the categories.
+    Here you can learn about the ConveRSE project and this website. Use the tabs below to switch between the two.
 </p>
 <div class="tips-tabs-container">
-    <div class="about-tabs nav-item current"
+    <button class="about-tabs current"
         id="about-tab-converse"
-        onclick="aboutConverse()">
+        onclick="aboutConverse()"
+        onkeypress="aboutConverse()">
         About ConveRSE
-    </div>
-    <div class="about-tabs nav-item"
+    </button>
+    <button class="about-tabs"
         id="about-tab-site"
-        onclick="aboutWebsite()">
+        onclick="aboutWebsite()"
+        onkeypress="aboutWebsite()">
         About the Website
-    </div>
+    </button>
 </div>
 <div id="about-converse">
     {% include_relative converse.html %}

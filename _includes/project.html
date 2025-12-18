@@ -1,0 +1,20 @@
+<h2>{{ project.title }}</h2>
+    <p>
+        {{ project.introduction}}
+    </p>
+    <img 
+        class="featured-image" src="/converse/assets/img/projects/{{ project.image }}"
+        alt="{{ project.image_alt }}"
+    >
+    <p class="caption">
+        {{ project.caption }}
+    </p>
+    <p>
+        {{ project.description }}
+    </p>
+    <ul>
+        <li class="link-li">
+            For more information, visit <a href="{{ project.link }}">{{ project.link_text }}</a>.
+        </li>
+    </ul>
+<hr/>

@@ -22,17 +22,60 @@ layout: default
     {% endfor %}
   </div>
   {% assign wordCount = page.content | number_of_words %}
-  <span class="post-word-count"><i>{{ wordCount }} words</i></span>
+  {% if wordCount >= 1000 %}
+    {% assign wordCountX = wordCount | divided_by: 1000.0 | round | append: ',' %}
+    {% assign rest = wordCount | minus: 1000 %}
+    {% if rest < 10 %}
+      {% assign rest = rest | prepend: '00' %}
+    {% elsif rest < 100 %}
+      {% assign rest = rest | prepend: '0' %}
+    {% endif %}
+    {% assign wordCountFormatted = wordCountX | append: rest %}
+  {% else %}
+    {% assign wordCountFormatted = wordCount %}
+  {% endif %}
+  <span class="post-word-count"><i>{{ wordCountFormatted }} words</i></span>
 </div>
+
 <p class="post-tags">
-  <i class="fa-solid fa-tags" title="Tags"></i>&nbsp;
-  {% for page_tag in page.tags %}
-      {% assign tag = site.tags
-      | where_exp:"tag", "tag.short_name == page_tag" 
-      | first %}
-    <a href="{{site.baseurl}}/tags/{{ page_tag }}">{{ tag.title }}</a>{% if forloop.last != true %},{% endif %}
-  {% endfor %}
+  {% if page.tags.size > 0 %}
+    <i class="fa-solid fa-tags" title="Tags"></i>&nbsp;
+    {% for page_tag in page.tags %}
+        {% assign tag = site.tags
+        | where_exp:"tag", "tag.short_name == page_tag" 
+        | first %}
+      <a href="{{site.baseurl}}/tags/{{ page_tag }}">{{ tag.title }}</a>{% if forloop.last != true %},{% endif %}
+    {% endfor %}
+  {% endif %}
 </p>
+
 <div class="blog-content">
   {{ content }}
 </div>
+
+{% for post in site.posts %}
+  {% if post.url == page.url %}
+  	{% assign pOffset = forloop.index0 | minus: 1 %}
+  	{% assign nOffset = pOffset | plus: 2 %}
+  	{% if forloop.first == false %}
+  	  {% assign next_post = site.posts[pOffset] %}
+  	{% endif %}
+  	{% if forloop.last == false %}
+  	  {% assign previous_post = site.posts[nOffset] %}
+  	{% endif %}
+  	{% break %}
+  {% endif %}
+{% endfor %}
+<hr/>
+<p class="post-navigation">
+{% if previous_post %}
+  <a href="{{ site.baseurl }}{{ previous_post.url }}" class="previous-post">
+    &lt;&lt; Previous: "{{ previous_post.title }}"
+  </a>
+{% endif %}
+{% if next_post %}
+  <a href="{{ site.baseurl }}{{ next_post.url }}" class="next-post">
+    Next: "{{ next_post.title }}" &gt;&gt;
+  </a>
+{% endif %}
+</p>

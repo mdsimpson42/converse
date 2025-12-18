@@ -1,62 +1,89 @@
 ---
+title: Let's talk about Setting Boundaries
 author: mike_simpson
 date: 2025-09-28
 categories: [self-care]
 tags: [self_care]
-title: Let's talk about Setting Boundaries
 image: setting-boundaries.jpg
 image_alt: Let's talk about Setting Boundaries
 ---
 
 One thing I've learned doing this job is that one of the best things you can do to protect your
 mental health is to set boundaries. This is something that became particularly important during the
-pandemic, but continues to be a challenge as a lot of us work from home more often.
+pandemic, but continues to be a challenge now that a so many of us work from home more often.
 
-In this article, we'll discuss some of the ways that you can do this.
-So, what exactly do I mean when I talk about setting boundaries?
+In this article, we'll discuss some of the ways that you can do this,
+and what "setting boundaries" actually means?
+
+---
 
 ## Setting Boundaries
 
-When talking about how to improve mental health, one of the things we are focussing on is self care:
-the things that we can control and how to look after ourselves. One of the things we can exert some
-control over is our life/work balance: in particular, how we set clear boundaries to keep those things
-separate, in order to protect ourselves from anxiety, burnout and other issues.
+One of the things we are focussing throughout the ConveRSE project on is Self-Care:
+looking after ourselves and managing the things that are within our control. One of the things we can
+exert some control over is our life/work balance: in particular, how we separate our work and home lives.
+By doing so, we can protect ourselves from anxiety, burnout and a range of other issues.
 
-When I first started, I was keen to make a good impression. This turned me into very much a "yes person",
-and I would frequently reply to emails and messages outside of working hours. But these things are not
-sustainable, and - as with most things - I think it's important to find a balance that works for you.
+When I first started, I was keen to make a good impression. This turned me into a "yes person",
+and I would frequently take on additional responsibilities, as well as checking and replying
+to emails and messages outside of working hours. But these things are not sustainable,
+and - as with most things - t's important to find a balance that works for you.
+
+We all know that a device that is always on will drain it's battery fast and struggle to reach
+peak performance. This is true for people, too! You need time to switch off,
+recharge your batteries and clear your mind. And to do that, you can't be "always on".
 
 ### Life/Work Boundaries
 
 This can mean creating boundaries between work and your home life. This is relatively easy to do when you're going
-into the office every day: when you're in the office you're at work and when you're not, you're not!
-However, it can be harder to keep these things when you're not in the office every day.
+into the office every day: when you're in the office, you're at work, and when you're not, you're not!
+However, it can be harder to draw a clear line between these things when you're not in the office every day.
+As we've discussed in my ['Working from Home']({{site.baseurl}}{% post_url 2025-03-23-working-from-home %})
+blog post, working from home can have its advantages, but it can present its challenges too.
 
 When I'm working from home, I like to "walk to work" by taking 10 minutes to walk around the block
 (which often coincides with dropping my son off at school), before sitting down at my desk.
 And at the end of the day, I repeat the process to "commute" back home. Before the morning walk, and after the evening walk,
-I keep work out of my mind and shut down all work related apps on my computer. I resist the temptation to
-catch up on emails or other tasks, and focus on spending time with my family and doing the things
-that bring me joy.
+I keep work out of my mind, and focus on spending time with my family and friends, and doing things that help me
+relax or bring me joy. I also find that having a shower and getting dressed, even if you aren't leaving the house,
+can help distinguish between your time and starting work.
 
 ### Communication Boundaries
 
-It can mean setting communication boundaries. A lot of us work more flexibly, and some of my colleagues
+It can also mean setting communication boundaries. A lot of us work more flexibly, and some of my colleagues
 start work earlier than I do, or work later into the evening. My schedule is mostly defined by my childcare responsibilities.
-Sometimes I do find myself working outside of normal hours, but I do not send any emails during this time. If I do need to
-send a message, I schedule it to be sent at 9 am the following day.
+Sometimes, I do find myself finishing early and catching up on work outside of normal hours.
 
-I also do not have my work email or Slack on my phone. This means I can't be disturbed by someone trying to contact me
-out of working hours, at weekends or when I'm on leave. This helps with that distinction between work and home life.
+However, at any time of day, I would find emails and Slack notifications were distracting me. When I am working unusual hours,
+I try not to send emails (and if I do need to send a message, I schedule it to be sent at 9 am the following day).
+But not everyone is so courteous! Plus, we're living in a more interconnected world and may be working with colleagues in
+different time zones, so it can be hard to avoid receiving messages at all hours.
 
-But it doesn't end there. I also don't have them Slack/Emails on my laptop or PC all the time. I get so many notifications
-all the time, and they distract me from my work. If I need to focus, I shut them down so I cannot be interrupted.
-Occasionally, when deadlines are looming, I do need to work outside of normal hours. In these situations,
-I focus on the work that needs to be done and do not check or respond to any messages.
+And those distractions can be a big problem.
+
+---
+
+According to [MHFA England](https://mhfaengland.org/):
+
+📥 The average worker receives 117 emails a day  
+🔔 Plus around 153 push notifications  
+⚡ Resulting in roughly 275 digital interruptions... every day!
+
+And when a notification pulls us off-task, it can take more than 20 minutes to refocus deeply again.
+
+---
+
+I also don't have Outlook, Slack or any other app open on my laptop or PC all the time. If I need to focus,
+I shut them down so I cannot be interrupted. I focus on the work that needs to be done and do not check or respond
+to any messages until the work is done.
+
+But it doesn't end there. I also do not have my work emails or Slack on my phone. This means I can't be disturbed by
+someone trying to contact me out of working hours, at weekends or when I'm on leave. This also helps with that distinction
+between work life and home life.
 
 Similarly, I know colleagues who have a "quiet Friday" policy, where they do not send or respond to emails to allow them
-to focus on their work. My schedule is too chaotic to set aside a regular time for this, but it seems like a good idea,
-that might work for you.
+to focus on their work. My schedule is too chaotic to set aside a regular time for this, but it seems like a good idea that
+might work for you.
 
 ### Protected Time
 
@@ -70,29 +97,39 @@ and get settled at my desk before having to jump into any meetings.
 
 Speaking of which, learning to say no is also important. Blocking out your calendar and simply saying you aren't
 available is a good example. This can be challenging, particularly if you are a "yes person". I would often find myself saying
-"no, because..." and then trying to justify myself. But the truth is, you can just say no. I'm not available or I don't have
-the capacity is enough.
+"no, because..." and then trying to justify myself. But the truth is, you can just say no. "I'm not available" or "I don't have
+the capacity" is enough.
 
 Obviously, you need to be reasonable and flexible. Some things are important, while other things could be good for
-your career. But you should get comfortable with saying no, particularly if you are already too busy with other tasks,
-or if you are struggling with your mental health.
+your career. But you should get comfortable with saying no, particularly to optional things and when you are already too
+busy with other tasks, or if you are struggling with your mental health. There's a limit to how much work you can take on,
+ and its important to take breaks and look after yourself. Not only will you burn out, but you won't
+be working at your best!
 
 ## A Note for Managers
 
-Finally, to any managers reading this who may not approve of some of these suggestions: trust in your team and
-respect their diversity!
+Finally, to any managers reading this, who might note like some of these suggestions. What I would say is this:
+if your team has good life/work balance and mental health, then they will be happier and more productive.
+Trust in your team, treat them like humans, not resources and respect their diversity!
 
-I've said it many times, but if the people on your team have good mental health and life/work balance, then
-they will be more productive. You can't force them to be productive by imposing rules on them! Also, everyone is different;
-you should not be dictating how everyone should work. Those rules might work for you, and might even work for the majority
-of your team, but they won't work for everyone. You need to be flexible and allow people to work in a way that suits them.
-As long as they are delivering on their work, then it shouldn't matter how or when they do it
-(or whether it takes them a couple of hours to reply to an email!).
+You can't force them to be productive by imposing rules or practices on them! Not least because everyone is different.
+Those rules might work for you, and might even work for the majority of your team, but they won't work for everyone.
+Neurodiverse people, or people who struggle with anxiety and ADHD, can struggle with being constantly interrupted,
+or when given tasks that mess up their carefully planned out day.
+
+You need to be flexible and allow people to work in a way that suits them. As long as they are delivering on their work,
+then it shouldn't matter how or when they do it (or if it takes them a couple of hours to reply to an email!).
+
+I would suggest creating a policy that outlines your expectations around communication and availability,
+but also encourage your team to set their own boundaries and take care of their mental health. This will allow
+people to plan accordingly and work in a way that suits them, while still meeting the needs of the team.
 
 ## Final Thoughts
 
 Setting boundaries is an important part of self-care, and it can take time and practice to get it right.
 Be patient with yourself, and remember that it's okay to ask for help if you need it.
-By taking steps to protect your time and energy, you can create a healthier balance
-and improve your overall well-being. Combine this with various tools and techniques for staying on top of your
-workload, and you'll be happier and more productive, which is a win for everyone!
+By taking steps to protect your time and energy, you can create a healthier life/work balance
+and improve your overall well-being. You'll be happier and more productive, which is a win for everyone!
+
+Thanks for reading.  
+Take care of yourselves.

@@ -25,7 +25,19 @@
         <a href="{{site.baseurl}}/categories/{{category.short_name}}">{{ category.title }}</a>
       </div>
       {% assign wordCount = post.content | number_of_words %}
-      <span class="word-count"><i>{{wordCount}} words</i></span>
+      {% if wordCount >= 1000 %}
+        {% assign wordCountX = wordCount | divided_by: 1000.0 % | round | append: ',' %}
+        {% assign rest = wordCount | minus: 1000 %}
+        {% if rest < 10 %}
+          {% assign rest = rest | prepend: '00' %}
+        {% elsif rest < 100 %}
+          {% assign rest = rest | prepend: '0' %}
+        {% endif %}
+        {% assign wordCountFormatted = wordCountX | append: rest %}
+      {% else %}
+        {% assign wordCountFormatted = wordCount %}
+      {% endif %}
+      <span class="word-count"><i>{{wordCountFormatted}} words</i></span>
     </div>
     <div class="blog-posts post-preview-image">
       <div class="blog-image">
@@ -36,7 +48,13 @@
       </div>
       <div class="blog-excerpt">
         <div class="blog-excerpt-content">
-          <p>{{ post.excerpt }}</p>
+          <p>
+            {% if post.excerpt | number_of_words > 51 %}
+              {{ post.excerpt | truncatewords: 51 }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}
+          </p>
           <p class="read-more">Read more <i class="fa-solid fa-circle-right"></i></p>
         </div>
       </div>

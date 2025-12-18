@@ -1,6 +1,6 @@
 ---
-short_name: management
-title: Management
+short_name: leadership
+title: Leadership and Management
 menu: blog
 ---
 

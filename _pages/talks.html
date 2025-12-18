@@ -23,9 +23,24 @@ menu: talks
     <li>The length and content of the talk can be tailored to suit the audience.</li>
     <li>The talk can include interactive elements, i.e. a Q&A session conducted via Mentimeter.</li>
 </ul>
+<h2>About Mike</h2>
+{% assign name = "Mike Simpson, PhD" %}
+{% assign image = "mike-simpson.jpg" %}
+{% assign job_title = "Research Software Engineer" %}
+{% assign institution = "Newcastle University" %}
+{% include contributor-profile.html %}
+<p>
+    Mike has been working as a Research Software Engineer (RSE) since 2018, and has also worked
+    as a research associate and as a software developer in the games industry. 
+</p>
+<p>
+    He also has experience with a range of mental health issues himself, having lived with anxiety and depression for 
+    over a decade. He became a father in 2020, which led to burnout and an anxiety attack. You can read more
+    about his experiences in <a href="{{site.baseurl}}{% post_url 2025-03-14-backstory %}">this blog post</a>. 
+</p>
 <h2>Slides</h2>
 <p>
-    I've made the slides from my RSECon25 talk avalilable to download.
+    I've made the slides from my RSECon25 talk available to download.
     <ul>
         <li>
             <a href="{{site.baseurl}}/assets/downloads/converse-slides-rsecon25.pdf" target="_blank" rel="noopener">
@@ -33,21 +48,6 @@ menu: talks
             </a>
         </li>
     </ul>
-</p>
-<h2>About Mike</h2>
-{% assign name = "Mike Simpson" %}
-{% assign image = "mike-simpson.jpg" %}
-{% assign job_title = "Research Software Engineer" %}
-{% assign institution = "Newcastle University" %}
-{% include contributor-profile.html %}
-<p>
-    Mike has been working as a Research Software Engineer (RSE) for over 7 years, and has also worked
-    as a research associate and as a software developer in the games industry. 
-</p>
-<p>
-    He also has experience with a range of mental health issues himself, having lived with anxiety and depression for 
-    over a decade. He became a father in 2020, which led to burnout and an anxiety attack. You can read more
-    about his experiences in <a href="{{site.baseurl}}{% post_url 2025-03-14-backstory %}">this blog post</a>. 
 </p>
 <h2>Past Talks</h2>
 <p>

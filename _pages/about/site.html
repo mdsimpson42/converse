@@ -13,17 +13,6 @@
       </li>
     {% endfor %}
   </ul>
-  <hr>
-  <h2>Blog Authors</h2>
-  <p>Thanks to the following authors, who have contributed to the blog:</p>
-  <ul>
-    {% assign ordered_authors = site.contributors | where: 'tags', 'author' | sort:"order_number" %}
-    {% for author in ordered_authors %}
-      <li>
-        <a href="{{ author.url | prepend:site.baseurl }}">{{ author.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
   <hr/>
   <h2>Stay in Touch</h2>
   <p>
@@ -48,8 +37,7 @@
   <h2>Development</h2>
   <p>
     This site was developed using <a href="https://jekyllrb.com/">Jekyll</a> and is hosted on 
-    <a href="https://pages.github.com/">GitHub Pages</a>. For more information or to contribute, please visit
-    <a href="{{site.data.var.github_url}}">our GitHub page</a>.
+    <a href="https://pages.github.com/">GitHub Pages</a>. 
   </p>
   <ul>
     <li>
@@ -61,4 +49,7 @@
         by Rachel McDermott on <a href="https://unsplash.com/">Unsplash</a>.
     </li>
   </ul>
+  <p>
+    For more information or to contribute, please visit <a href="{{site.data.var.github_url}}">our GitHub page</a>.
+  </p>
 </div>
