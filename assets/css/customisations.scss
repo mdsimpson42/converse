@@ -206,7 +206,8 @@ h3 a {
 }
 
 ul, ol {
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin-bottom: 0px;
     list-style-position: outside;
 }
@@ -221,11 +222,11 @@ ol {
 
 ol li {
     padding-left: 10px;
-    padding-bottom: 20px;
 }
 
 li {
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .post-preview {
