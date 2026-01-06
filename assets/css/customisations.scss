@@ -226,6 +226,17 @@ li {
     padding-bottom: 5px;
 }
 
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
 .post-preview {
     margin-top: 30px !important;
     margin-bottom: 0px;
