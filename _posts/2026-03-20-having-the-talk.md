@@ -65,7 +65,12 @@ uses to communicate). Some people have a "quiet mode", if they're feeling overwh
 notifications are turned off, so no-one can disturb their concentration, but also people can
 see that the person doesn't want to be disturbed.
 
-These work well if you're having a rough day. But what if you're having more long-term issues?
+Eli Chadwick pointed out that:
+
+- *"Being more open helps encourage your colleagues to be more open (even if you don't give any
+detail and just say e.g. "I'm taking a mental health day this afternoon"). I've been a lot more
+comfortable discussing & taking time off for mental health when that behaviour has been modelled
+by leadership."*
 
 ## Psychological Safety
 
@@ -80,6 +85,12 @@ By talking visibly about it, raising awareness of the issues and doing what we c
 prevent issues and signpost resources, we keep the conversation going, break the stigma
 and encourage people to be more open about raising issues and asking for help.
 
+Eli also made the point that:
+
+- *"It's very hard to be vulnerable with your line manager if your line manager is never vulnerable
+with/around you (not necessarily about mental health in particular, but sharing hobbies/personal
+opinions/that sort of thing too)."*
+
 ## Line Managers
 
 I also think that line managers need to make the time to ask questions, particularly if they
@@ -92,6 +103,12 @@ question is the best way to start a conversation that could save someone's life.
 As them how they're doing. Ask if they're managing the workload. And note their responses. If they
 repeatedly say they are struggling to stay on top of everything, then some form of support or
 intervention may be necessary.
+
+Will Furnass suggested:
+
+- *"Start 1:1s by asking how someone is in general, not by jumping straight to asking for status
+reports. My current line manager has been great here, and it's allowed us to identify and focus
+on wellbeing quickly where needed."*
 
 The most important thing is that you listen, be understanding and provide what support you can.
 I know myself how frustrating it can be - and how much worth your mental health gets -
@@ -122,8 +139,15 @@ useful starting points, and we hope that individuals and managers have a better 
 how to start these conversations and what support is available.
 
 If you have any suggestions for how to have these conversations, as either an employee or
-as a line manager, please consider filling in [this form](). 
+as a line manager, please consider filling in [this form](https://forms.gle/dQqETajTBdq3Bqaw9).
 We will take your responses and use them to create another blog post or resource on this site
 based on your feedback. Thank you!
+
+---
+
+*Note: I have tried to give credit to the people who made certain comments and suggestions.
+However, some of them came anonymously via Mentimeter, and others were made in the room and I
+forgot to note who said them, so apologies in advance if you haven't been given credit for the
+thing you said!*
 
 *Photo by [Maranda Vandergriff](https://unsplash.com/@mkvandergriff?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/gray-laptop-computer-7aakZdIl4vg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
