@@ -143,6 +143,11 @@ as a line manager, please consider filling in [this form](https://forms.gle/dQqE
 We will take your responses and use them to create another blog post or resource on this site
 based on your feedback. Thank you!
 
+*Update: Eli Chadwick and I put together a proposal for a hack day project at Collaborations
+Workshop 2026 to create resources to help facilitate these conversations. We plan to continue
+to work on this project and to share the resource we create with the community. Please consider
+filling in the form linked above to help us. Thank you!*
+
 ---
 
 *Note: I have tried to give credit to the people who made certain comments and suggestions.
