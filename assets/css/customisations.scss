@@ -912,3 +912,111 @@ button:hover {
     margin-left: auto;
     text-align: right;
 }
+
+// ─── Burger / Mobile Navigation ──────────────────────────────────────────────
+
+.burger-menu-bar {
+    display: none;
+    background-color: #d8eef5;
+    overflow: hidden;
+}
+
+.burger-menu-btn {
+    display: block;
+    float: right;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    width: auto;
+    padding: 20px 35px;
+    margin: 0 !important;
+    cursor: pointer;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    color: $font-colour !important;
+}
+
+.burger-menu-btn i {
+    font-size: 1.2rem;
+    color: $font-colour;
+    margin-left: 0;
+}
+
+.burger-menu-btn:hover {
+    background-color: rgb(142, 201, 221);
+}
+
+.mobile-nav {
+    display: none;
+    background-color: #d8eef5;
+    border-top: 1px solid #aed6e8;
+}
+
+.mobile-nav.is-open {
+    display: block;
+}
+
+.mobile-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-nav-item {
+    padding: 0;
+    border-bottom: 1px solid #aed6e8;
+}
+
+.mobile-nav-link {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    color: $font-colour;
+}
+
+.mobile-nav-link:hover {
+    background-color: rgb(142, 201, 221);
+    color: $font-colour;
+}
+
+.mobile-nav-link.current {
+    color: $selected-colour !important;
+    border-bottom: none;
+    padding-bottom: 14px !important;
+}
+
+.mobile-sub-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #c3e4ef;
+}
+
+.mobile-sub-menu li {
+    padding: 0;
+    border-top: 1px solid #aed6e8;
+}
+
+.mobile-nav-sublink {
+    display: block;
+    padding: 11px 20px 11px 36px;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    color: $font-colour;
+}
+
+.mobile-nav-sublink:hover {
+    background-color: rgb(142, 201, 221);
+}
+
+@media (max-width:942px) {
+    .menu {
+        display: none;
+    }
+
+    .burger-menu-bar {
+        display: block;
+    }
+}

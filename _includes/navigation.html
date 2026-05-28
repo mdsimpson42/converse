@@ -1,4 +1,10 @@
-<div class="menu">
+<div class="burger-menu-bar">
+  <button class="burger-menu-btn" id="burgerMenuBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileNav">
+    <i class="fa-solid fa-bars" id="burgerIcon"></i>
+  </button>
+</div>
+
+<div class="menu" id="desktopMenu">
   <ul class="menu-list">
     {% for item in site.data.navigation %}
       <li>
@@ -29,3 +35,31 @@
     {% endfor %}
   </ul>
 </div>
+
+<nav class="mobile-nav" id="mobileNav" aria-hidden="true">
+  <ul class="mobile-nav-list">
+    {% for item in site.data.navigation %}
+      <li class="mobile-nav-item">
+        {% if item.link %}
+          <a href="{{ item.link | prepend:site.baseurl }}"
+            class="mobile-nav-link {% if page.menu == item.menu %}current{% endif %}">
+            {{item.name}}
+          </a>
+        {% else %}
+          <span class="mobile-nav-link">{{item.name}}</span>
+        {% endif %}
+        {% if item.sub_items %}
+          <ul class="mobile-sub-menu">
+            {% for sub in item.sub_items %}
+              <li>
+                <a href="{{ sub.link | prepend:site.baseurl }}" class="mobile-nav-sublink">
+                  {{sub.name}}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
