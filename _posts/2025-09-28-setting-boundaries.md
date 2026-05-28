@@ -38,7 +38,7 @@ recharge your batteries and clear your mind. And to do that, you can't be "alway
 This can mean creating boundaries between work and your home life. This is relatively easy to do when you're going
 into the office every day: when you're in the office, you're at work, and when you're not, you're not!
 However, it can be harder to draw a clear line between these things when you're not in the office every day.
-As we've discussed in my ['Working from Home']({{site.baseurl}}{% post_url 2025-03-23-working-from-home %})
+As we've discussed in my ['Working from Home']({% post_url 2025-03-23-working-from-home %})
 blog post, working from home can have its advantages, but it can present its challenges too.
 
 When I'm working from home, I like to "walk to work" by taking 10 minutes to walk around the block
