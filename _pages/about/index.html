@@ -5,25 +5,31 @@ menu: about
 permalink: /about
 ---
 <p>
-    Here you can learn about the ConveRSE project and this website. Use the tabs below to switch between the two.
+    Here you can learn about the ConveRSE project and this website. Click a section heading to expand it.
 </p>
-<div class="tips-tabs-container">
-    <button class="about-tabs current"
-        id="about-tab-converse"
-        onclick="aboutConverse()"
-        onkeypress="aboutConverse()">
-        About ConveRSE
-    </button>
-    <button class="about-tabs"
-        id="about-tab-site"
-        onclick="aboutWebsite()"
-        onkeypress="aboutWebsite()">
-        About the Site
-    </button>
-</div>
-<div id="about-converse">
-    {% include_relative converse.html %}
-</div>
-<div id="about-site" hidden>
-    {% include_relative site.html %}
+<div class="about-accordion-container">
+    <section class="about-accordion-item">
+        <button class="about-accordion-toggle current"
+            id="about-toggle-converse"
+            type="button"
+            aria-expanded="true"
+            aria-controls="about-converse">
+            About ConveRSE
+        </button>
+        <div id="about-converse" class="tips-tab-content about-accordion-panel">
+            {% include_relative converse.html %}
+        </div>
+    </section>
+    <section class="about-accordion-item">
+        <button class="about-accordion-toggle"
+            id="about-toggle-site"
+            type="button"
+            aria-expanded="false"
+            aria-controls="about-site">
+            About the Site
+        </button>
+        <div id="about-site" class="tips-tab-content about-accordion-panel" hidden>
+            {% include_relative site.html %}
+        </div>
+    </section>
 </div>

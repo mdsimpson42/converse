@@ -553,69 +553,115 @@ hr {
     margin-top: 30px;
 }
 
-.tips-tabs-container {
-    text-align: center;
+.tips-accordion-container {
     width: 100%;
+}
+
+.tips-accordion-item {
     border-bottom: 1px solid rgb(201, 229, 238);
-    height: max-content;
 }
 
-.tips-tabs {
-    display: inline-block;
+.tips-accordion-toggle {
+    display: block;
+    width: 100%;
     background-color: rgb(226, 239, 244);
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-    width: 32%;
+    padding: 1.2rem 3.5rem 1.2rem 1.2rem;
     cursor: pointer;
-    height: 100%;
     margin-bottom: 0px;
-    border-radius: 0px;
+    border: 0;
+    border-radius: 0;
     color: #1e6bb8 !important;
     box-shadow: none !important;
+    position: relative;
+    text-align: left;
 }
 
-.tips-tabs.current {
+.tips-accordion-toggle.current {
     color: #159957 !important;
 }
 
-.about-tabs {
-    display: inline-block;
-    background-color: rgb(226, 239, 244);
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-    width: 48%;
-    cursor: pointer;
-    margin-bottom: 0px;
-    border-radius: 0px;
-    color: #1e6bb8 !important;
-    box-shadow: none !important;
+.tips-accordion-toggle::after {
+    content: "+";
+    position: absolute;
+    right: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    line-height: 1;
 }
 
-.about-tabs.current {
+.tips-accordion-toggle[aria-expanded="true"]::after {
+    content: "-";
+}
+
+.about-accordion-container {
+    width: 100%;
+}
+
+.about-accordion-item {
+    border-bottom: 1px solid rgb(201, 229, 238);
+}
+
+.about-accordion-toggle {
+    display: block;
+    width: 100%;
+    background-color: rgb(226, 239, 244);
+    padding: 1.2rem 3.5rem 1.2rem 1.2rem;
+    cursor: pointer;
+    margin-bottom: 0px;
+    border: 0;
+    border-radius: 0;
+    color: #1e6bb8 !important;
+    box-shadow: none !important;
+    position: relative;
+    text-align: left;
+}
+
+.about-accordion-toggle.current {
     color: #159957 !important;
 }
 
-.about-tabs:hover {
+.about-accordion-toggle::after {
+    content: "+";
+    position: absolute;
+    right: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.about-accordion-toggle[aria-expanded="true"]::after {
+    content: "-";
+}
+
+.about-accordion-toggle:hover {
     background-color: #e0f7fa !important;
 }
 
-.about-tabs.current {
+.about-accordion-toggle.current {
     background-color: rgb(216, 238, 245);
-    padding-bottom: 17px !important;
 }
 
-.tips-tabs:hover {
+.about-accordion-panel {
+    border-top: 1px solid rgb(201, 229, 238);
+}
+
+.tips-accordion-toggle:hover {
     background-color: #e0f7fa !important;
 }
 
-.tips-tabs.current {
+.tips-accordion-toggle.current {
     background-color: rgb(216, 238, 245);
-    padding-bottom: 17px !important;
+}
+
+.tips-accordion-panel {
+    border-top: 1px solid rgb(201, 229, 238);
 }
 
 .tips-tab-content {
     background-color: rgb(216, 238, 245);
-    padding: 40px 50px 30px 50px;
+    padding: 20px;
 }
 
 .menu .menu-list, .menu .sub-menu {

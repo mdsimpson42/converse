@@ -16,33 +16,43 @@ permalink: /resources/tips/
 </p>
 <hr/>
 <p>
-    Click on the tabs to switch between the categories.
+    Click on a section heading to expand the guidance for that category.
 </p>
-<div class="tips-tabs-container">
-    <button class="tips-tabs current" 
-        id ="tips-tab-self"
-        onclick="self()"
-        >
-        Looking after yourself
-    </button>
-    <button class="tips-tabs"
-        id="tips-tab-colleagues"
-        onclick="colleagues()"
-        >
-        Looking after your colleagues
-    </button>
-    <button class="tips-tabs"
-        id="tips-tab-team"
-        onclick="team()">
-        Looking after your team
-    </button>
-</div>
-<div id="tips-self">
-    {% include_relative self.html %}
-</div>
-<div id="tips-colleagues" hidden>
-    {% include_relative colleagues.html %}
-</div>
-<div id="tips-team" hidden>
-    {% include_relative team.html %}
+<div class="tips-accordion-container">
+    <section class="tips-accordion-item">
+        <button class="tips-accordion-toggle"
+            id="tips-toggle-self"
+            type="button"
+            aria-expanded="false"
+            aria-controls="tips-self">
+            Looking after yourself
+        </button>
+        <div id="tips-self" class="tips-tab-content tips-accordion-panel" hidden>
+            {% include_relative self.html %}
+        </div>
+    </section>
+    <section class="tips-accordion-item">
+        <button class="tips-accordion-toggle"
+            id="tips-toggle-colleagues"
+            type="button"
+            aria-expanded="false"
+            aria-controls="tips-colleagues">
+            Looking after your colleagues
+        </button>
+        <div id="tips-colleagues" class="tips-tab-content tips-accordion-panel" hidden>
+            {% include_relative colleagues.html %}
+        </div>
+    </section>
+    <section class="tips-accordion-item">
+        <button class="tips-accordion-toggle"
+            id="tips-toggle-team"
+            type="button"
+            aria-expanded="false"
+            aria-controls="tips-team">
+            Looking after your team
+        </button>
+        <div id="tips-team" class="tips-tab-content tips-accordion-panel" hidden>
+            {% include_relative team.html %}
+        </div>
+    </section>
 </div>
