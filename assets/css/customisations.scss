@@ -734,7 +734,8 @@ hr {
     color: whitesmoke;
 }
 
-.icon-link i:hover {
+.icon-link:hover i,
+.icon-link:focus-visible i {
     color: lightsteelblue;
 }
 
