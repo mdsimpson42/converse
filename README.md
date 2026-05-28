@@ -1,20 +1,23 @@
 # ConveRSE
 
-Code for the ConveRSE website, a hub for mental health information, resources and support,
-created as part of [Mike Simpson's](https://www.software.ac.uk/fellowship-programme/mike-simpson) SSI Fellowship.
+Code for the ConveRSE website, a hub for mental health information, resources andsupport,
+created as part of [Mike Simpson's](https://www.software.ac.uk/fellowship-programme/mike-simpson)
+SSI Fellowship.
 
-Some basic information about the site and the code is included below. 
+Some basic information about the site and the code is included below.
 More can be found on [the Wiki](https://github.com/mdsimpson42/converse/wiki).
 
 ## Contributing
 
-As part of the ConveRSE project, we hope to collect blog posts about mental health from a wide and diverse subset of the community.  
-You can submit a blog post following [these instructions](https://github.com/mdsimpson42/converse/wiki) on the Wiki or using
-[this form](https://forms.gle/p8LwvSPBNcywJbFj8).
+As part of the ConveRSE project, we hope to collect blog posts about mental health from a wide and
+diverse subset of the community.  
+
+You can submit a blog post following [these instructions](https://github.com/mdsimpson42/converse/wiki)
+on the Wiki or using [this form](https://forms.gle/p8LwvSPBNcywJbFj8).
 
 ## Running Locally
 
-To run a local version of the site for development and testing, please follow the instructions below. 
+To run a local version of the site for development and testing, please follow the instructions below.
 
 ### Setup
 
@@ -22,7 +25,8 @@ The site has been developed and tested on Windows.
 
 **1 - The app requires Ruby. Download the [Windows Installer](https://rubyinstaller.org/).**
 
-- Install the version with the dev kit and tick the box at the end to install MSYS2 and the development toolchain.
+- Install the version with the dev kit and tick the box at the end to install MSYS2 and the development
+toolchain.
 
 **2 - Install Jekyll using `gem install jekyll bundler`.**
 
@@ -30,7 +34,7 @@ The site has been developed and tested on Windows.
 
 More info can be found in the [Jekyll Documentation](https://jekyllrb.com/docs/).
 
-### Running Locally
+### Running on Localhost
 
-To run locally, use `bundle exec jekyll serve --livereload`, which will run a local web server at `http://localhost:4000/converse`.
-The page will automatically reload when changes are made.
+To run locally, use `bundle exec jekyll serve --livereload`, which will run a local web server at
+`http://localhost:4000/converse`. The page will automatically reload when changes are made.
