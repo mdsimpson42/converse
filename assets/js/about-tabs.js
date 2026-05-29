@@ -1,19 +1,43 @@
 /*
- * Code for switching between tabs on the tips page in the resources section.
+ * Code for expanding and collapsing sections on the about page.
  * This file is included in the no_title.html and default.html layouts.
-*/
-function aboutConverse() {
-    document.getElementById("about-tab-converse").classList.add("current");
-    document.getElementById("about-tab-site").classList.remove("current");
+ */
+(function() {
+    function initialiseAboutAccordion() {
+        var accordion = document.querySelector(".about-accordion-container");
 
-    document.getElementById("about-converse").hidden = false;
-    document.getElementById("about-site").hidden = true;
-}
+        if (!accordion) {
+            return;
+        }
 
-function aboutWebsite() {
-    document.getElementById("about-tab-converse").classList.remove("current");
-    document.getElementById("about-tab-site").classList.add("current");
+        var toggles = accordion.querySelectorAll(".about-accordion-toggle");
 
-    document.getElementById("about-converse").hidden = true;
-    document.getElementById("about-site").hidden = false;
-}
+        function setPanelState(toggle, isExpanded) {
+            var panelId = toggle.getAttribute("aria-controls");
+            var panel = document.getElementById(panelId);
+
+            toggle.setAttribute("aria-expanded", isExpanded ? "true" : "false");
+            toggle.classList.toggle("current", isExpanded);
+
+            if (panel) {
+                panel.hidden = !isExpanded;
+            }
+        }
+
+        toggles.forEach(function(toggle) {
+            setPanelState(toggle, toggle.getAttribute("aria-expanded") === "true");
+
+            toggle.addEventListener("click", function() {
+                var isExpanded = toggle.getAttribute("aria-expanded") === "true";
+                setPanelState(toggle, !isExpanded);
+            });
+        });
+    }
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initialiseAboutAccordion);
+        return;
+    }
+
+    initialiseAboutAccordion();
+})();

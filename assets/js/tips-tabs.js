@@ -1,33 +1,43 @@
 /*
- * Code for switching between tabs on the tips page in the resources section.
+ * Code for expanding and collapsing sections on the tips page.
  * This file is included in the no_title.html and default.html layouts.
-*/
-function self() {
-    document.getElementById("tips-tab-self").classList.add("current");
-    document.getElementById("tips-tab-colleagues").classList.remove("current");
-    document.getElementById("tips-tab-team").classList.remove("current");
+ */
+(function() {
+    function initialiseTipsAccordion() {
+    var accordion = document.querySelector(".tips-accordion-container");
 
-    document.getElementById("tips-self").hidden = false;
-    document.getElementById("tips-colleagues").hidden = true;
-    document.getElementById("tips-team").hidden = true;
-}
+    if (!accordion) {
+        return;
+    }
 
-function colleagues() {
-    document.getElementById("tips-tab-self").classList.remove("current");
-    document.getElementById("tips-tab-colleagues").classList.add("current");
-    document.getElementById("tips-tab-team").classList.remove("current");
+    var toggles = accordion.querySelectorAll(".tips-accordion-toggle");
 
-    document.getElementById("tips-self").hidden = true;
-    document.getElementById("tips-colleagues").hidden = false;
-    document.getElementById("tips-team").hidden = true;
-}
+    function setPanelState(toggle, isExpanded) {
+        var panelId = toggle.getAttribute("aria-controls");
+        var panel = document.getElementById(panelId);
 
-function team() {
-    document.getElementById("tips-tab-self").classList.remove("current");
-    document.getElementById("tips-tab-colleagues").classList.remove("current");
-    document.getElementById("tips-tab-team").classList.add("current");
+        toggle.setAttribute("aria-expanded", isExpanded ? "true" : "false");
+        toggle.classList.toggle("current", isExpanded);
 
-    document.getElementById("tips-self").hidden = true;
-    document.getElementById("tips-colleagues").hidden = true;
-    document.getElementById("tips-team").hidden = false;
-}
+        if (panel) {
+            panel.hidden = !isExpanded;
+        }
+    }
+
+    toggles.forEach(function(toggle) {
+        setPanelState(toggle, toggle.getAttribute("aria-expanded") === "true");
+
+        toggle.addEventListener("click", function() {
+            var isExpanded = toggle.getAttribute("aria-expanded") === "true";
+            setPanelState(toggle, !isExpanded);
+        });
+    });
+    }
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initialiseTipsAccordion);
+        return;
+    }
+
+    initialiseTipsAccordion();
+})();

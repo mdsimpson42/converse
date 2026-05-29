@@ -20,7 +20,7 @@ as mental health! So, I wanted to take a moment to clarify a couple of the thing
 ## "Subjected" to Agile Training
 
 In the talk, I mention a discussion at Collaborations Workshop 2024 that led to the creation of the
-[Task Management for Humans as Self-care]({{site.baseurl}}/2025/04/26/task-management.html) project.
+[Task Management for Humans as Self-care]({{site.baseurl}}/2025/04/25/task-management.html) project.
 Someone mentioned how they had used task management tools to keep track of their workload, and how
 they believe that it helped to manage their anxiety and improve their mental health. During the talk,
 I talk about how I was initially resistant to the idea, and in the Q&A afterwards, I talk about being
@@ -66,7 +66,7 @@ I acknowledge that yoga and other kinds of physical exercise and mindfulness are
 health. It is also perfectly true that arranging social events for your team can be a good way to raise morale.
 "Pub!" is the number one response to I've had to the question: "What are some examples of good ways to people
 support mental health in your team?", after all. (Read more about that in
-[this blog post]({{site.baseurl}}/2025/11/20/issues-and-solutions.html) about the data collected during my talk.)
+[this blog post]({{site.baseurl}}/2025/11/19/issues-and-solutions.html) about the data collected during my talk.)
 
 I just don't think that it should be offered up as an alternative to good leadership, or to actual support for
 people who are struggling.

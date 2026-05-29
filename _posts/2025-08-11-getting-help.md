@@ -66,7 +66,7 @@ or make accommodations for you if you are struggling. However, getting in touch 
 a referral from your line manager or HR department.
 
 Occupational Health were the ones who recommended I take time of work to recover after
-[my anxiety attack]({{site.baseurl}}{% post_url 2025-03-23-working-from-home %}). They were patient, sympathetic
+[my anxiety attack]({% post_url 2025-03-14-backstory %}). They were patient, sympathetic
 and supportive, and a lot less scary to talk to than I had imagined.
 
 ## 5. Your GP
@@ -95,7 +95,7 @@ as I was finally able to recover and get on with my life.
 There are several organisations and charities that provide support, including some that specialise in particular
 mental health issues or in supporting particular people, such as minority groups, disabled people and the LGBTQ+ community.
 
-- A good starting point might be to check out the list on our [Get Help page]({{site.baseurl}}/resources/get-help).
+- A good starting point might be to check out the list on our [Get Help page]({{site.baseurl}}/resources/).
 
 I can definitely recommend doing some research. I found the [Mind website](https://www.mind.org.uk/) to be a great resource.
 It was on their website that I learned about CBT and decided that it sounded like something that would work for me.

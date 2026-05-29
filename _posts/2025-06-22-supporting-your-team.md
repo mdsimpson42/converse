@@ -88,7 +88,7 @@ feels supported and valued.
 
 - Remember to check out the [resources page]({{site.baseurl}}/resources/tips) for more tips and advice on
 how to support your team. We will be adding more to these pages over time.
-- Also check out our blog, where we hope to have [a range of tips and conversations]({{site.baseurl}}/converse/tags/leadership)
+- Also check out our blog, where we hope to have [a range of tips and conversations]({{site.baseurl}}/tags/leadership)
 about what managers can do to support better mental health in the workplace.
 
 Thanks for reading.  
