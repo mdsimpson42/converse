@@ -259,6 +259,54 @@ iframe {
     border: 2px solid lightblue;
 }
 
+.pagination {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.pagination-status {
+    text-align: center;
+    font-weight: 600;
+}
+
+.pagination-control {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #d8eef5;
+    color: $font-colour;
+    text-decoration: none !important;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.pagination-control:hover {
+    background-color: rgb(142, 201, 221);
+    text-decoration: none !important;
+}
+
+.pagination-control:focus,
+.pagination-control:focus-visible {
+    text-decoration: none !important;
+}
+
+.pagination-control.is-disabled {
+    border: none;
+    background-color: #f6f8fa;
+    color: #9aa6b2;
+    cursor: not-allowed;
+}
+
 .blog-preview-image {
     object-fit: cover;
     // width: 100%;
