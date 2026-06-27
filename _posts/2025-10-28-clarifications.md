@@ -4,7 +4,9 @@ author: mike_simpson
 date: 2025-10-28
 categories: [miscellaneous]
 tags: []
-image: chandler.jpg
+image:
+  path: assets/img/blog/chandler.jpg
+  alt: ""
 ---
 
 I've now given my "Let's Talk About Mental Health" talk at various events. I will soon be sharing the

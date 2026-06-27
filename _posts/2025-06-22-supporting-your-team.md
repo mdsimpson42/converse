@@ -4,8 +4,9 @@ author: mike_simpson
 date: 2025-06-22
 categories: [conversations]
 tags: [leadership]
-image: supporting-your-team.jpg
-image_alt: Let's talk about Supporting your Team
+image:
+  path: assets/img/blog/supporting-your-team.jpg
+  alt: Let's talk about Supporting your Team
 ---
 
 Another question I've been asked a few times while giving my mental health talk is "what can I do to support my team?"
@@ -43,20 +44,20 @@ support to people who are experiencing a mental health crisis. They can help to 
 and are trained to approach and listen to people who are struggling and to signpost them to appropriate
 support services.
 
-- MHFA training costs £325 per person (excluding VAT) and consists of a two-day course, which can be run
+- MHFA training costs Â£325 per person (excluding VAT) and consists of a two-day course, which can be run
 in-person or online.
 
 That's not a lot, especially compared to the cost of someone having to take time off because they have burned out
 or experienced a serious mental health crisis. I estimated that the total cost of my six week absence (which was mandated by
-Occupational Health) after experiencing an anxiety attack would cost my institution as much as £12,000. Whereas the
-MHFA training (even including the two days that person would have to take off to complete it) is £1,200. If having an
+Occupational Health) after experiencing an anxiety attack would cost my institution as much as Â£12,000. Whereas the
+MHFA training (even including the two days that person would have to take off to complete it) is Â£1,200. If having an
 MHFA on your team can prevent even a single a prolonged absence, that is a definite investment in your team, one which will
 pay off not just in terms of happiness and productivity, but also in cold hard cash!
 
 And don't just take my word for it, according to [MHFA England](https://www.mhfaengland.org/),
 absence due to poor mental health was responsible for **72 million lost working days** in 2019
-<sub>[[1](https://mhfaengland.org/mhfa-centre/impact-report-2019.pdf)]</sub>, costing as much as **£57 billion**
-<sub>[[2](https://mhfaengland.org/mhfa-centre/blog/Key-workplace-mental-health-statistics-for-2024/)]</sub>.
+[[1](https://mhfaengland.org/mhfa-centre/impact-report-2019.pdf)], costing as much as **Â£57 billion**
+[[2](https://mhfaengland.org/mhfa-centre/blog/Key-workplace-mental-health-statistics-for-2024/)].
 
 Our recommendation is that all leaders and line managers go through this training, but even having
 a single MHFA on your team can make a big difference.

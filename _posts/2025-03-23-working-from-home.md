@@ -4,8 +4,9 @@ author: mike_simpson
 date: 2025-03-23
 categories: [self-care]
 tags: [self_care]
-image: wfh.jpg
-image_alt: A photo of a desk overlaid with the text "Working from Home"
+image:
+  path: assets/img/blog/wfh.jpg
+  alt: A photo of a desk overlaid with the text "Working from Home"
 ---
 
 Working remotely has become part of our lives for many of us since the events of 2020. And, while it has its benefits,
