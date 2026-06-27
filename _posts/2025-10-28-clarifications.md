@@ -5,7 +5,7 @@ date: 2025-10-28
 categories: [miscellaneous]
 tags: []
 image:
-  path: assets/img/blog/chandler.jpg
+  path: /assets/img/blog/chandler.jpg
   alt: ""
 ---
 

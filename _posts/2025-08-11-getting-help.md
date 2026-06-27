@@ -5,7 +5,7 @@ date: 2025-08-11
 categories: [self-care]
 tags: [self_care]
 image:
-  path: assets/img/blog/getting-help.jpg
+  path: /assets/img/blog/getting-help.jpg
   alt: Let's talk about Getting Help
 ---
 

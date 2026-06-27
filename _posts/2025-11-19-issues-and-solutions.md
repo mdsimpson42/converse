@@ -5,7 +5,7 @@ date: 2025-11-19
 categories: [miscellaneous]
 tags: [self_care]
 image:
-  path: assets/img/blog/mentimeter.jpg
+  path: /assets/img/blog/mentimeter.jpg
   alt: Word cloud showing common words mentioned in responses to two questions about mental health in the workplace.
 image_alt_one: A graph showing the number of times that each challenge or barrier was mentioned in response to question one of the survey.
 image_alt_two: A graph showing the number of times that each suggestion was made in response to question two of the survey.

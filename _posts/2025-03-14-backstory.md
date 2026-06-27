@@ -5,7 +5,7 @@ date: 2025-03-14
 categories: [stories]
 tags: [anxiety, depression, burnout]
 image:
-  path: assets/img/blog/I-Am-Your-Father.jpg
+  path: /assets/img/blog/I-Am-Your-Father.jpg
   alt: The text "I am your Father" on a blue background. There is a picture of a man holding his newborn son and smiling at the camera.
 ---
 
