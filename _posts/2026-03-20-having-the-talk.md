@@ -4,8 +4,9 @@ author: mike_simpson
 date: 2026-03-20
 categories: [self-care]
 tags: [self_care, leadership]
-image: maranda-vandergriff.jpg
-image_alt: A photo of a two people having a meeting. A table with two laptops, a coffee cup and a plant
+image:
+  path: assets/img/blog/maranda-vandergriff.jpg
+  alt: A photo of a two people having a meeting. A table with two laptops, a coffee cup and a plant
 ---
 
 A question I get asked regularly when I give my [mental health talk]({{site.baseurl}}/talks.html)

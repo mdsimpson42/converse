@@ -4,8 +4,9 @@ author: mike_simpson
 date: 2025-05-09
 categories: [self-care]
 tags: [impostor_syndrome]
-image: impostor-syndrome.jpg
-image_alt: Let's talk about Impostor Syndrome
+image:
+  path: assets/img/blog/impostor-syndrome.jpg
+  alt: Let's talk about Impostor Syndrome
 ---
 
 Have you ever been working on a project and felt like you didn't deserve to be there? Chances are, you have experienced

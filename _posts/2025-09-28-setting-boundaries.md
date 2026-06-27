@@ -4,8 +4,9 @@ author: mike_simpson
 date: 2025-09-28
 categories: [self-care]
 tags: [self_care]
-image: setting-boundaries.jpg
-image_alt: Let's talk about Setting Boundaries
+image:
+  path: assets/img/blog/setting-boundaries.jpg
+  alt: Let's talk about Setting Boundaries
 ---
 
 One thing I've learned doing this job is that one of the best things you can do to protect your
@@ -65,9 +66,9 @@ And those distractions can be a big problem.
 
 According to [MHFA England](https://mhfaengland.org/):
 
-📥 The average worker receives 117 emails a day  
-🔔 Plus around 153 push notifications  
-⚡ Resulting in roughly 275 digital interruptions... every day!
+ðŸ“¥ The average worker receives 117 emails a day  
+ðŸ”” Plus around 153 push notifications  
+âš¡ Resulting in roughly 275 digital interruptions... every day!
 
 And when a notification pulls us off-task, it can take more than 20 minutes to refocus deeply again.
 

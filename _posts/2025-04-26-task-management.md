@@ -4,8 +4,9 @@ author: mike_simpson
 date: 2025-04-25
 categories: [projects]
 tags: [self_care]
-image: task-management.jpg
-image_alt: A photo of five people receiving a prize below the 2024 Collaborations Workshop logo.
+image:
+  path: assets/img/blog/task-management.jpg
+  alt: A photo of five people receiving a prize below the 2024 Collaborations Workshop logo.
 ---
 
 I'd been looking for ways to support mental health in the research software community,

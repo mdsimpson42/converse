@@ -4,8 +4,9 @@ author: mike_simpson
 date: 2025-08-11
 categories: [self-care]
 tags: [self_care]
-image: getting-help.jpg
-image_alt: Let's talk about Getting Help
+image:
+  path: assets/img/blog/getting-help.jpg
+  alt: Let's talk about Getting Help
 ---
 
 One of the questions I've been asked while giving [my mental health talk]({{site.baseurl}}/talks)
@@ -86,7 +87,7 @@ Alternatively, you can pay for private therapy, which can be expensive but may b
 
 After being bounced around slow and ineffective NHS services, I asked my GP if they could refer me to a private therapist.
 This was one of the best decisions I ever made. After suffering for nearly a decade, I was able to finally get the help I
-needed to recover (though it took over a year to get there!). It's hard work, and expensive at around £80-90 per session.
+needed to recover (though it took over a year to get there!). It's hard work, and expensive at around Â£80-90 per session.
 And you might find that you feel worse before you start to feel better, but it was worth the cost and the hard work,
 as I was finally able to recover and get on with my life.
 
