@@ -5,7 +5,7 @@ date: 2025-05-09
 categories: [self-care]
 tags: [impostor_syndrome]
 image:
-  path: assets/img/blog/impostor-syndrome.jpg
+  path: /assets/img/blog/impostor-syndrome.jpg
   alt: Let's talk about Impostor Syndrome
 ---
 

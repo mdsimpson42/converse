@@ -5,7 +5,7 @@ date: 2025-09-28
 categories: [self-care]
 tags: [self_care]
 image:
-  path: assets/img/blog/setting-boundaries.jpg
+  path: /assets/img/blog/setting-boundaries.jpg
   alt: Let's talk about Setting Boundaries
 ---
 

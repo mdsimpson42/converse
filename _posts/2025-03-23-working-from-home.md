@@ -5,7 +5,7 @@ date: 2025-03-23
 categories: [self-care]
 tags: [self_care]
 image:
-  path: assets/img/blog/wfh.jpg
+  path: /assets/img/blog/wfh.jpg
   alt: A photo of a desk overlaid with the text "Working from Home"
 ---
 

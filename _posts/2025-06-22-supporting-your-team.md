@@ -5,7 +5,7 @@ date: 2025-06-22
 categories: [conversations]
 tags: [leadership]
 image:
-  path: assets/img/blog/supporting-your-team.jpg
+  path: /assets/img/blog/supporting-your-team.jpg
   alt: Let's talk about Supporting your Team
 ---
 

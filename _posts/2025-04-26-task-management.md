@@ -5,7 +5,7 @@ date: 2025-04-25
 categories: [projects]
 tags: [self_care]
 image:
-  path: assets/img/blog/task-management.jpg
+  path: /assets/img/blog/task-management.jpg
   alt: A photo of five people receiving a prize below the 2024 Collaborations Workshop logo.
 ---
 

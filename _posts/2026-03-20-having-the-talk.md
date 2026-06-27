@@ -5,7 +5,7 @@ date: 2026-03-20
 categories: [self-care]
 tags: [self_care, leadership]
 image:
-  path: assets/img/blog/maranda-vandergriff.jpg
+  path: /assets/img/blog/maranda-vandergriff.jpg
   alt: A photo of a two people having a meeting. A table with two laptops, a coffee cup and a plant
 ---
 
