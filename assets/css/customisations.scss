@@ -798,8 +798,12 @@ hr {
 .footer-links > li {
     position: relative;
     display: inline-block;
-    margin-right: 0px;
+    margin-right: 2.2rem;
     padding-left: 0px;
+}
+
+.footer-links > li:last-child {
+    margin-right: 0;
 }
 
 .footer-links a {
@@ -809,12 +813,19 @@ hr {
     cursor: pointer;
 }
 
+.footer-links .icon-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
 .footer-links a:hover {
     color: lightsteelblue;
 }
 
-.footer-links i {
-    padding: 10px;
+.footer-links .icon-link i {
+    padding: 0;
+    line-height: 1;
 }
   
 .menu > .menu-list > li:hover > .sub-menu {
