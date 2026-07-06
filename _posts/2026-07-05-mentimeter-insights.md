@@ -29,7 +29,7 @@ rest of this post.
 
 ![A screenshot of Mentimeter insights from a set of questions](/assets/img/blog/mentimeter-insights-1.jpg)
 
-*I am very aware that these insights are AI-generated, and that some people will have strong feeling about that. AI is one of the most
+*I am very aware that these insights are AI-generated, and that some people will have strong feelings about that. AI is one of the most
 common anxieties in the research software community right now. I wrote this post based on the Mentimeter Insights, correlated with the
 conversations I've had over the last year.*
 
