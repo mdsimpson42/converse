@@ -52,7 +52,7 @@ part of their core role.
 ### Boundaries
 
 When asked what helps them cope, participants consistently point to firm boundaries. This can mean setting clear boundaries between work
-and personal life, including communication boundaries, as I discussed in a [recent blog post](2025/09/28/setting-boundaries).
+and personal life, including communication boundaries, as I discussed in a [recent blog post](/2025/09/28/setting-boundaries).
 
 - **Time Management**: Strategies like 'timeboxing' (allocating a maximum amount of time to an activity) and protecting focus time.
 - **Digital Disconnect**: There is a strong desire for clear "off-switches," such as limited notifications and protected hours, to allow for
