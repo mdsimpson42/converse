@@ -38,3 +38,8 @@ More info can be found in the [Jekyll Documentation](https://jekyllrb.com/docs/)
 
 To run locally, use `bundle exec jekyll serve --livereload`, which will run a local web server at
 `http://localhost:4000/converse`. The page will automatically reload when changes are made.
+
+## License
+
+- The code for this site is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+- The content of the site is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
