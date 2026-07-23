@@ -194,6 +194,54 @@ h3 a {
     background-color: whitesmoke;
 }
 
+.speech-bubble {
+    --bubble-bg: #d8eef5;
+    --bubble-border: #c5c9d1;
+    --bubble-text: #1f2a38;
+    --bubble-radius: 30px;
+    --bubble-tail-size: 24px;
+    --bubble-tail-x: 20%;
+    --bubble-border-width: 4px;
+
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: calc(35px + var(--bubble-tail-size));
+    text-align: center;
+    font-size: larger;
+    padding: 40px;
+    background-color: var(--bubble-bg);
+    color: var(--bubble-text);
+    border-radius: var(--bubble-radius);
+    //box-shadow: 0 6px 14px rgba(0, 0, 0, 0.14);
+}
+
+.speech-bubble::after {
+    content: "";
+    position: absolute;
+    left: var(--bubble-tail-x);
+    bottom: calc(-1 * var(--bubble-tail-size));
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: var(--bubble-tail-size) solid transparent;
+    border-right: var(--bubble-tail-size) solid transparent;
+    border-top: var(--bubble-tail-size) solid var(--bubble-bg);
+}
+
+.speech-bubble-light,
+.quote-light {
+    --bubble-bg: whitesmoke;
+}
+
+.speech-bubble-tail-center {
+    --bubble-tail-x: 50%;
+}
+
+.speech-bubble-tail-right {
+    --bubble-tail-x: 80%;
+}
+
+.speech-bubble p,
 .quote p {
     margin: 0;
     font-size: 1.2rem;
@@ -931,7 +979,7 @@ hr {
     min-width: 230px;
     height: 320px;
     background-color: #d8eef5;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    //box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .category-card {
