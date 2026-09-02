@@ -65,7 +65,7 @@ And so, in 2024, I applied for the SSI fellowship. It was my goal to build upon 
 such excellent work in this area already. I wanted to turn my experience into something positive to benefit the
 Research Software Engineering community.
 
-The Software Sustainability Institute team have been incredibly supportive throughout this process. Check out
+The Institute for Research Software team have been incredibly supportive throughout this process. Check out
 their [website](https://www.software.ac.uk/) and sign up to their mailing list for more information about the
 fellowship programme.
 

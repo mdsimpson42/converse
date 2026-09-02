@@ -1,8 +1,8 @@
 # ConveRSE
 
-Code for the ConveRSE website, a hub for mental health information, resources andsupport,
+Code for the ConveRSE website, a hub for mental health information, resources and support,
 created as part of [Mike Simpson's](https://www.software.ac.uk/fellowship-programme/mike-simpson)
-SSI Fellowship.
+Institute for Research Software Fellowship.
 
 Some basic information about the site and the code is included below.
 More can be found on [the Wiki](https://github.com/mdsimpson42/converse/wiki).

@@ -133,7 +133,10 @@ h3 a {
 }
 
 .footer-logo-container {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -1173,4 +1176,11 @@ button:hover {
     .burger-menu-bar {
         display: block;
     }
+}
+
+.institute-logo {
+    height: 40px;
+    padding-bottom: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
