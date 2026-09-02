@@ -17,7 +17,7 @@ conversation at the SSI's Collaborations Workshop in 2024.
 
 ## CW24
 
-Collaborations Workshop is an amazing event, hosted each year by the [Software Sustainability Institute](https://www.software.ac.uk)
+Collaborations Workshop is an amazing event, hosted each year by the [Institute for Research](https://www.software.ac.uk)
 (SSI), and I'm not just saying that because I'm now an SSI Fellow! The event takes place over three days, and you spend most of it
 splitting into groups to discuss a range of topics. Usually, this includes things like generative AI, sustainability in
 high-performance computing and maintenance of open-source software projects.

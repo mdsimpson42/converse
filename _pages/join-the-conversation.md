@@ -5,7 +5,8 @@ menu: get-involved
 ---
 
 The main aim of the ConveRSE project is to continue the conversation around mental health
-in the research software community.
+in the research software community, as part of [Mike Simpson](/contributors/mike_simpson)'s
+fellowship with the Institute for Research Software.
 
 ## Join the Conversation
 
@@ -15,7 +16,7 @@ For updates on the ConveRSE project and to get involved:
   If you are not already a member, you can sign up by clicking the "Join our Slack" button on
   [the Society's website](https://society-rse.org/join-us/).
 - Sign up to the [ConveRSE mailing list]({{site.baseurl}}/mailing-list) to receive updates and information about upcoming events.
-- Follow [Mike Simpson](https://linktr.ee/mdsimpson) or [the SSI](https://www.software.ac.uk/) on Social Media.
+- Follow [Mike Simpson](https://linktr.ee/mdsimpson) or [the Institute](https://www.software.ac.uk/) on Social Media.
 
 ## Contribute
 
