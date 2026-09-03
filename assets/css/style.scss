@@ -4,17 +4,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 $main-background-color: #fafbfc;
-$menu-background-color: #e2eff4;
-$menu-hover-color: #8ec9dd;
+$menu-background-color: #d2ddeb;
+$submenu-background-color: #e5ebf2;
+$menu-hover-color: #bacbe1;
 $light-background-color: whitesmoke;
+$footer-background-color: #1b5fa3;
 
-$border-color: lightblue;
+$border-color: #b3c5dc;
 
-$header-color: #159957;
+$header-color: #1b5fa3;
 $text-color: #222;
 $light-text-color: whitesmoke;
-$link-color: #1e6bb8;
-$selected-color: #159957;
+$link-color: #1b5fa3;
+$selected-color: #1b5fa3;
 
 
 html {
@@ -690,7 +692,7 @@ body {
 }
 
 a {
-  color: #1e6bb8;
+  color: $link-color;
   text-decoration: none;
 }
 a:hover {
@@ -882,14 +884,13 @@ a:hover {
   height: 2px;
   padding: 0;
   margin: 1rem 0;
-  background-color: #eff0f1;
+  background-color: $border-color;
   border: 0;
 }
 
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1;
 }
 
 .site-footer-owner {
@@ -954,7 +955,7 @@ h3 a {
 
 .current {
     color: $selected-color !important;
-    padding-bottom: 15px !important;
+    padding-bottom: 10px !important;
     border-bottom: 5px solid $selected-color;
 }
 
@@ -998,7 +999,7 @@ h3 a {
 }
 
 .page-footer {
-    background: #1e6bb8;
+    background: $footer-background-color;
     //margin-top: 10px;
     margin-bottom: 0px;
     margin-left: auto;
@@ -1070,7 +1071,6 @@ h3 a {
 }
 
 .speech-bubble {
-    --bubble-bg: $menu-background-color;
     --bubble-border: #c5c9d1;
     --bubble-text: #1f2a38;
     --bubble-radius: 30px;
@@ -1084,7 +1084,7 @@ h3 a {
     text-align: center;
     font-size: larger;
     padding: 40px;
-    background-color: var(--bubble-bg);
+    background-color: $menu-background-color;
     color: var(--bubble-text);
     border-radius: var(--bubble-radius);
     //box-shadow: 0 6px 14px rgba(0, 0, 0, 0.14);
@@ -1100,17 +1100,16 @@ h3 a {
     height: 0;
     border-left: var(--bubble-tail-size) solid transparent;
     border-right: var(--bubble-tail-size) solid transparent;
-    border-top: var(--bubble-tail-size) solid var(--bubble-bg);
+    border-top: var(--bubble-tail-size) solid $menu-background-color;
 }
 
 .speech-bubble-light,
 .quote-light {
-    --bubble-bg-light: #{$light-background-color};
-    background-color: var(--bubble-bg-light) !important;
+    background-color: $light-background-color !important;
 }
 
 .speech-bubble-light::after {
-    border-top-color: var(--bubble-bg-light) !important;
+    border-top-color: $light-background-color !important;
 }
 
 .speech-bubble-tail-center {
@@ -1170,12 +1169,12 @@ iframe {
 }
 
 .post-preview:hover{
-    background-color: rgb(191, 219, 229);
+    background-color: $menu-hover-color;
     cursor: pointer;
 }
 
 .blog-image {
-    background-color: rgba(169, 204, 215, 0.5);
+    background-color: $menu-background-color;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid $border-color;
@@ -1275,7 +1274,7 @@ iframe {
 
 .read-more {
     width: 100%;
-    color: #1e6bb8;
+    color: $link-color;
     text-align: right;
     font-weight: normal;
     margin-top: auto !important;
@@ -1287,7 +1286,7 @@ iframe {
 
 .read-more i {
     padding-left: 5px;
-    color: #1e6bb8;
+    color: $link-color;
 }
 
 .post-title {
@@ -1425,7 +1424,7 @@ hr {
     margin-bottom: 0px;
     border: 0;
     border-radius: 0;
-    color: #1e6bb8 !important;
+    color: $link-color !important;
     box-shadow: none !important;
     position: relative;
     text-align: left;
@@ -1461,7 +1460,7 @@ hr {
 
 .tips-tab-content {
     background-color: $menu-background-color;
-    padding: 13px 15px 5px 15px;
+    padding: 13px 15px 15px 15px;
 }
 
 .menu .menu-list, .menu .sub-menu {
@@ -1500,7 +1499,7 @@ hr {
 }
   
 .menu > .menu-list > li > a {
-    padding: 20px 35px;
+    padding: 15px 30px;
     margin: 0px;
 }
 
@@ -1588,13 +1587,17 @@ hr {
     background: $menu-hover-color;
 }
 
+.sub-menu > li {
+    border-top: 1px solid $border-color;
+}
+
 .sub-menu > li:hover {
     background: $menu-hover-color;
 }
   
 .menu > .menu-list > li > .sub-menu {
     position: absolute;
-    background: $border-color;
+    background: $menu-background-color;
     z-index: 1000;
     display: none;
 }
@@ -1703,7 +1706,7 @@ hr {
 }
 
 .card:hover {
-    background-color: $border-color;
+    background-color: $menu-hover-color;
 }
 
 .card-icon {
@@ -1738,7 +1741,7 @@ hr {
 }
 
 button {
-    background-color: #1e6bb8;
+    background-color: $link-color;
     color: $light-text-color !important;
     font-size: 1.2rem !important;
     font-weight: 600 !important;
@@ -1849,7 +1852,7 @@ button:hover {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #c3e4ef;
+    background-color: $submenu-background-color;
 }
 
 .mobile-sub-menu li {
