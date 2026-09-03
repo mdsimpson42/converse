@@ -1426,6 +1426,8 @@ hr {
 
 .accordion-toggle.current {
     background-color: rgb(216, 238, 245);
+    padding-bottom: 1.2rem !important;
+    border-bottom: 0 !important;
 }
 
 .accordion-toggle::after {
