@@ -2,7 +2,7 @@
   link: /
   tooltip: Home
   menu: home
-- name: Resources
+- name: Resources ▼
   link: /resources
   tooltip: Emergency support and other resources
   menu: resources
@@ -27,7 +27,7 @@
   link: /survey
   tooltip: Mental Health Survey Results
   menu: survey
-- name: Blog
+- name: Blog ▼
   link: /blog
   tooltip: Blog Posts
   menu: blog
@@ -35,7 +35,7 @@
     - name: Authors
       link: /authors
       tooltip: Blog Contributors
-- name: About
+- name: About ▼
   link: /about
   tooltip: About the Site
   menu: about
@@ -43,7 +43,7 @@
     - name: Contributors
       link: /contributors
       tooltip: Site Contributors
-- name: Get Involved
+- name: Get Involved ▼
   link: /join-the-conversation
   tooltip: Get Involved
   menu: get-involved
