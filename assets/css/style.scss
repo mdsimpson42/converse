@@ -1396,11 +1396,11 @@ hr {
     margin-top: 30px;
 }
 
-.tips-accordion-container {
+.accordion-contaner {
     width: 100%;
 }
 
-.tips-accordion-toggle {
+.accordion-toggle {
     display: block;
     width: 100%;
     background-color: rgb(226, 239, 244);
@@ -1415,11 +1415,11 @@ hr {
     text-align: left;
 }
 
-.tips-accordion-toggle.current {
+.accordion-toggle.current {
     background-color: rgb(216, 238, 245);
 }
 
-.tips-accordion-toggle::after {
+.accordion-toggle::after {
     content: "+";
     position: absolute;
     right: 1.2rem;
@@ -1429,52 +1429,11 @@ hr {
     line-height: 1;
 }
 
-.tips-accordion-toggle[aria-expanded="true"]::after {
+.accordion-toggle[aria-expanded="true"]::after {
     content: "-";
 }
 
-.about-accordion-container {
-    width: 100%;
-}
-
-.about-accordion-toggle {
-    display: block;
-    width: 100%;
-    background-color: rgb(226, 239, 244);
-    padding: 1.2rem 3.5rem 1.2rem 1.2rem;
-    cursor: pointer;
-    margin-bottom: 0px;
-    border: 0;
-    border-radius: 0;
-    color: #1e6bb8 !important;
-    box-shadow: none !important;
-    position: relative;
-    text-align: left;
-}
-
-.about-accordion-toggle.current {
-  background-color: rgb(216, 238, 245);
-}
-
-.about-accordion-toggle::after {
-    content: "+";
-    position: absolute;
-    right: 1.2rem;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1.6rem;
-    line-height: 1;
-}
-
-.about-accordion-toggle[aria-expanded="true"]::after {
-    content: "-";
-}
-
-.about-accordion-toggle:hover {
-    background-color: #e0f7fa !important;
-}
-
-.tips-accordion-toggle:hover {
+.accordion-toggle:hover {
     background-color: #e0f7fa !important;
 }
 

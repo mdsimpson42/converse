@@ -18,40 +18,40 @@ permalink: /resources/tips/
 <p>
     Click on a section heading to expand the guidance for that category.
 </p>
-<div class="tips-accordion-container">
-    <section class="tips-accordion-item">
-        <button class="tips-accordion-toggle"
+<div class="tips-accordion-container accordion-container">
+    <section class="accordion-item">
+        <button class="tips-accordion-toggle accordion-toggle"
             id="tips-toggle-self"
             type="button"
             aria-expanded="false"
             aria-controls="tips-self">
             Looking after yourself
         </button>
-        <div id="tips-self" class="tips-tab-content tips-accordion-panel" hidden>
+        <div id="tips-self" class="tips-tab-content accordion-panel" hidden>
             {% include_relative self.html %}
         </div>
     </section>
-    <section class="tips-accordion-item">
-        <button class="tips-accordion-toggle"
+    <section class="accordion-item">
+        <button class="tips-accordion-toggle accordion-toggle"
             id="tips-toggle-colleagues"
             type="button"
             aria-expanded="false"
             aria-controls="tips-colleagues">
             Looking after your colleagues
         </button>
-        <div id="tips-colleagues" class="tips-tab-content tips-accordion-panel" hidden>
+        <div id="tips-colleagues" class="tips-tab-content accordion-panel" hidden>
             {% include_relative colleagues.html %}
         </div>
     </section>
-    <section class="tips-accordion-item">
-        <button class="tips-accordion-toggle"
+    <section class="accordion-item">
+        <button class="tips-accordion-toggle accordion-toggle"
             id="tips-toggle-team"
             type="button"
             aria-expanded="false"
             aria-controls="tips-team">
             Looking after your team
         </button>
-        <div id="tips-team" class="tips-tab-content tips-accordion-panel" hidden>
+        <div id="tips-team" class="tips-tab-content accordion-panel" hidden>
             {% include_relative team.html %}
         </div>
     </section>

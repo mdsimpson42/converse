@@ -7,28 +7,28 @@ permalink: /about
 <p>
     Here you can learn about the ConveRSE project and this website. Click a section heading to expand it.
 </p>
-<div class="about-accordion-container">
-    <section class="about-accordion-item">
-        <button class="about-accordion-toggle current"
+<div class="about-accordion-container accordion-container">
+    <section class="accordion-item">
+        <button class="about-accordion-toggle accordion-toggle current"
             id="about-toggle-converse"
             type="button"
             aria-expanded="true"
             aria-controls="about-converse">
             About ConveRSE
         </button>
-        <div id="about-converse" class="tips-tab-content about-accordion-panel">
+        <div id="about-converse" class="tips-tab-content accordion-panel">
             {% include_relative converse.html %}
         </div>
     </section>
-    <section class="about-accordion-item">
-        <button class="about-accordion-toggle"
+    <section class="accordion-item">
+        <button class="about-accordion-toggle accordion-toggle"
             id="about-toggle-site"
             type="button"
             aria-expanded="false"
             aria-controls="about-site">
             About the Site
         </button>
-        <div id="about-site" class="tips-tab-content about-accordion-panel" hidden>
+        <div id="about-site" class="tips-tab-content accordion-panel" hidden>
             {% include_relative site.html %}
         </div>
     </section>
