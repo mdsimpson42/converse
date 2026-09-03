@@ -5,7 +5,7 @@
 
 $background-color: #fafbfc;
 $header-color: #159957;
-$menu-background-color: rgb(226, 239, 244);
+$menu-background-color: #e2eff4;
 $font-colour: #222;
 $link-colour: #1e6bb8;
 $selected-color: #159957;
@@ -926,6 +926,11 @@ h4 {
     font-weight: 500 !important;
 }
 
+.no-margin {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
 a {
     font-weight: 500 !important;
 }
@@ -1396,7 +1401,7 @@ hr {
     margin-top: 30px;
 }
 
-.accordion-contaner {
+.accordion-container {
     width: 100%;
 }
 
@@ -1413,6 +1418,10 @@ hr {
     box-shadow: none !important;
     position: relative;
     text-align: left;
+}
+
+.accordion-panel {
+  border-top: 1px solid lightblue;
 }
 
 .accordion-toggle.current {
