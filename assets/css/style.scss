@@ -3,12 +3,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
-$background-color: #fafbfc;
-$header-color: #159957;
+$main-background-color: #fafbfc;
 $menu-background-color: #e2eff4;
-$font-colour: #222;
-$link-colour: #1e6bb8;
+$menu-hover-color: #8ec9dd;
+$light-background-color: whitesmoke;
+
+$border-color: lightblue;
+
+$header-color: #159957;
+$text-color: #222;
+$light-text-color: whitesmoke;
+$link-color: #1e6bb8;
 $selected-color: #159957;
+
 
 html {
   font-family: sans-serif; /* 1 */
@@ -650,7 +657,7 @@ th {
 }
 
 .highlight {
-  background-color: $background-color;
+  background-color: $main-background-color;
 }
 
 * {
@@ -663,7 +670,6 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
 }
 
 #skip-to-content {
@@ -736,7 +742,7 @@ a:hover {
 }
 
 .main-content kbd {
-  background-color: $background-color;
+  background-color: $main-background-color;
   border: 1px solid #c6cbd1;
   border-bottom-color: #959da5;
   border-radius: 3px;
@@ -898,7 +904,7 @@ a:hover {
 
 * {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-    color: $font-colour;
+    color: $text-color;
     font-size: large;
     font-weight: 400;
 }
@@ -974,7 +980,7 @@ h3 a {
 }
 
 .header-title {
-    color: whitesmoke;
+    color: $light-text-color;
     font-size: 2rem !important;
     font-weight: 500 !important;
     text-shadow: 2px 2px 4px #000;
@@ -1036,14 +1042,14 @@ h3 a {
 }
 
 .footer-text-container p {
-    color: whitesmoke;
+    color: $light-text-color;
     font-size: small;
     margin: 0;
     text-align: left;
 }
 
 .footer-text-container p a {
-    color: whitesmoke;
+    color: $light-text-color;
     font-weight: bold;
     font-size: small;
 }
@@ -1054,17 +1060,17 @@ h3 a {
     text-align: center;
     font-size: larger;
     padding: 40px;
-    background-color: #d8eef5;
+    background-color: $menu-background-color;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .light-quote {
-    background-color: whitesmoke;
+    background-color: $light-background-color;
 }
 
 .speech-bubble {
-    --bubble-bg: #d8eef5;
+    --bubble-bg: $menu-background-color;
     --bubble-border: #c5c9d1;
     --bubble-text: #1f2a38;
     --bubble-radius: 30px;
@@ -1099,7 +1105,12 @@ h3 a {
 
 .speech-bubble-light,
 .quote-light {
-    --bubble-bg: whitesmoke;
+    --bubble-bg-light: #{$light-background-color};
+    background-color: var(--bubble-bg-light) !important;
+}
+
+.speech-bubble-light::after {
+    border-top-color: var(--bubble-bg-light) !important;
 }
 
 .speech-bubble-tail-center {
@@ -1153,7 +1164,7 @@ iframe {
     margin-top: 30px !important;
     margin-bottom: 0px;
     padding: 20px;
-    background-color: rgb(216, 238, 245);
+    background-color: $menu-background-color;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
 }
@@ -1167,7 +1178,7 @@ iframe {
     background-color: rgba(169, 204, 215, 0.5);
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid lightblue;
+    border: 2px solid $border-color;
     display: flex;
     width: 35%;
     height: 200px;
@@ -1196,8 +1207,8 @@ iframe {
     height: 50px;
     border-radius: 8px;
     border: 1px solid transparent;
-    background-color: #d8eef5;
-    color: $font-colour;
+    background-color: $menu-background-color;
+    color: $text-color;
     text-decoration: none !important;
     font-size: 1.2rem;
     font-weight: 700;
@@ -1207,7 +1218,7 @@ iframe {
 }
 
 .pagination-control:hover {
-    background-color: rgb(142, 201, 221);
+    background-color: $menu-hover-color;
     text-decoration: none !important;
 }
 
@@ -1376,7 +1387,7 @@ nav i {
 hr {
     margin-top: 30px !important;
     margin-bottom: 30px !important;
-    background-color: lightblue !important;
+    background-color: $border-color !important;
 }
 
 .centered-image{
@@ -1421,11 +1432,11 @@ hr {
 }
 
 .accordion-panel {
-  border-top: 1px solid lightblue;
+  border-top: 1px solid $border-color;
 }
 
 .accordion-toggle.current {
-    background-color: rgb(216, 238, 245);
+    background-color: $menu-background-color;
     padding-bottom: 1.2rem !important;
     border-bottom: 0 !important;
 }
@@ -1449,7 +1460,7 @@ hr {
 }
 
 .tips-tab-content {
-    background-color: rgb(216, 238, 245);
+    background-color: $menu-background-color;
     padding: 13px 15px 5px 15px;
 }
 
@@ -1520,7 +1531,7 @@ hr {
 .icon-link i {
     font-size: larger;
     padding: 20px 20px;
-    color: whitesmoke;
+    color: $light-text-color;
 }
 
 .icon-link:hover i,
@@ -1548,7 +1559,7 @@ hr {
 }
 
 .footer-links a {
-    color: whitesmoke;
+    color: $light-text-color;
     font-size: small;
     text-decoration: none;
     cursor: pointer;
@@ -1574,16 +1585,16 @@ hr {
 }
 
 .menu > .menu-list > li:hover {
-    background: rgb(142, 201, 221);
+    background: $menu-hover-color;
 }
 
 .sub-menu > li:hover {
-    background: rgb(142, 201, 221);
+    background: $menu-hover-color;
 }
   
 .menu > .menu-list > li > .sub-menu {
     position: absolute;
-    background: lightblue;
+    background: $border-color;
     z-index: 1000;
     display: none;
 }
@@ -1617,7 +1628,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border: 1px solid lightblue;
+    border: 1px solid $border-color;
     border-radius: 10px;
 }
 
@@ -1671,7 +1682,7 @@ hr {
     width: 90%;
     min-width: 230px;
     height: 320px;
-    background-color: #d8eef5;
+    background-color: $menu-background-color;
     //box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -1682,7 +1693,7 @@ hr {
     text-align: center;
     //width: 300px;
     height: 65px;
-    background-color: #d8eef5;
+    background-color: $menu-background-color;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -1692,7 +1703,7 @@ hr {
 }
 
 .card:hover {
-    background-color: lightblue;
+    background-color: $border-color;
 }
 
 .card-icon {
@@ -1728,7 +1739,7 @@ hr {
 
 button {
     background-color: #1e6bb8;
-    color: whitesmoke !important;
+    color: $light-text-color !important;
     font-size: 1.2rem !important;
     font-weight: 600 !important;
     margin-top: 10px !important;
@@ -1742,7 +1753,7 @@ button {
 }
 
 button:hover {
-    background: rgb(142, 201, 221)
+    background: $menu-hover-color
 }
 
 .top-padding {
@@ -1764,7 +1775,7 @@ button:hover {
 
 .burger-menu-bar {
     display: none;
-    background-color: #d8eef5;
+    background-color: $menu-background-color;
     overflow: hidden;
 }
 
@@ -1781,23 +1792,23 @@ button:hover {
     cursor: pointer;
     font-size: 1rem !important;
     font-weight: 400 !important;
-    color: $font-colour !important;
+    color: $text-color !important;
 }
 
 .burger-menu-btn i {
     font-size: 1.2rem;
-    color: $font-colour;
+    color: $text-color;
     margin-left: 0;
 }
 
 .burger-menu-btn:hover {
-    background-color: rgb(142, 201, 221);
+    background-color: $menu-hover-color;
 }
 
 .mobile-nav {
     display: none;
-    background-color: #d8eef5;
-    border-top: 1px solid #aed6e8;
+    background-color: $menu-background-color;
+    border-top: 1px solid $border-color;
 }
 
 .mobile-nav.is-open {
@@ -1812,7 +1823,7 @@ button:hover {
 
 .mobile-nav-item {
     padding: 0;
-    border-bottom: 1px solid #aed6e8;
+    border-bottom: 1px solid $border-color;
 }
 
 .mobile-nav-link {
@@ -1820,12 +1831,12 @@ button:hover {
     padding: 14px 20px;
     text-decoration: none !important;
     font-weight: 500 !important;
-    color: $font-colour;
+    color: $text-color;
 }
 
 .mobile-nav-link:hover {
-    background-color: rgb(142, 201, 221);
-    color: $font-colour;
+    background-color: $menu-hover-color;
+    color: $text-color;
 }
 
 .mobile-nav-link.current {
@@ -1843,7 +1854,7 @@ button:hover {
 
 .mobile-sub-menu li {
     padding: 0;
-    border-top: 1px solid #aed6e8;
+    border-top: 1px solid $border-color;
 }
 
 .mobile-nav-sublink {
@@ -1851,11 +1862,11 @@ button:hover {
     padding: 11px 20px 11px 36px;
     text-decoration: none !important;
     font-weight: 400 !important;
-    color: $font-colour;
+    color: $text-color;
 }
 
 .mobile-nav-sublink:hover {
-    background-color: rgb(142, 201, 221);
+    background-color: $menu-hover-color;
 }
 
 .institute-logo {
@@ -1865,7 +1876,7 @@ button:hover {
     margin-bottom: auto;
 }
 
-@media (max-width:942px) {
+@media (max-width:1032px) {
     .menu {
         display: none;
     }
