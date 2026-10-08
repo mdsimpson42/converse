@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 $main-background-color: #fafbfc;
-$menu-background-color: #d2ddeb;
+$menu-background-color: #d1e3f5;;
 $submenu-background-color: #e5ebf2;
 $menu-hover-color: #bacbe1;
 $light-background-color: whitesmoke;
@@ -1157,6 +1157,20 @@ iframe {
     height: auto;
     width: 100%;
     aspect-ratio: 16 / 9;
+}
+
+.shorts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.shorts iframe {
+    width: 315px;
+    max-width: 100%;
+    aspect-ratio: 9 / 16;
+    margin: 0;
 }
 
 .post-preview {
