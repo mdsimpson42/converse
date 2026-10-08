@@ -1159,6 +1159,20 @@ iframe {
     aspect-ratio: 16 / 9;
 }
 
+.shorts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.shorts iframe {
+    width: 315px;
+    max-width: 100%;
+    aspect-ratio: 9 / 16;
+    margin: 0;
+}
+
 .post-preview {
     margin-top: 30px !important;
     margin-bottom: 0px;
