@@ -49,10 +49,11 @@
       <div class="blog-excerpt">
         <div class="blog-excerpt-content">
           <p>
-            {% if post.excerpt | number_of_words > 51 %}
-              {{ post.excerpt | truncatewords: 51 }}
+            {% assign preview_excerpt = post.excerpt | split: '<hr' | first %}
+            {% if preview_excerpt | number_of_words > 51 %}
+              {{ preview_excerpt | truncatewords: 51 }}
             {% else %}
-              {{ post.excerpt }}
+              {{ preview_excerpt }}
             {% endif %}
           </p>
           <p class="read-more">Read more <i class="fa-solid fa-circle-right"></i></p>
